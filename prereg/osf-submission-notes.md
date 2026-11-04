@@ -68,7 +68,7 @@ Attach the uploaded files to the registration when the form asks ("Add files").
 
 - Embargo: none (choose "Make registration public immediately") unless you want the stimuli private until the run; a public registration with a private stimuli file is still fine because the hash is public.
 - Submit. OSF gives a 48-hour window to cancel; after that it is permanent and gets a DOI.
-- Paste the registration DOI/URL into: `prereg/preregistration.md` (Freeze record), `prereg/null-result-writeup.md` (header), both request drafts in `external-checks/requests/` (the `[BLANK — OSF link]` fields), `PLAN.md` §6.
+- Paste the registration DOI/URL into: `prereg/preregistration.md` (Freeze record), `prereg/null-result-writeup.md` (header), `PLAN.md` §6.
 
 ## 5. After registration
 

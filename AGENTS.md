@@ -7,7 +7,7 @@ Read in this order: `PLAN.md` → `external-checks/artefact-inventory.md` → `p
 ## Layout
 
 - `PLAN.md` — design, gates, effect sizes, sequencing (commitment document)
-- `external-checks/` — what the primary artefacts said; subset-ceiling and capping-sign checks; outreach request drafts
+- `external-checks/` — what the primary artefacts said; subset-ceiling and capping-sign checks
 - `prereg/` — OSF-format preregistration, pre-drafted null write-up, OSF submission notes
 - `stimuli/` — rubric, design, topics, generator, pool, decorrelation selection, 288 stimuli + manifest
 - `pipeline/` — all runnable code (runs on raphael, `~/form-tightness/`)

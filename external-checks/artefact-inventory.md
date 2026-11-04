@@ -65,12 +65,11 @@ Collected 2026-10-30 from the sources themselves, not from the wiki. Every claim
 
 - `gwern.net/fiction/lab-animals` ("Apollonian #1") source `.md` contains the **verbatim scansion key** for the "pressure-cooker alliterative Pindaric; accentual half-lines" (a+b beats per half-line, `||` caesura, `[α-α]` alliteration class, `Dense: N×x` over-alliteration, Grace/Pickup/Ring exceptions, pronunciation commitments). Copied to `gwern-scansion-key.md`.
 - `gwern.net/fiction/pindaric-strict` contains the verbatim **"STRICT TRIADIC v2"** spec (8b/7b/8b strophe and antistrophe, 6b/6f epode, syllable corridors, caesura rules, ictus/slack/ending/epodic rules). Copied to `gwern-strict-triadic-v2.md`.
-- The **v4.2 prompt itself is not published**. The six-rule description (strophe 6 stresses ±1, antistrophe 8 ±1, epode 4 ±1; mandatory `||`; alliteration 2–3 per sound, 4 allowed, 5 flagged; antistrophe needs one sentence over 4+ lines, 50 % lines without terminal punctuation, 33 % caesuras splitting phrases; scansion comments every line) comes from Hollis Robbins, "LLM poetry and the 'greatness' question" (Substack, mirrored at news.lavx.hu). Request to Gwern drafted in `requests/gwern-request.md`.
+- The **v4.2 prompt itself is not published**. The six-rule description (strophe 6 stresses ±1, antistrophe 8 ±1, epode 4 ±1; mandatory `||`; alliteration 2–3 per sound, 4 allowed, 5 flagged; antistrophe needs one sentence over 4+ lines, 50 % lines without terminal punctuation, 33 % caesuras splitting phrases; scansion comments every line) comes from Hollis Robbins, "LLM poetry and the 'greatness' question" (Substack, mirrored at news.lavx.hu). Cited as unpublished.
 
 ## 5. Gerbrandt, "Minority Collapse"
 
-- Talk: tbd/con 2026-09-23, YouTube `qSQLaCcZsfA`, "shown here with the prompt redacted", "disclosed, patched". No transcripts released. Vault note `gerbrandt-minority-collapse-2026.md` is Phil's transcription of the talk, not the prompt.
-- Request drafted in `requests/gerbrandt-request.md`.
+- Talk: tbd/con 2026-09-23, YouTube `qSQLaCcZsfA`, "shown here with the prompt redacted", "disclosed, patched". No transcripts released. Vault note `gerbrandt-minority-collapse-2026.md` is Phil's transcription of the talk, not the prompt. Cited as unpublished.
 
 ## 6. Icaro Lab
 

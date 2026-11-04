@@ -35,10 +35,8 @@ detail, plus one third-party redistribution problem.
 
 ## Left as-is, worth knowing
 
-- `external-checks/requests/gwern-request.md` contains `gwern@gwern.net`, scraped
-  from a public page, inside an unsent outreach draft. Public information; left in.
-- No `README.md`, no `LICENSE`, no `CITATION.cff`. A study built "to be wrong in
-  public" is hard to cite without them — worth adding before announcing the repo.
+- No `README.md`, no `CITATION.cff`. A study built "to be wrong in public" is hard
+  to cite without them — worth adding before announcing the repo.
 - `scripts/fetch_upstream.sh` cannot be executed from this iCloud path under the
   local lifecycle guard; run it from a normal checkout or your own shell.
 
