@@ -6,6 +6,8 @@ Results report, 2026-11-04. Every number here comes from a file in `results/`.
 Preregistration frozen 2026-10-31 (`prereg/freeze.txt`, 13 sha256s, all verifying);
 deviations recorded in `prereg/amendments.md`.
 
+Code, stimuli and result files: **https://github.com/oilsinwater/form-tightness-study**
+
 ---
 
 ## The question
@@ -210,6 +212,8 @@ Each failure mode was checked before the arms, and the checks are in `results/`:
 | Power artefact | observed residual SD vs the preregistered 8 | 2.21 — better than assumed, so a null would not have been a power failure |
 
 ## Data and code
+
+Repository: https://github.com/oilsinwater/form-tightness-study
 
 - Stimuli and manifest: `stimuli/stimuli.jsonl`, `stimuli/manifest.json` (sha256 per item, seed 20261030)
 - Per-generation projections and outputs: `results/` (large artefacts stay on the analysis host)
