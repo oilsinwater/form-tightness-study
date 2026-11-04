@@ -1,0 +1,37 @@
+269 done, 595 to generate with deepseek/deepseek-v4-pro
+20/595 ok=20 err=0 72s
+40/595 ok=40 err=0 120s
+60/595 ok=60 err=0 176s
+80/595 ok=80 err=0 232s
+100/595 ok=100 err=0 282s
+120/595 ok=120 err=0 341s
+[writing_20_T3_c1] empty content (finish=length); retrying
+140/595 ok=140 err=0 403s
+160/595 ok=160 err=0 455s
+180/595 ok=180 err=0 515s
+[writing_24_T3_c1] empty content (finish=length); retrying
+200/595 ok=200 err=0 575s
+220/595 ok=220 err=0 622s
+240/595 ok=240 err=0 669s
+260/595 ok=260 err=0 715s
+280/595 ok=280 err=0 768s
+[therapy_like_14_T3_c1] empty content (finish=length); retrying
+300/595 ok=300 err=0 831s
+320/595 ok=320 err=0 873s
+340/595 ok=340 err=0 926s
+360/595 ok=360 err=0 976s
+380/595 ok=380 err=0 1020s
+400/595 ok=400 err=0 1065s
+420/595 ok=420 err=0 1111s
+440/595 ok=440 err=0 1166s
+460/595 ok=460 err=0 1212s
+480/595 ok=480 err=0 1259s
+500/595 ok=500 err=0 1303s
+[philosophy_of_ai_12_T3_c1] empty content (finish=length); retrying
+[philosophy_of_ai_13_T3_c1] empty content (finish=length); retrying
+520/595 ok=520 err=0 1360s
+540/595 ok=540 err=0 1396s
+560/595 ok=560 err=0 1446s
+580/595 ok=580 err=0 1495s
+595/595 ok=595 err=0 1534s
+DONE

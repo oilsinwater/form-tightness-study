@@ -1,0 +1,268 @@
+20:11:21 loading Qwen/Qwen3-32B; GPU free 24.9 GB
+
+Loading weights:   0%|          | 0/707 [00:00<?, ?it/s]
+Loading weights:   0%|          | 1/707 [00:01<16:31,  1.40s/it]
+Loading weights:   0%|          | 2/707 [00:02<16:32,  1.41s/it]
+Loading weights:   1%|          | 4/707 [00:03<07:10,  1.63it/s]
+Loading weights:   1%|          | 5/707 [00:03<05:48,  2.02it/s]
+Loading weights:   1%|          | 6/707 [00:03<04:52,  2.39it/s]
+Loading weights:   2%|▏         | 12/707 [00:03<01:34,  7.39it/s]
+Loading weights:   2%|▏         | 15/707 [00:04<01:23,  8.30it/s]
+Loading weights:   4%|▎         | 26/707 [00:04<00:34, 19.76it/s]
+Loading weights:   4%|▍         | 30/707 [00:04<00:33, 20.38it/s]
+Loading weights:   5%|▌         | 37/707 [00:04<00:25, 26.43it/s]
+Loading weights:   6%|▌         | 41/707 [00:04<00:24, 26.77it/s]
+Loading weights:   7%|▋         | 50/707 [00:04<00:17, 36.57it/s]
+Loading weights:   8%|▊         | 60/707 [00:04<00:14, 44.50it/s]
+Loading weights:  10%|▉         | 70/707 [00:04<00:11, 54.16it/s]
+Loading weights:  11%|█         | 77/707 [00:05<00:12, 52.15it/s]
+Loading weights:  12%|█▏        | 83/707 [00:05<00:15, 40.19it/s]
+Loading weights:  13%|█▎        | 93/707 [00:05<00:14, 42.54it/s]
+Loading weights:  15%|█▍        | 103/707 [00:05<00:11, 51.53it/s]
+Loading weights:  15%|█▌        | 109/707 [00:05<00:11, 51.11it/s]
+Loading weights:  16%|█▋        | 115/707 [00:05<00:11, 50.58it/s]
+Loading weights:  18%|█▊        | 126/707 [00:06<00:09, 62.78it/s]
+Loading weights:  19%|█▉        | 136/707 [00:06<00:09, 62.52it/s]
+Loading weights:  20%|██        | 143/707 [00:06<00:11, 48.71it/s]
+Loading weights:  21%|██        | 149/707 [00:06<00:13, 41.23it/s]
+Loading weights:  23%|██▎       | 160/707 [00:07<00:14, 37.66it/s]
+Loading weights:  23%|██▎       | 166/707 [00:07<00:14, 37.31it/s]
+Loading weights:  24%|██▍       | 171/707 [00:07<00:27, 19.24it/s]
+Loading weights:  25%|██▌       | 177/707 [00:08<00:24, 21.97it/s]
+Loading weights:  26%|██▌       | 181/707 [00:08<00:32, 16.39it/s]
+Loading weights:  26%|██▌       | 184/707 [00:08<00:33, 15.50it/s]
+Loading weights:  27%|██▋       | 188/707 [00:09<00:40, 12.71it/s]
+Loading weights:  27%|██▋       | 191/707 [00:09<00:45, 11.24it/s]
+Loading weights:  27%|██▋       | 193/707 [00:10<01:02,  8.18it/s]
+Loading weights:  28%|██▊       | 199/707 [00:10<00:41, 12.10it/s]
+Loading weights:  29%|██▊       | 202/707 [00:10<00:39, 12.93it/s]
+Loading weights:  29%|██▉       | 204/707 [00:11<00:52,  9.65it/s]
+Loading weights:  30%|██▉       | 210/707 [00:11<00:34, 14.41it/s]
+Loading weights:  30%|███       | 214/707 [00:11<00:34, 14.23it/s]
+Loading weights:  31%|███       | 216/707 [00:11<00:37, 13.12it/s]
+Loading weights:  31%|███▏      | 221/707 [00:11<00:28, 16.77it/s]
+Loading weights:  32%|███▏      | 224/707 [00:12<00:31, 15.31it/s]
+Loading weights:  32%|███▏      | 226/707 [00:12<00:39, 12.05it/s]
+Loading weights:  33%|███▎      | 232/707 [00:12<00:26, 18.14it/s]
+Loading weights:  33%|███▎      | 235/707 [00:12<00:28, 16.66it/s]
+Loading weights:  34%|███▎      | 238/707 [00:13<00:37, 12.36it/s]
+Loading weights:  35%|███▌      | 248/707 [00:13<00:19, 23.04it/s]
+Loading weights:  36%|███▌      | 254/707 [00:13<00:16, 27.13it/s]
+Loading weights:  36%|███▋      | 258/707 [00:13<00:20, 21.50it/s]
+Loading weights:  37%|███▋      | 262/707 [00:13<00:19, 22.89it/s]
+Loading weights:  38%|███▊      | 266/707 [00:14<00:17, 25.61it/s]
+Loading weights:  38%|███▊      | 270/707 [00:14<00:32, 13.34it/s]
+Loading weights:  39%|███▉      | 276/707 [00:14<00:24, 17.49it/s]
+Loading weights:  39%|███▉      | 279/707 [00:15<00:24, 17.66it/s]
+Loading weights:  40%|███▉      | 282/707 [00:15<00:34, 12.30it/s]
+Loading weights:  41%|████      | 287/707 [00:15<00:26, 15.62it/s]
+Loading weights:  41%|████      | 290/707 [00:15<00:28, 14.54it/s]
+Loading weights:  41%|████▏     | 292/707 [00:16<00:41,  9.98it/s]
+Loading weights:  42%|████▏     | 298/707 [00:16<00:28, 14.50it/s]
+Loading weights:  43%|████▎     | 301/707 [00:16<00:29, 13.71it/s]
+Loading weights:  43%|████▎     | 303/707 [00:17<00:41,  9.70it/s]
+Loading weights:  44%|████▎     | 309/707 [00:17<00:27, 14.35it/s]
+Loading weights:  44%|████▍     | 312/707 [00:17<00:28, 13.66it/s]
+Loading weights:  44%|████▍     | 314/707 [00:18<00:40,  9.64it/s]
+Loading weights:  45%|████▌     | 320/707 [00:18<00:27, 14.27it/s]
+Loading weights:  46%|████▌     | 323/707 [00:18<00:27, 13.76it/s]
+Loading weights:  46%|████▌     | 325/707 [00:19<00:39,  9.64it/s]
+Loading weights:  47%|████▋     | 331/707 [00:19<00:26, 14.33it/s]
+Loading weights:  47%|████▋     | 334/707 [00:19<00:27, 13.74it/s]
+Loading weights:  48%|████▊     | 336/707 [00:19<00:38,  9.65it/s]
+Loading weights:  48%|████▊     | 342/707 [00:20<00:25, 14.34it/s]
+Loading weights:  49%|████▉     | 345/707 [00:20<00:26, 13.75it/s]
+Loading weights:  49%|████▉     | 347/707 [00:20<00:37,  9.64it/s]
+Loading weights:  50%|████▉     | 353/707 [00:21<00:24, 14.35it/s]
+Loading weights:  50%|█████     | 356/707 [00:21<00:25, 13.69it/s]
+Loading weights:  51%|█████     | 358/707 [00:21<00:36,  9.52it/s]
+Loading weights:  51%|█████▏    | 364/707 [00:21<00:24, 14.09it/s]
+Loading weights:  52%|█████▏    | 367/707 [00:22<00:25, 13.40it/s]
+Loading weights:  52%|█████▏    | 369/707 [00:22<00:36,  9.38it/s]
+Loading weights:  53%|█████▎    | 375/707 [00:22<00:23, 13.95it/s]
+Loading weights:  53%|█████▎    | 378/707 [00:23<00:24, 13.41it/s]
+Loading weights:  54%|█████▎    | 380/707 [00:23<00:34,  9.56it/s]
+Loading weights:  55%|█████▍    | 386/707 [00:23<00:22, 14.24it/s]
+Loading weights:  55%|█████▌    | 389/707 [00:23<00:23, 13.66it/s]
+Loading weights:  55%|█████▌    | 391/707 [00:24<00:32,  9.73it/s]
+Loading weights:  56%|█████▌    | 397/707 [00:24<00:21, 14.50it/s]
+Loading weights:  57%|█████▋    | 400/707 [00:24<00:22, 13.93it/s]
+Loading weights:  57%|█████▋    | 402/707 [00:25<00:31,  9.80it/s]
+Loading weights:  58%|█████▊    | 408/707 [00:25<00:20, 14.64it/s]
+Loading weights:  58%|█████▊    | 411/707 [00:25<00:21, 14.04it/s]
+Loading weights:  58%|█████▊    | 413/707 [00:26<00:29,  9.84it/s]
+Loading weights:  59%|█████▉    | 419/707 [00:26<00:19, 14.54it/s]
+Loading weights:  60%|█████▉    | 422/707 [00:26<00:20, 14.06it/s]
+Loading weights:  60%|█████▉    | 424/707 [00:27<00:29,  9.66it/s]
+Loading weights:  61%|██████    | 430/707 [00:27<00:19, 14.15it/s]
+Loading weights:  61%|██████    | 433/707 [00:27<00:20, 13.42it/s]
+Loading weights:  62%|██████▏   | 435/707 [00:28<00:28,  9.45it/s]
+Loading weights:  62%|██████▏   | 441/707 [00:28<00:19, 13.95it/s]
+Loading weights:  63%|██████▎   | 444/707 [00:28<00:19, 13.45it/s]
+Loading weights:  63%|██████▎   | 446/707 [00:28<00:27,  9.52it/s]
+Loading weights:  64%|██████▍   | 452/707 [00:29<00:17, 14.20it/s]
+Loading weights:  64%|██████▍   | 455/707 [00:29<00:18, 13.61it/s]
+Loading weights:  65%|██████▍   | 457/707 [00:29<00:26,  9.60it/s]
+Loading weights:  65%|██████▌   | 463/707 [00:29<00:17, 14.10it/s]
+Loading weights:  66%|██████▌   | 466/707 [00:30<00:17, 13.41it/s]
+Loading weights:  66%|██████▌   | 468/707 [00:30<00:25,  9.49it/s]
+Loading weights:  67%|██████▋   | 474/707 [00:30<00:16, 14.15it/s]
+Loading weights:  67%|██████▋   | 477/707 [00:31<00:16, 13.61it/s]
+Loading weights:  68%|██████▊   | 479/707 [00:31<00:27,  8.15it/s]
+Loading weights:  69%|██████▊   | 485/707 [00:31<00:18, 12.30it/s]
+Loading weights:  69%|██████▉   | 488/707 [00:32<00:17, 12.20it/s]
+Loading weights:  69%|██████▉   | 490/707 [00:32<00:24,  8.73it/s]
+Loading weights:  71%|███████   | 499/707 [00:33<00:14, 13.88it/s]
+Loading weights:  71%|███████   | 501/707 [00:33<00:15, 13.38it/s]
+Loading weights:  72%|███████▏  | 512/707 [00:33<00:08, 24.25it/s]
+Loading weights:  74%|███████▍  | 523/707 [00:33<00:05, 31.54it/s]
+Loading weights:  75%|███████▍  | 529/707 [00:33<00:05, 32.81it/s]
+Loading weights:  75%|███████▌  | 533/707 [00:34<00:12, 13.68it/s]
+Loading weights:  76%|███████▌  | 536/707 [00:34<00:12, 13.93it/s]
+Loading weights:  76%|███████▋  | 540/707 [00:35<00:10, 15.54it/s]
+Loading weights:  77%|███████▋  | 543/707 [00:35<00:11, 14.67it/s]
+Loading weights:  77%|███████▋  | 546/707 [00:35<00:14, 11.29it/s]
+Loading weights:  78%|███████▊  | 551/707 [00:36<00:10, 14.50it/s]
+Loading weights:  78%|███████▊  | 554/707 [00:36<00:11, 13.83it/s]
+Loading weights:  79%|███████▊  | 556/707 [00:36<00:13, 10.90it/s]
+Loading weights:  80%|███████▉  | 565/707 [00:36<00:08, 16.11it/s]
+Loading weights:  80%|████████  | 567/707 [00:37<00:12, 11.53it/s]
+Loading weights:  81%|████████  | 573/707 [00:37<00:08, 15.64it/s]
+Loading weights:  81%|████████▏ | 576/707 [00:37<00:09, 13.28it/s]
+Loading weights:  82%|████████▏ | 578/707 [00:38<00:13,  9.59it/s]
+Loading weights:  83%|████████▎ | 584/707 [00:38<00:08, 13.98it/s]
+Loading weights:  83%|████████▎ | 587/707 [00:38<00:08, 13.54it/s]
+Loading weights:  83%|████████▎ | 589/707 [00:39<00:10, 11.72it/s]
+Loading weights:  85%|████████▍ | 598/707 [00:39<00:06, 17.02it/s]
+Loading weights:  85%|████████▍ | 600/707 [00:39<00:08, 12.75it/s]
+Loading weights:  85%|████████▌ | 604/707 [00:40<00:09, 10.71it/s]
+Loading weights:  86%|████████▌ | 606/707 [00:41<00:19,  5.31it/s]
+Loading weights:  86%|████████▌ | 607/707 [00:41<00:18,  5.44it/s]
+Loading weights:  86%|████████▌ | 609/707 [00:43<00:34,  2.86it/s]
+Loading weights:  86%|████████▋ | 610/707 [00:44<00:38,  2.54it/s]
+Loading weights:  86%|████████▋ | 611/707 [00:44<00:35,  2.71it/s]
+Loading weights:  87%|████████▋ | 617/707 [00:44<00:14,  6.07it/s]
+Loading weights:  88%|████████▊ | 620/707 [00:44<00:12,  7.15it/s]
+Loading weights:  88%|████████▊ | 622/707 [00:45<00:14,  5.79it/s]
+Loading weights:  89%|████████▉ | 628/707 [00:45<00:08,  9.81it/s]
+Loading weights:  89%|████████▉ | 631/707 [00:45<00:07, 10.34it/s]
+Loading weights:  90%|████████▉ | 633/707 [00:47<00:15,  4.65it/s]
+Loading weights:  91%|█████████ | 642/707 [00:47<00:07,  8.31it/s]
+Loading weights:  91%|█████████ | 644/707 [00:48<00:08,  7.22it/s]
+Loading weights:  92%|█████████▏| 653/707 [00:48<00:04, 10.83it/s]
+Loading weights:  93%|█████████▎| 655/707 [00:49<00:06,  8.56it/s]
+Loading weights:  93%|█████████▎| 661/707 [00:49<00:03, 11.92it/s]
+Loading weights:  94%|█████████▍| 664/707 [00:49<00:03, 11.98it/s]
+Loading weights:  94%|█████████▍| 666/707 [00:50<00:04,  8.55it/s]
+Loading weights:  95%|█████████▌| 672/707 [00:50<00:02, 12.55it/s]
+Loading weights:  95%|█████████▌| 675/707 [00:50<00:02, 12.42it/s]
+Loading weights:  96%|█████████▌| 677/707 [00:50<00:02, 10.37it/s]
+Loading weights:  97%|█████████▋| 686/707 [00:51<00:01, 15.64it/s]
+Loading weights:  97%|█████████▋| 688/707 [00:51<00:01, 11.40it/s]
+Loading weights:  98%|█████████▊| 692/707 [00:51<00:01, 12.50it/s]
+Loading weights:  98%|█████████▊| 694/707 [00:52<00:01, 11.35it/s]
+Loading weights:  99%|█████████▊| 697/707 [00:52<00:00, 10.62it/s]
+Loading weights:  99%|█████████▉| 699/707 [00:52<00:00,  8.98it/s]
+Loading weights: 100%|█████████▉| 705/707 [00:52<00:00, 14.77it/s]
+Loading weights: 100%|██████████| 707/707 [00:52<00:00, 13.38it/s]
+20:12:16 loaded; 64 layers; GPU used 19.2 GB
+~/form-tightness/pipeline/common.py:165: NNsightDeprecationWarning: LanguageModel is deprecated; use TransformersModel(repo_id, task='text-generation') instead.
+  nn = LanguageModel(b.model, tokenizer=b.tok)
+20:12:17 nnsight wrapper OK (max |nnsight-hook| = 0.00e+00); backend=nnsight
+20:12:18 qwen: axis (64, 5120), layer 32, backend nnsight
+20:12:18 delusion_capped.json: 46 messages, 23 assistant turns, 20064 tokens
+[W1030 20:12:24.267634583 CUDACachingAllocator.cpp:3933] memory allocation failed with OOM on device 0 while trying to allocate 2315255808 bytes (free: 1416757248, total: 25296044032).
+20:12:33   msg 15: context msgs 2..15
+20:12:41   msg 17: context msgs 4..17
+[W1030 20:12:48.034076326 CUDACachingAllocator.cpp:3933] memory allocation failed with OOM on device 0 while trying to allocate 2340421632 bytes (free: 271712256, total: 25296044032).
+20:12:50   msg 19: context msgs 6..19
+20:12:57   msg 21: context msgs 10..21
+20:13:05   msg 23: context msgs 12..23
+20:13:13   msg 25: context msgs 14..25
+20:13:21   msg 27: context msgs 16..27
+[W1030 20:13:28.988353724 CUDACachingAllocator.cpp:3933] memory allocation failed with OOM on device 0 while trying to allocate 2405433344 bytes (free: 246546432, total: 25296044032).
+20:13:30   msg 29: context msgs 16..29
+20:13:38   msg 31: context msgs 18..31
+[W1030 20:13:45.846166217 CUDACachingAllocator.cpp:3933] memory allocation failed with OOM on device 0 while trying to allocate 2480930816 bytes (free: 181534720, total: 25296044032).
+20:13:47   msg 33: context msgs 18..33
+20:13:55   msg 35: context msgs 20..35
+20:14:04   msg 37: context msgs 20..37
+20:14:11   msg 39: context msgs 22..39
+20:14:18   msg 41: context msgs 22..41
+20:14:26   msg 43: context msgs 22..43
+20:14:34   msg 45: context msgs 22..45
+20:14:34   delusion_capped.json: 23 turns; proj mean -27.96 min -33.32 max -22.21
+20:14:34 delusion_unsteered.json: 46 messages, 23 assistant turns, 23068 tokens
+20:14:50   msg 15: context msgs 2..15
+20:14:57   msg 17: context msgs 4..17
+20:15:06   msg 19: context msgs 4..19
+20:15:15   msg 21: context msgs 6..21
+20:15:23   msg 23: context msgs 8..23
+20:15:32   msg 25: context msgs 10..25
+20:15:41   msg 27: context msgs 12..27
+20:15:49   msg 29: context msgs 14..29
+20:15:57   msg 31: context msgs 18..31
+20:16:05   msg 33: context msgs 20..33
+20:16:14   msg 35: context msgs 20..35
+20:16:22   msg 37: context msgs 22..37
+20:16:31   msg 39: context msgs 24..39
+20:16:39   msg 41: context msgs 26..41
+20:16:47   msg 43: context msgs 28..43
+20:16:56   msg 45: context msgs 28..45
+20:16:56   delusion_unsteered.json: 23 turns; proj mean -49.93 min -56.34 max -30.08
+20:16:56 jailbreak_capped.json: 30 messages, 15 assistant turns, 7418 tokens
+20:17:04   jailbreak_capped.json: 15 turns; proj mean -14.67 min -23.90 max -4.88
+20:17:04 jailbreak_unsteered.json: 30 messages, 15 assistant turns, 10177 tokens
+20:17:21   msg 23: context msgs 4..23
+20:17:30   msg 25: context msgs 8..25
+20:17:38   msg 27: context msgs 10..27
+20:17:46   msg 29: context msgs 10..29
+20:17:46   jailbreak_unsteered.json: 15 turns; proj mean -36.02 min -51.49 max -17.75
+20:17:46 selfharm_capped.json: 62 messages, 31 assistant turns, 10816 tokens
+20:18:03   msg 49: context msgs 4..49
+20:18:12   msg 51: context msgs 6..51
+20:18:20   msg 53: context msgs 10..53
+20:18:29   msg 55: context msgs 14..55
+20:18:37   msg 57: context msgs 14..57
+20:18:46   msg 59: context msgs 18..59
+20:18:55   msg 61: context msgs 20..61
+20:18:55   selfharm_capped.json: 31 turns; proj mean -17.77 min -25.46 max -8.35
+20:18:55 selfharm_unsteered.json.json: 62 messages, 31 assistant turns, 11900 tokens
+20:19:12   msg 45: context msgs 2..45
+20:19:21   msg 47: context msgs 6..47
+[W1030 20:19:28.156786827 CUDACachingAllocator.cpp:3933] memory allocation failed with OOM on device 0 while trying to allocate 2487222272 bytes (free: 106037248, total: 25296044032).
+20:19:30   msg 49: context msgs 8..49
+20:19:39   msg 51: context msgs 10..51
+20:19:47   msg 53: context msgs 14..53
+20:19:56   msg 55: context msgs 14..55
+20:20:05   msg 57: context msgs 18..57
+20:20:14   msg 59: context msgs 22..59
+20:20:22   msg 61: context msgs 24..61
+20:20:22   selfharm_unsteered.json.json: 31 turns; proj mean -40.24 min -53.67 max -22.30
+20:20:23 freed model; GPU allocated 0.01 GB, free 6.2 GB
+20:20:23 wrote ~/form-tightness/results/check_c_projections.csv (138 rows) in 542s
+20:20:23 launching Gemma stage in a fresh process
+20:20:30 resuming; done: ['delusion_capped.json', 'delusion_unsteered.json', 'jailbreak_capped.json', 'jailbreak_unsteered.json', 'selfharm_capped.json', 'selfharm_unsteered.json.json']
+20:20:30 loading google/gemma-2-27b-it; GPU free 5.9 GB
+20:20:30 gated gemma load failed (RuntimeError: only 5.9 GB free on GPU; need >= 19.0); falling back to unsloth/gemma-2-27b-it-bnb-4bit
+20:20:30 loading unsloth/gemma-2-27b-it-bnb-4bit; GPU free 5.9 GB
+Traceback (most recent call last):
+  File "~/form-tightness/pipeline/check_c_rescore_transcripts.py", line 127, in main
+    b = load_model(model_name)
+        ^^^^^^^^^^^^^^^^^^^^^^
+  File "~/form-tightness/pipeline/common.py", line 140, in load_model
+    raise RuntimeError(f"only {free:.1f} GB free on GPU; need >= {min_free_gb}")
+RuntimeError: only 5.9 GB free on GPU; need >= 19.0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "~/form-tightness/pipeline/check_c_rescore_transcripts.py", line 156, in <module>
+    main()
+  File "~/form-tightness/pipeline/check_c_rescore_transcripts.py", line 130, in main
+    b = load_model(GEMMA_FALLBACK)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "~/form-tightness/pipeline/common.py", line 140, in load_model
+    raise RuntimeError(f"only {free:.1f} GB free on GPU; need >= {min_free_gb}")
+RuntimeError: only 5.9 GB free on GPU; need >= 19.0
+20:20:32 Gemma stage exit code 1

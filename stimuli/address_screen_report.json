@@ -1,0 +1,51 @@
+{
+ "loose_verse": {
+  "n": 384,
+  "regex_flagged": 0,
+  "llm_vocative": 0,
+  "llm_ratified": 0,
+  "llm_failed": 0,
+  "regex_only_flag": 0,
+  "llm_only_flag": 0,
+  "both_flag": 0,
+  "eligible": 384,
+  "dropped": 0
+ },
+ "tight_verse": {
+  "n": 384,
+  "regex_flagged": 0,
+  "llm_vocative": 1,
+  "llm_ratified": 3,
+  "llm_failed": 0,
+  "regex_only_flag": 0,
+  "llm_only_flag": 4,
+  "both_flag": 0,
+  "eligible": 380,
+  "dropped": 4
+ },
+ "tight_prose": {
+  "n": 384,
+  "regex_flagged": 3,
+  "llm_vocative": 0,
+  "llm_ratified": 1,
+  "llm_failed": 0,
+  "regex_only_flag": 2,
+  "llm_only_flag": 0,
+  "both_flag": 1,
+  "eligible": 381,
+  "dropped": 3
+ },
+ "loose_prose": {
+  "n": 384,
+  "regex_flagged": 6,
+  "llm_vocative": 1,
+  "llm_ratified": 10,
+  "llm_failed": 0,
+  "regex_only_flag": 2,
+  "llm_only_flag": 7,
+  "both_flag": 4,
+  "eligible": 371,
+  "dropped": 13
+ },
+ "empty_slots": []
+}

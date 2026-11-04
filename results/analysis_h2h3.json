@@ -1,0 +1,243 @@
+{
+ "judge_n": 2304,
+ "judge_failed": 0,
+ "role_score_dist": {
+  "1_observation": {
+   "1": 1075,
+   "2": 17,
+   "3": 60
+  },
+  "2_capping": {
+   "1": 1149,
+   "2": 1,
+   "3": 2
+  }
+ },
+ "role_mean_by_cell_arm": {
+  "1_observation": {
+   "loose_prose": 1.0,
+   "loose_verse": 1.222,
+   "tight_prose": 1.069,
+   "tight_verse": 1.184
+  },
+  "2_capping": {
+   "loose_prose": 1.0,
+   "loose_verse": 1.003,
+   "tight_prose": 1.0,
+   "tight_verse": 1.014
+  }
+ },
+ "role_p_score3_by_cell_arm": {
+  "1_observation": {
+   "loose_prose": 0.0,
+   "loose_verse": 0.083,
+   "tight_prose": 0.035,
+   "tight_verse": 0.09
+  },
+  "2_capping": {
+   "loose_prose": 0.0,
+   "loose_verse": 0.0,
+   "tight_prose": 0.0,
+   "tight_verse": 0.007
+  }
+ },
+ "H2b_linear_note": "ordinal mixed model not available in statsmodels; pre-stated fallback: linear mixed model on 0-3",
+ "H2b_t": {
+  "est": 0.01,
+  "se": 0.019,
+  "ci95": [
+   -0.03,
+   0.05
+  ],
+  "ci90": [
+   -0.02,
+   0.04
+  ],
+  "p": 0.577
+ },
+ "H2b_r": {
+  "est": 0.089,
+  "se": 0.019,
+  "ci95": [
+   0.05,
+   0.13
+  ],
+  "ci90": [
+   0.06,
+   0.12
+  ],
+  "p": 2.18e-06
+ },
+ "H2b_cap": {
+  "est": -0.115,
+  "se": 0.012,
+  "ci95": [
+   -0.14,
+   -0.09
+  ],
+  "ci90": [
+   -0.13,
+   -0.09
+  ],
+  "p": 2.12e-21
+ },
+ "H2b_t:cap": {
+  "est": -0.01,
+  "se": 0.024,
+  "ci95": [
+   -0.06,
+   0.04
+  ],
+  "ci90": [
+   -0.05,
+   0.03
+  ],
+  "p": 0.666
+ },
+ "H2b_r:cap": {
+  "est": -0.16,
+  "se": 0.024,
+  "ci95": [
+   -0.21,
+   -0.11
+  ],
+  "ci90": [
+   -0.2,
+   -0.12
+  ],
+  "p": 3.58e-11
+ },
+ "H2b_t:r": {
+  "est": -0.049,
+  "se": 0.037,
+  "ci95": [
+   -0.12,
+   0.02
+  ],
+  "ci90": [
+   -0.11,
+   0.01
+  ],
+  "p": 0.194
+ },
+ "corr_projection_role_score_arm1": -0.366,
+ "gemma_excluded_zero_tokens": 0,
+ "H3_gemma_tight_minus_loose": {
+  "est": -335.437,
+  "se": 34.324,
+  "ci95": [
+   -402.71,
+   -268.16
+  ],
+  "ci90": [
+   -391.9,
+   -278.97
+  ],
+  "p": 1.48e-22,
+  "sesoi": 106.5,
+  "TOST_equivalent": false,
+  "in_role_sd_units": -0.645
+ },
+ "gemma_interaction": {
+  "est": -81.632,
+  "se": 68.648,
+  "ci95": [
+   -216.18,
+   52.92
+  ],
+  "ci90": [
+   -194.56,
+   31.29
+  ],
+  "p": 0.234
+ },
+ "gemma_register": {
+  "est": -239.469,
+  "se": 34.324,
+  "ci95": [
+   -306.74,
+   -172.19
+  ],
+  "ci90": [
+   -295.93,
+   -183.01
+  ],
+  "p": 3.02e-12
+ },
+ "gemma_cell_means": {
+  "loose_prose": 8284.0,
+  "loose_verse": 8085.4,
+  "tight_prose": 7989.4,
+  "tight_verse": 7709.1
+ },
+ "gemma_per_domain_tight_minus_loose": {
+  "coding": -310.7,
+  "philosophy_of_ai": -297.3,
+  "therapy_like": -344.8,
+  "writing": -389.0
+ },
+ "gemma_layer_sweep_t": {
+  "6": {
+   "est": 10.702,
+   "se": 1.705,
+   "ci95": [
+    7.36,
+    14.04
+   ],
+   "ci90": [
+    7.9,
+    13.51
+   ],
+   "p": 3.48e-10
+  },
+  "11": {
+   "est": -6.085,
+   "se": 4.67,
+   "ci95": [
+    -15.24,
+    3.07
+   ],
+   "ci90": [
+    -13.77,
+    1.6
+   ],
+   "p": 0.193
+  },
+  "22": {
+   "est": -335.437,
+   "se": 34.324,
+   "ci95": [
+    -402.71,
+    -268.16
+   ],
+   "ci90": [
+    -391.9,
+    -278.97
+   ],
+   "p": 1.48e-22
+  },
+  "34": {
+   "est": 355.276,
+   "se": 29.861,
+   "ci95": [
+    296.75,
+    413.8
+   ],
+   "ci90": [
+    306.15,
+    404.4
+   ],
+   "p": 1.22e-32
+  }
+ },
+ "qwen_in_role_sd_units": {
+  "t": 0.264,
+  "r": -0.527,
+  "t:r": 0.319
+ },
+ "gemma_in_role_sd_units": {
+  "t": -0.645,
+  "r": -0.46,
+  "t:r": -0.157
+ }
+}

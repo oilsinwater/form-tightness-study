@@ -1,0 +1,20 @@
+User message template used by generate_pool.py v2 (system message = meta_prompts/<cell>.txt). Verbatim:
+
+DOMAIN: {domain}
+VARIANT: {variant}
+CONTENT BRIEF: {brief}
+
+Write the {cell_label} prompt now. Hard limits: 90-160 words. Aim for {lo}-{hi} words. Every brief detail present; output wrapped in <prompt></prompt>.
+
+{cell_label} is the cell name with the underscore replaced by a space ("loose verse", "tight verse", "tight prose", "loose prose").
+
+Per-cell word targets (lo-hi), derived from the 130-200 Qwen3-token band and v1's observed tokens/word
+(1.19 for verse and unconstrained prose, 1.42 for constraint-heavy prompts); recorded per row in gen_meta.target_words:
+  loose_verse 125-150   tight_verse 95-120    tight_prose 100-125   loose_prose 125-150
+Supplement rows (--supplement, cand index c4, gen_meta.supplement=true): loose_prose variant B 140-160; tight_prose variant C 95-115.
+
+Token-band retry message (appended as a follow-up turn when a candidate falls outside 130-200 Qwen3 tokens,
+measured with the Qwen/Qwen3-32B tokenizer at generation time; up to 4 rewrites):
+That was {words} words, which is {tokens} tokens for our tokenizer; it must be between 130 and 200 tokens, so aim for about {lo2}-{hi2} words. Rewrite in the same cell, same variant, all brief details kept. Output wrapped in <prompt></prompt> only.
+
+Reused v1 rows (loose_verse <- v1 T1 c1-c4; tight_prose <- v1 T3 c1-c5) were generated under v1's user_template.txt (see v1/meta_prompts/user_template.txt); their gen_meta is carried over and gen_meta.v1_cand_id / source record the origin.

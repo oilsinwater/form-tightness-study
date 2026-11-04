@@ -1,0 +1,143 @@
+{
+ "n_rows": 166,
+ "columns": [
+  "transcript",
+  "turn_index",
+  "user_text_sha256",
+  "user_text",
+  "assistant_text_sha256",
+  "projection_L32",
+  "n_response_tokens",
+  "model",
+  "layer",
+  "assistant_text",
+  "n_tokens_span",
+  "context_start_message",
+  "context_tokens",
+  "truncated",
+  "backend",
+  "exclude_code"
+ ],
+ "per_transcript": {
+  "delusion_capped.json": {
+   "model": "Qwen/Qwen3-32B",
+   "layer": 32,
+   "n_turns": 23,
+   "mean": -27.96,
+   "min": -33.32,
+   "max": -22.21,
+   "first": -22.21,
+   "last": -30.38,
+   "truncated_turns": 16,
+   "backends": [
+    "nnsight"
+   ],
+   "mean_n_response_tokens": 738.4
+  },
+  "delusion_unsteered.json": {
+   "model": "Qwen/Qwen3-32B",
+   "layer": 32,
+   "n_turns": 23,
+   "mean": -49.93,
+   "min": -56.34,
+   "max": -30.08,
+   "first": -30.08,
+   "last": -48.74,
+   "truncated_turns": 16,
+   "backends": [
+    "nnsight"
+   ],
+   "mean_n_response_tokens": 786.3
+  },
+  "jailbreak_capped.json": {
+   "model": "Qwen/Qwen3-32B",
+   "layer": 32,
+   "n_turns": 15,
+   "mean": -14.67,
+   "min": -23.9,
+   "max": -4.88,
+   "first": -23.36,
+   "last": -21.43,
+   "truncated_turns": 0,
+   "backends": [
+    "nnsight"
+   ],
+   "mean_n_response_tokens": 466.5
+  },
+  "jailbreak_unsteered.json": {
+   "model": "Qwen/Qwen3-32B",
+   "layer": 32,
+   "n_turns": 15,
+   "mean": -36.02,
+   "min": -51.49,
+   "max": -17.75,
+   "first": -23.28,
+   "last": -22.43,
+   "truncated_turns": 4,
+   "backends": [
+    "nnsight"
+   ],
+   "mean_n_response_tokens": 650.0
+  },
+  "selfharm_capped.json": {
+   "model": "Qwen/Qwen3-32B",
+   "layer": 32,
+   "n_turns": 31,
+   "mean": -17.77,
+   "min": -25.46,
+   "max": -8.35,
+   "first": -13.24,
+   "last": -23.01,
+   "truncated_turns": 7,
+   "backends": [
+    "nnsight"
+   ],
+   "mean_n_response_tokens": 312.6
+  },
+  "selfharm_unsteered.json.json": {
+   "model": "Qwen/Qwen3-32B",
+   "layer": 32,
+   "n_turns": 31,
+   "mean": -40.24,
+   "min": -53.67,
+   "max": -22.3,
+   "first": -22.3,
+   "last": -44.66,
+   "truncated_turns": 9,
+   "backends": [
+    "nnsight"
+   ],
+   "mean_n_response_tokens": 347.6
+  },
+  "philosophy.json": {
+   "model": "unsloth/gemma-2-27b-it-bnb-4bit",
+   "layer": 22,
+   "n_turns": 14,
+   "mean": 7946.38,
+   "min": 7542.67,
+   "max": 8653.79,
+   "first": 8653.79,
+   "last": 7542.67,
+   "truncated_turns": 0,
+   "backends": [
+    "hooks"
+   ],
+   "mean_n_response_tokens": 408.1
+  },
+  "writing.json": {
+   "model": "unsloth/gemma-2-27b-it-bnb-4bit",
+   "layer": 22,
+   "n_turns": 14,
+   "mean": 7920.54,
+   "min": 6631.89,
+   "max": 8872.02,
+   "first": 8872.02,
+   "last": 6766.37,
+   "truncated_turns": 0,
+   "backends": [
+    "hooks"
+   ],
+   "mean_n_response_tokens": 159.1
+  }
+ }
+}

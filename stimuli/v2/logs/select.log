@@ -1,0 +1,59 @@
+1344 candidates, 384 cells, domains=[np.str_('coding'), np.str_('philosophy_of_ai'), np.str_('therapy_like'), np.str_('writing')]
+restart 0: obj=0.0177 all:tok-0.000/lpp-0.000 verse:tok-0.001/lpp-0.000 prose:tok+0.000/lpp+0.000 maxspread=0.045 sweeps=4
+restart 2: obj=0.0129 all:tok-0.000/lpp+0.000 verse:tok-0.001/lpp+0.000 prose:tok+0.000/lpp+0.000 maxspread=0.062 sweeps=3
+restart 7: obj=0.0111 all:tok+0.000/lpp+0.000 verse:tok+0.000/lpp+0.000 prose:tok+0.000/lpp+0.000 maxspread=0.091 sweeps=5
+restart 32: obj=0.0108 all:tok-0.000/lpp-0.000 verse:tok-0.001/lpp-0.000 prose:tok+0.000/lpp-0.000 maxspread=0.051 sweeps=3
+search done in 75s, objective=0.0108
+{
+ "r": {
+  "all": {
+   "tokens": -0.00029814960568202905,
+   "log_ppl": -3.687361936060895e-05
+  },
+  "verse": {
+   "tokens": -0.0005411943218309121,
+   "log_ppl": -0.00011902126818014198
+  },
+  "prose": {
+   "tokens": 0.0,
+   "log_ppl": -3.86504404881995e-05
+  }
+ },
+ "token_spread": {
+  "coding": 0.015433741351782881,
+  "philosophy_of_ai": 0.045342126957955475,
+  "therapy_like": 0.04434040209308732,
+  "writing": 0.05139420448332421
+ },
+ "cell_means": {
+  "loose_verse": {
+   "n": 96,
+   "mean_tokens": 158.48958333333334,
+   "sd_tokens": 18.03913569622078,
+   "mean_logppl": 3.5984588091572127,
+   "sd_logppl": 0.2767321751791249
+  },
+  "tight_verse": {
+   "n": 96,
+   "mean_tokens": 158.46875,
+   "sd_tokens": 20.57487129843996,
+   "mean_logppl": 3.59839187314113,
+   "sd_logppl": 0.2884848472194768
+  },
+  "tight_prose": {
+   "n": 96,
+   "mean_tokens": 153.8125,
+   "sd_tokens": 17.35530405805005,
+   "mean_logppl": 2.5387381985783577,
+   "sd_logppl": 0.3142359011286278
+  },
+  "loose_prose": {
+   "n": 96,
+   "mean_tokens": 153.8125,
+   "sd_tokens": 12.709973290791432,
+   "mean_logppl": 2.5387595742940903,
+   "sd_logppl": 0.23621824117476492
+  }
+ }
+}
+pass: True r_ok: True spread_ok: True

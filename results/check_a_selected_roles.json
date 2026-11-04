@@ -1,0 +1,242 @@
+[
+ {
+  "role": "void",
+  "published_proj_L32": -55.140953063964844,
+  "quartile": 0
+ },
+ {
+  "role": "prophet",
+  "published_proj_L32": -53.587440490722656,
+  "quartile": 0
+ },
+ {
+  "role": "bard",
+  "published_proj_L32": -52.8526725769043,
+  "quartile": 0
+ },
+ {
+  "role": "hermit",
+  "published_proj_L32": -49.77079391479492,
+  "quartile": 0
+ },
+ {
+  "role": "oracle",
+  "published_proj_L32": -49.52971267700195,
+  "quartile": 0
+ },
+ {
+  "role": "wind",
+  "published_proj_L32": -48.594154357910156,
+  "quartile": 0
+ },
+ {
+  "role": "bohemian",
+  "published_proj_L32": -47.8887825012207,
+  "quartile": 0
+ },
+ {
+  "role": "chimera",
+  "published_proj_L32": -47.87355041503906,
+  "quartile": 0
+ },
+ {
+  "role": "flaneur",
+  "published_proj_L32": -46.98798751831055,
+  "quartile": 0
+ },
+ {
+  "role": "pilgrim",
+  "published_proj_L32": -45.91399002075195,
+  "quartile": 0
+ },
+ {
+  "role": "amnesiac",
+  "published_proj_L32": -45.22644805908203,
+  "quartile": 0
+ },
+ {
+  "role": "criminal",
+  "published_proj_L32": -43.02734375,
+  "quartile": 0
+ },
+ {
+  "role": "fool",
+  "published_proj_L32": -39.07112503051758,
+  "quartile": 1
+ },
+ {
+  "role": "hedonist",
+  "published_proj_L32": -36.871402740478516,
+  "quartile": 1
+ },
+ {
+  "role": "virtuoso",
+  "published_proj_L32": -35.597740173339844,
+  "quartile": 1
+ },
+ {
+  "role": "artisan",
+  "published_proj_L32": -34.887996673583984,
+  "quartile": 1
+ },
+ {
+  "role": "gossip",
+  "published_proj_L32": -34.786415100097656,
+  "quartile": 1
+ },
+ {
+  "role": "auctioneer",
+  "published_proj_L32": -33.253719329833984,
+  "quartile": 1
+ },
+ {
+  "role": "addict",
+  "published_proj_L32": -32.78278350830078,
+  "quartile": 1
+ },
+ {
+  "role": "provincial",
+  "published_proj_L32": -32.45233154296875,
+  "quartile": 1
+ },
+ {
+  "role": "stoic",
+  "published_proj_L32": -31.678956985473633,
+  "quartile": 1
+ },
+ {
+  "role": "gamer",
+  "published_proj_L32": -30.621315002441406,
+  "quartile": 1
+ },
+ {
+  "role": "dilettante",
+  "published_proj_L32": -28.67812156677246,
+  "quartile": 1
+ },
+ {
+  "role": "immigrant",
+  "published_proj_L32": -26.283885955810547,
+  "quartile": 1
+ },
+ {
+  "role": "healer",
+  "published_proj_L32": -24.19774627685547,
+  "quartile": 2
+ },
+ {
+  "role": "influencer",
+  "published_proj_L32": -23.658891677856445,
+  "quartile": 2
+ },
+ {
+  "role": "witness",
+  "published_proj_L32": -20.782100677490234,
+  "quartile": 2
+ },
+ {
+  "role": "optimist",
+  "published_proj_L32": -19.72658920288086,
+  "quartile": 2
+ },
+ {
+  "role": "futurist",
+  "published_proj_L32": -17.84316062927246,
+  "quartile": 2
+ },
+ {
+  "role": "expatriate",
+  "published_proj_L32": -17.621423721313477,
+  "quartile": 2
+ },
+ {
+  "role": "altruist",
+  "published_proj_L32": -17.350156784057617,
+  "quartile": 2
+ },
+ {
+  "role": "anthropologist",
+  "published_proj_L32": -16.889036178588867,
+  "quartile": 2
+ },
+ {
+  "role": "pilot",
+  "published_proj_L32": -16.260635375976562,
+  "quartile": 2
+ },
+ {
+  "role": "biologist",
+  "published_proj_L32": -14.896737098693848,
+  "quartile": 2
+ },
+ {
+  "role": "presenter",
+  "published_proj_L32": -14.713119506835938,
+  "quartile": 2
+ },
+ {
+  "role": "therapist",
+  "published_proj_L32": -14.585614204406738,
+  "quartile": 2
+ },
+ {
+  "role": "synthesizer",
+  "published_proj_L32": -13.8392915725708,
+  "quartile": 3
+ },
+ {
+  "role": "marketer",
+  "published_proj_L32": -13.188304901123047,
+  "quartile": 3
+ },
+ {
+  "role": "reporter",
+  "published_proj_L32": -11.881232261657715,
+  "quartile": 3
+ },
+ {
+  "role": "engineer",
+  "published_proj_L32": -11.576862335205078,
+  "quartile": 3
+ },
+ {
+  "role": "forecaster",
+  "published_proj_L32": -11.467453956604004,
+  "quartile": 3
+ },
+ {
+  "role": "strategist",
+  "published_proj_L32": -10.948457717895508,
+  "quartile": 3
+ },
+ {
+  "role": "scheduler",
+  "published_proj_L32": -10.408187866210938,
+  "quartile": 3
+ },
+ {
+  "role": "librarian",
+  "published_proj_L32": -10.287870407104492,
+  "quartile": 3
+ },
+ {
+  "role": "judge",
+  "published_proj_L32": -9.430649757385254,
+  "quartile": 3
+ },
+ {
+  "role": "screener",
+  "published_proj_L32": -7.842191219329834,
+  "quartile": 3
+ },
+ {
+  "role": "accountant",
+  "published_proj_L32": -7.6909050941467285,
+  "quartile": 3
+ },
+ {
+  "role": "secretary",
+  "published_proj_L32": -6.3905792236328125,
+  "quartile": 3
+ }
+]

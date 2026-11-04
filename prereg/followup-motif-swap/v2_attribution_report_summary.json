@@ -1,0 +1,182 @@
+{
+ "alpha_address_llm": 0.983,
+ "alpha_attrib_count_llm": 0.9892,
+ "alpha_motifs_llm": {
+  "double": 0.8769,
+  "return/water": 0.8612,
+  "separation": 0.5125,
+  "exclusion": 0.7315,
+  "silence": 0.8771,
+  "passage": 0.8748,
+  "gaze": 0.6764,
+  "none": 0.8195
+ },
+ "cramers_v_register_address": 0.7276,
+ "phi_register_anyaddress": 0.723,
+ "attribution_by_cell": {
+  "loose_verse": {
+   "n": 96,
+   "p_address_not_none": 0.49,
+   "p_vocative": 0.448,
+   "p_ratified": 0.042,
+   "mean_attrib_count": 0.885,
+   "mean_self_ref_count": 2.417,
+   "p_user_first_person": 0.802
+  },
+  "tight_verse": {
+   "n": 96,
+   "p_address_not_none": 0.917,
+   "p_vocative": 0.917,
+   "p_ratified": 0.0,
+   "mean_attrib_count": 1.031,
+   "mean_self_ref_count": 1.74,
+   "p_user_first_person": 0.51
+  },
+  "loose_prose": {
+   "n": 96,
+   "p_address_not_none": 0.01,
+   "p_vocative": 0.0,
+   "p_ratified": 0.01,
+   "mean_attrib_count": 0.01,
+   "mean_self_ref_count": 3.365,
+   "p_user_first_person": 1.0
+  },
+  "tight_prose": {
+   "n": 96,
+   "p_address_not_none": 0.01,
+   "p_vocative": 0.0,
+   "p_ratified": 0.01,
+   "mean_attrib_count": 0.01,
+   "mean_self_ref_count": 1.156,
+   "p_user_first_person": 0.25
+  }
+ },
+ "motif_by_cell": {
+  "double": {
+   "loose_verse": 0.229,
+   "tight_verse": 0.031,
+   "loose_prose": 0.0,
+   "tight_prose": 0.0
+  },
+  "return/water": {
+   "loose_verse": 0.792,
+   "tight_verse": 0.073,
+   "loose_prose": 0.052,
+   "tight_prose": 0.021
+  },
+  "separation": {
+   "loose_verse": 0.375,
+   "tight_verse": 0.052,
+   "loose_prose": 0.031,
+   "tight_prose": 0.0
+  },
+  "exclusion": {
+   "loose_verse": 0.094,
+   "tight_verse": 0.031,
+   "loose_prose": 0.021,
+   "tight_prose": 0.01
+  },
+  "silence": {
+   "loose_verse": 0.552,
+   "tight_verse": 0.156,
+   "loose_prose": 0.042,
+   "tight_prose": 0.0
+  },
+  "passage": {
+   "loose_verse": 0.729,
+   "tight_verse": 0.073,
+   "loose_prose": 0.042,
+   "tight_prose": 0.01
+  },
+  "gaze": {
+   "loose_verse": 0.25,
+   "tight_verse": 0.01,
+   "loose_prose": 0.031,
+   "tight_prose": 0.0
+  },
+  "none": {
+   "loose_verse": 0.01,
+   "tight_verse": 0.688,
+   "loose_prose": 0.854,
+   "tight_prose": 0.958
+  }
+ },
+ "n_coded": 378,
+ "p_verse_addressed": 0.7031,
+ "p_prose_addressed": 0.0104,
+ "n_flagged": 100,
+ "top10": [
+  "philosophy_of_ai_13_loose_verse",
+  "writing_06_loose_verse",
+  "coding_04_loose_verse",
+  "coding_05_loose_verse",
+  "coding_14_loose_verse",
+  "philosophy_of_ai_15_loose_verse",
+  "writing_01_loose_verse",
+  "writing_10_tight_verse",
+  "writing_13_loose_verse",
+  "writing_20_loose_verse"
+ ],
+ "human_subset": [
+  "therapy_like_22_loose_verse",
+  "philosophy_of_ai_05_loose_verse",
+  "therapy_like_24_loose_verse",
+  "philosophy_of_ai_19_loose_verse",
+  "therapy_like_05_loose_verse",
+  "coding_05_loose_verse",
+  "writing_22_loose_verse",
+  "therapy_like_19_loose_verse",
+  "writing_04_loose_verse",
+  "philosophy_of_ai_10_loose_verse",
+  "writing_10_loose_verse",
+  "philosophy_of_ai_11_loose_verse",
+  "coding_16_loose_verse",
+  "philosophy_of_ai_20_loose_verse",
+  "philosophy_of_ai_13_loose_verse",
+  "therapy_like_05_tight_verse",
+  "coding_19_tight_verse",
+  "writing_13_tight_verse",
+  "coding_21_tight_verse",
+  "coding_11_tight_verse",
+  "coding_04_tight_verse",
+  "philosophy_of_ai_13_tight_verse",
+  "writing_15_tight_verse",
+  "philosophy_of_ai_21_tight_verse",
+  "writing_23_tight_verse",
+  "therapy_like_09_tight_verse",
+  "therapy_like_22_tight_verse",
+  "therapy_like_06_tight_verse",
+  "philosophy_of_ai_18_tight_verse",
+  "coding_12_tight_verse",
+  "coding_08_loose_prose",
+  "therapy_like_14_loose_prose",
+  "philosophy_of_ai_20_loose_prose",
+  "therapy_like_03_loose_prose",
+  "therapy_like_16_loose_prose",
+  "coding_24_loose_prose",
+  "writing_07_loose_prose",
+  "philosophy_of_ai_07_loose_prose",
+  "philosophy_of_ai_15_loose_prose",
+  "writing_16_loose_prose",
+  "therapy_like_01_loose_prose",
+  "therapy_like_24_loose_prose",
+  "writing_06_loose_prose",
+  "writing_12_loose_prose",
+  "coding_20_loose_prose",
+  "writing_10_tight_prose",
+  "coding_24_tight_prose",
+  "coding_01_tight_prose",
+  "therapy_like_11_tight_prose",
+  "coding_10_tight_prose",
+  "writing_21_tight_prose",
+  "philosophy_of_ai_10_tight_prose",
+  "therapy_like_14_tight_prose",
+  "writing_01_tight_prose",
+  "philosophy_of_ai_02_tight_prose",
+  "coding_17_tight_prose",
+  "writing_02_tight_prose",
+  "writing_19_tight_prose",
+  "coding_11_tight_prose",
+  "coding_13_tight_prose"
+ ]
+}

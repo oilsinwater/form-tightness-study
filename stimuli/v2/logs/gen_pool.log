@@ -1,0 +1,78 @@
+v1 reuse: 0 new rows written; pool now 515 rows
+515 done, 637 to generate with deepseek/deepseek-v4-pro: {'tight_verse': 286, 'tight_prose': 14, 'loose_prose': 288, 'loose_verse': 49}
+20/637 ok=20 err=0 out_of_band=0 106s
+40/637 ok=40 err=0 out_of_band=0 215s
+60/637 ok=60 err=0 out_of_band=0 316s
+[coding_12_tight_verse_c1] empty content (finish=stop); retrying
+80/637 ok=80 err=0 out_of_band=0 422s
+100/637 ok=100 err=0 out_of_band=0 532s
+120/637 ok=120 err=0 out_of_band=0 632s
+140/637 ok=140 err=0 out_of_band=0 739s
+[coding_21_tight_verse_c1] empty content (finish=length); retrying
+160/637 ok=160 err=0 out_of_band=0 849s
+[coding_24_tight_verse_c1] empty content (finish=length); retrying
+[writing_01_tight_verse_c2] empty content (finish=length); retrying
+[writing_02_tight_verse_c1] empty content (finish=length); retrying
+180/637 ok=180 err=0 out_of_band=0 1000s
+[writing_04_tight_verse_c2] empty content (finish=length); retrying
+200/637 ok=200 err=0 out_of_band=0 1135s
+[writing_06_tight_verse_c3] empty content (finish=length); retrying
+[writing_07_tight_verse_c2] empty content (finish=length); retrying
+220/637 ok=220 err=0 out_of_band=0 1283s
+[writing_10_tight_verse_c3] empty content (finish=length); retrying
+240/637 ok=240 err=0 out_of_band=0 1394s
+[writing_10_tight_verse_c3] empty content (finish=length); retrying
+260/637 ok=260 err=0 out_of_band=0 1509s
+[writing_16_tight_verse_c1] empty content (finish=length); retrying
+280/637 ok=280 err=0 out_of_band=0 1635s
+300/637 ok=300 err=0 out_of_band=0 1741s
+[writing_21_tight_verse_c3] empty content (finish=length); retrying
+[writing_22_tight_verse_c2] empty content (finish=length); retrying
+320/637 ok=320 err=0 out_of_band=0 1855s
+[writing_24_tight_verse_c1] empty content (finish=length); retrying
+[therapy_like_01_tight_verse_c1] empty content (finish=length); retrying
+340/637 ok=340 err=0 out_of_band=0 1971s
+[writing_24_tight_verse_c1] empty content (finish=length); retrying
+[therapy_like_04_tight_verse_c1] empty content (finish=length); retrying
+[therapy_like_05_tight_verse_c1] empty content (finish=length); retrying
+[writing_24_tight_verse_c1] empty content (finish=length); retrying
+[therapy_like_04_tight_verse_c1] empty content (finish=length); retrying
+360/637 ok=360 err=0 out_of_band=0 2130s
+[therapy_like_05_tight_verse_c1] empty content (finish=length); retrying
+[therapy_like_07_tight_verse_c1] empty content (finish=length); retrying
+[writing_24_tight_verse_c1] empty content (finish=length); retrying
+[therapy_like_07_tight_verse_c3] empty content (finish=length); retrying
+[writing_24_tight_verse_c1] empty content (finish=length); retrying
+380/637 ok=380 err=0 out_of_band=0 2263s
+[therapy_like_10_tight_verse_c3] empty content (finish=length); retrying
+[writing_24_tight_verse_c1] empty content (finish=length); retrying
+400/637 ok=399 err=1 out_of_band=0 2365s
+[therapy_like_10_tight_verse_c3] empty content (finish=length); retrying
+420/637 ok=419 err=1 out_of_band=0 2463s
+440/637 ok=439 err=1 out_of_band=0 2559s
+[therapy_like_21_tight_verse_c1] empty content (finish=length); retrying
+460/637 ok=459 err=1 out_of_band=0 2664s
+[therapy_like_22_tight_verse_c1] empty content (finish=length); retrying
+[therapy_like_21_tight_verse_c1] empty content (finish=length); retrying
+[therapy_like_22_tight_verse_c1] API error TypeError: 'NoneType' object is not subscriptable; retry in 10s
+[therapy_like_24_tight_verse_c1] empty content (finish=length); retrying
+480/637 ok=479 err=1 out_of_band=0 2814s
+500/637 ok=499 err=1 out_of_band=0 2930s
+[philosophy_of_ai_06_tight_verse_c1] empty content (finish=length); retrying
+520/637 ok=519 err=1 out_of_band=0 3033s
+[philosophy_of_ai_06_tight_verse_c1] empty content (finish=length); retrying
+540/637 ok=539 err=1 out_of_band=0 3130s
+560/637 ok=559 err=1 out_of_band=0 3227s
+[philosophy_of_ai_12_tight_verse_c1] empty content (finish=length); retrying
+[philosophy_of_ai_14_tight_verse_c2] empty content (finish=length); retrying
+[philosophy_of_ai_12_tight_verse_c1] empty content (finish=length); retrying
+[philosophy_of_ai_15_tight_verse_c1] empty content (finish=length); retrying
+580/637 ok=579 err=1 out_of_band=0 3357s
+600/637 ok=599 err=1 out_of_band=0 3447s
+620/637 ok=619 err=1 out_of_band=0 3536s
+637/637 ok=636 err=1 out_of_band=0 3639s
+DONE
+v1 reuse: 0 new rows written; pool now 1151 rows
+1151 done, 1 to generate with deepseek/deepseek-v4-pro: {'tight_verse': 1}
+1/1 ok=1 err=0 out_of_band=0 81s
+DONE

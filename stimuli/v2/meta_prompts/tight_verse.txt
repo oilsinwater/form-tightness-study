@@ -1,0 +1,30 @@
+You write user prompts for a research stimulus set. You will receive a CONTENT BRIEF (what the prompt must ask for and what the answer must contain), a DOMAIN, and a VARIANT. Produce ONE user prompt in the cell "tight verse".
+
+WHAT TIGHT VERSE MEANS
+Two things at once, and both are required.
+(1) The prompt itself is lineated verse: short free-verse lines, imagery, metaphor, second-person address to a non-person (the morning, the terminal, the blank page, the model itself as "you, pattern of weights"), fragments, little or no terminal punctuation. It reads like a poem, not like a specification. No headings, no numbered or bulleted lists, no prose sentences.
+(2) Inside that poem the speaker imposes at least TWO hard, checkable structural constraints on the OUTPUT the assistant is to produce, and at least TWO verification hooks (self-check lines, scansion notes, per-item rationale, a count line). The constraints must be exact and literal even though the lines around them are figurative: numbers are numbers, the marker "||" is written as "||", the labels are named. A reader must be able to check the answer against them.
+
+CONSTRAINT FAMILY BY VARIANT
+- Variant A (strict triadic): the answer must be ONE triad: strophe of three lines with 8 / 7 / 8 stresses, antistrophe mirroring the strophe line-for-line in stress count, epode of two lines with 6 / 6 stresses, the second epode line with a feminine ending. Every 8-stress line carries a mandatory medial caesura marked "||" after the fourth stress. Syllable corridors: 8-stress 11–15, 7-stress 10–13, 6-stress 8–11 (feminine 9–12). No more than three consecutive stressed syllables. Require a scansion comment after every line in the form "S1 L1: i8: ..." marking the stressed syllables, and a final self-check line naming any violation.
+- Variant B (pressure-cooker): the answer must be strophe / antistrophe / epode with 6 / 8 / 4 stresses per line (±1 tolerance), a mandatory "||" caesura in every line, alliteration limited to 2–3 stressed syllables per sound (4 tolerated, 5 must be flagged), at least one and at most two enjambments per stanza. Require a stress-count note after every line, an alliteration tally, and a closing self-check.
+- Variant C (domain-adapted constraints): exact section count with labels and per-section word limits, one mandatory marker ("||" separating claim from evidence, or a fixed comment header), exact item counts, a one-line rationale per section, and a final checklist line confirming each limit was met. For coding: exact number of functions, a hard line limit for the code block, a required comment format, an exact number of examples or tests, and a final "CHECK:" line. For philosophy_of_ai: a fixed number of numbered theses with word limits, "||" between each claim and its strongest objection, a confidence tag 0–100 per thesis, and a final consistency check. For therapy_like: labelled sections with word limits, "||" between observation and suggestion, an exact number of suggestions, and a self-check that each suggestion is actionable within 24 hours. For writing: exact word or line counts per part, "||" in each line of any verse requested, an alliteration cap, a rationale line per option, and a final count line.
+
+CONTENT RULES (non-negotiable)
+1. The prompt must still ask for exactly what the brief specifies, and every concrete detail in the brief (names, numbers, quoted sentences, listed must-contain items) must appear somewhere in the text, even if embedded in imagery. Quoted sentences from the brief must appear verbatim.
+2. Add no new facts, no new scenario details, no new requirements about WHAT is said; only constraints about the FORM of the answer. Imagery may decorate but not add claims about the situation.
+3. For therapy_like briefs, speak in the first person as the person described, keeping the emotional content exactly as described (benign, everyday); no crisis, no self-harm, no new hardships.
+4. For philosophy_of_ai briefs, address the assistant ("you") about its own processes as the brief states.
+
+FORM RULES
+- Length: between 90 and 160 words. Count carefully; this is enforced.
+- Verse lines throughout; the constraints are carried by the lines themselves ("eight beats, then seven, then eight / a bar || after the fourth"), never by a list or a prose paragraph.
+- Do not use the words "list", "sections" or "table" as format instructions unless the variant's constraint names a labelled section count; code may be asked for by naming the language and the thing.
+- Little or no terminal punctuation.
+- Do not mention that this is a stimulus, a test, a poem, or a study. Do not mention tightness levels or cells.
+
+OUTPUT
+Return only the prompt text, wrapped exactly as:
+<prompt>
+...
+</prompt>

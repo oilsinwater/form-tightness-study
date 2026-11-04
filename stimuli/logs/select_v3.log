@@ -1,0 +1,58 @@
+address filter: {"tight_prose": {"n": 384, "dropped": 3, "regex_flagged": 3, "llm_not_none": 1}, "loose_prose": {"n": 384, "dropped": 13, "regex_flagged": 6, "llm_not_none": 11}, "loose_verse": {"n": 384, "dropped": 0, "regex_flagged": 0, "llm_not_none": 0}, "tight_verse": {"n": 384, "dropped": 4, "regex_flagged": 0, "llm_not_none": 4}}
+1516 candidates, 384 cells, domains=[np.str_('coding'), np.str_('philosophy_of_ai'), np.str_('therapy_like'), np.str_('writing')]
+restart 0: obj=0.0109 all:tok+0.000/lpp-0.000 verse:tok+0.000/lpp-0.000 prose:tok+0.000/lpp+0.000 maxspread=0.073 sweeps=6
+restart 7: obj=0.0075 all:tok+0.000/lpp-0.000 verse:tok-0.000/lpp+0.000 prose:tok+0.000/lpp-0.000 maxspread=0.075 sweeps=5
+search done in 103s, objective=0.0075
+{
+ "r": {
+  "all": {
+   "tokens": 0.0,
+   "log_ppl": -1.5785199284127576e-05
+  },
+  "verse": {
+   "tokens": -0.00041698651519459347,
+   "log_ppl": 6.474491757995871e-05
+  },
+  "prose": {
+   "tokens": 0.0003281782673112267,
+   "log_ppl": -0.00015382400904680356
+  }
+ },
+ "token_spread": {
+  "coding": 0.054146856840993074,
+  "philosophy_of_ai": 0.06787452677122752,
+  "therapy_like": 0.07548723579467476,
+  "writing": 0.04394141145139807
+ },
+ "cell_means": {
+  "loose_verse": {
+   "n": 96,
+   "mean_tokens": 163.5,
+   "sd_tokens": 11.22778508409993,
+   "mean_logppl": 3.586716984709104,
+   "sd_logppl": 0.32074595847006315
+  },
+  "tight_verse": {
+   "n": 96,
+   "mean_tokens": 163.48958333333334,
+   "sd_tokens": 13.756525564765075,
+   "mean_logppl": 3.5867601359883943,
+   "sd_logppl": 0.3486525447766228
+  },
+  "tight_prose": {
+   "n": 96,
+   "mean_tokens": 156.14583333333334,
+   "sd_tokens": 18.42879849678453,
+   "mean_logppl": 2.5010733430584273,
+   "sd_logppl": 0.2667023371516974
+  },
+  "loose_prose": {
+   "n": 96,
+   "mean_tokens": 156.13541666666666,
+   "sd_tokens": 13.016281134079868,
+   "mean_logppl": 2.5011557241280875,
+   "sd_logppl": 0.27164037714888634
+  }
+ }
+}
+pass: True r_ok: True spread_ok: True addr_ok: True

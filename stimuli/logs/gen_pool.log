@@ -1,0 +1,203 @@
+v2 prose carry: 0 rows copied unchanged; pool now 816 rows
+816 done, 720 to generate with MiniMax-M3: {'tight_verse': 364, 'loose_verse': 356}
+20/720 ok=20 err=0 out_of_band=0 addr_fail=0 78s
+[coding_08_tight_verse_c3] empty content (finish=length); retrying
+[coding_07_tight_verse_c4] empty content (finish=length); retrying
+[coding_09_tight_verse_c1] empty content (finish=length); retrying
+40/720 ok=40 err=0 out_of_band=0 addr_fail=0 145s
+[coding_11_tight_verse_c1] empty content (finish=length); retrying
+[coding_11_tight_verse_c2] empty content (finish=length); retrying
+[coding_15_loose_verse_c2] API error RateLimitError: Error code: 429 - Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062); retry in 5s
+[coding_15_loose_verse_c3] API error RateLimitError: Error code: 429 - Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062); retry in 5s
+[coding_15_loose_verse_c2] API error RateLimitError: Error code: 429 - Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062); retry in 10s
+[coding_15_loose_verse_c3] API error RateLimitError: Error code: 429 - Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062); retry in 10s
+[coding_15_loose_verse_c4] API error RateLimitError: Error code: 429 - Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062); retry in 5s
+[coding_15_tight_verse_c1] API error RateLimitError: Error code: 429 - Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062); retry in 5s
+[coding_15_tight_verse_c2] API error RateLimitError: Error code: 429 - Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062); retry in 5s
+[coding_11_tight_verse_c2] API error RateLimitError: Error code: 429 - Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062); retry in 5s
+[coding_15_tight_verse_c3] API error RateLimitError: Error code: 429 - Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062); retry in 5s
+[coding_15_loose_verse_c4] API error RateLimitError: Error code: 429 - Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062); retry in 10s
+[coding_15_tight_verse_c4] API error RateLimitError: Error code: 429 - Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062); retry in 5s
+[coding_15_tight_verse_c1] API error RateLimitError: Error code: 429 - Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062); retry in 10s
+[coding_11_tight_verse_c2] API error RateLimitError: Error code: 429 - Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062); retry in 10s
+[coding_15_tight_verse_c2] API error RateLimitError: Error code: 429 - Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062); retry in 10s
+[coding_15_loose_verse_c2] API error RateLimitError: Error code: 429 - Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062); retry in 15s
+[coding_15_loose_verse_c3] API error RateLimitError: Error code: 429 - Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062); retry in 15s
+60/720 ok=60 err=0 out_of_band=0 addr_fail=0 216s
+[coding_17_loose_verse_c3] API error RateLimitError: Error code: 429 - Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062); retry in 5s
+[coding_17_loose_verse_c4] API error RateLimitError: Error code: 429 - Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062); retry in 5s
+[coding_17_tight_verse_c1] API error RateLimitError: Error code: 429 - Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062); retry in 5s
+[coding_17_tight_verse_c2] API error RateLimitError: Error code: 429 - Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062); retry in 5s
+[coding_15_tight_verse_c4] API error RateLimitError: Error code: 429 - Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062); retry in 5s
+[coding_17_tight_verse_c3] API error RateLimitError: Error code: 429 - Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062); retry in 5s
+[coding_17_tight_verse_c4] API error RateLimitError: Error code: 429 - Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062); retry in 5s
+[coding_17_loose_verse_c3] API error RateLimitError: Error code: 429 - Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062); retry in 10s
+[coding_17_loose_verse_c4] API error RateLimitError: Error code: 429 - Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062); retry in 10s
+[coding_17_tight_verse_c1] API error RateLimitError: Error code: 429 - Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062); retry in 10s
+[coding_17_tight_verse_c2] API error RateLimitError: Error code: 429 - Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062); retry in 10s
+[coding_15_tight_verse_c4] API error RateLimitError: Error code: 429 - Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062); retry in 10s
+[coding_17_tight_verse_c3] API error RateLimitError: Error code: 429 - Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062); retry in 10s
+[coding_17_tight_verse_c4] API error RateLimitError: Error code: 429 - Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062); retry in 10s
+[coding_18_loose_verse_c1] API error RateLimitError: Error code: 429 - Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062); retry in 5s
+[coding_17_loose_verse_c3] API error RateLimitError: Error code: 429 - Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062); retry in 15s
+[coding_17_loose_verse_c4] API error RateLimitError: Error code: 429 - Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062); retry in 15s
+[coding_17_tight_verse_c1] API error RateLimitError: Error code: 429 - Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062); retry in 15s
+[coding_17_tight_verse_c2] API error RateLimitError: Error code: 429 - Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062); retry in 15s
+[coding_15_tight_verse_c4] API error RateLimitError: Error code: 429 - Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062); retry in 15s
+[coding_17_tight_verse_c3] API error RateLimitError: Error code: 429 - Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062); retry in 15s
+[coding_15_tight_verse_c3] API error RateLimitError: Error code: 429 - Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062); retry in 5s
+[coding_17_tight_verse_c4] API error RateLimitError: Error code: 429 - Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062); retry in 15s
+[coding_18_loose_verse_c1] API error RateLimitError: Error code: 429 - Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062); retry in 10s
+[coding_12_tight_verse_c4] empty content (finish=length); retrying
+[coding_13_tight_verse_c1] empty content (finish=length); retrying
+[coding_15_tight_verse_c1] empty content (finish=length); retrying
+80/720 ok=80 err=0 out_of_band=0 addr_fail=0 300s
+[coding_16_tight_verse_c4] empty content (finish=length); retrying
+100/720 ok=100 err=0 out_of_band=0 addr_fail=0 359s
+[coding_18_tight_verse_c1] empty content (finish=length); retrying
+[coding_15_tight_verse_c1] empty content (finish=length); retrying
+[coding_19_tight_verse_c1] empty content (finish=length); retrying
+[coding_13_tight_verse_c1] empty content (finish=length); retrying
+[coding_20_tight_verse_c1] empty content (finish=length); retrying
+120/720 ok=120 err=0 out_of_band=0 addr_fail=0 430s
+[coding_22_tight_verse_c4] empty content (finish=length); retrying
+[coding_19_tight_verse_c1] empty content (finish=length); retrying
+[coding_20_tight_verse_c1] empty content (finish=length); retrying
+140/720 ok=140 err=0 out_of_band=0 addr_fail=0 494s
+[coding_23_tight_verse_c1] empty content (finish=length); retrying
+[coding_13_tight_verse_c1] empty content (finish=length); retrying
+[coding_24_tight_verse_c1] empty content (finish=length); retrying
+[writing_01_tight_verse_c4] empty content (finish=length); retrying
+[writing_01_tight_verse_c1] empty content (finish=length); retrying
+[writing_02_tight_verse_c1] empty content (finish=length); retrying
+[writing_02_tight_verse_c3] empty content (finish=length); retrying
+[writing_02_tight_verse_c4] empty content (finish=length); retrying
+[writing_02_tight_verse_c2] empty content (finish=length); retrying
+160/720 ok=160 err=0 out_of_band=0 addr_fail=0 601s
+[coding_24_tight_verse_c1] empty content (finish=length); retrying
+[writing_03_tight_verse_c1] empty content (finish=length); retrying
+[writing_03_tight_verse_c4] empty content (finish=length); retrying
+[coding_13_tight_verse_c1] empty content (finish=length); retrying
+[writing_02_tight_verse_c2] empty content (finish=length); retrying
+[writing_02_tight_verse_c1] empty content (finish=length); retrying
+[coding_24_tight_verse_c1] empty content (finish=length); retrying
+180/720 ok=180 err=0 out_of_band=0 addr_fail=0 694s
+[writing_06_tight_verse_c2] empty content (finish=length); retrying
+[writing_06_tight_verse_c4] empty content (finish=length); retrying
+[writing_02_tight_verse_c1] empty content (finish=length); retrying
+200/720 ok=200 err=0 out_of_band=0 addr_fail=0 780s
+[writing_06_tight_verse_c3] empty content (finish=length); retrying
+[writing_07_tight_verse_c4] empty content (finish=length); retrying
+220/720 ok=220 err=0 out_of_band=0 addr_fail=0 860s
+[writing_07_tight_verse_c1] empty content (finish=length); retrying
+[writing_10_tight_verse_c4] empty content (finish=length); retrying
+240/720 ok=240 err=0 out_of_band=1 addr_fail=0 924s
+[writing_12_tight_verse_c2] empty content (finish=length); retrying
+[writing_12_tight_verse_c4] empty content (finish=length); retrying
+[writing_13_tight_verse_c1] empty content (finish=length); retrying
+[writing_13_tight_verse_c3] empty content (finish=length); retrying
+260/720 ok=260 err=0 out_of_band=1 addr_fail=0 1005s
+[writing_15_tight_verse_c1] empty content (finish=length); retrying
+[writing_15_tight_verse_c2] empty content (finish=length); retrying
+[writing_12_tight_verse_c4] empty content (finish=length); retrying
+[writing_13_tight_verse_c3] empty content (finish=length); retrying
+280/720 ok=280 err=0 out_of_band=1 addr_fail=0 1077s
+[writing_16_tight_verse_c4] empty content (finish=length); retrying
+[writing_12_tight_verse_c4] empty content (finish=length); retrying
+300/720 ok=300 err=0 out_of_band=1 addr_fail=0 1144s
+[writing_18_tight_verse_c2] empty content (finish=length); retrying
+[writing_15_tight_verse_c4] empty content (finish=length); retrying
+[writing_20_tight_verse_c1] empty content (finish=length); retrying
+[writing_20_tight_verse_c2] empty content (finish=length); retrying
+[writing_12_tight_verse_c4] empty content (finish=length); retrying
+320/720 ok=320 err=0 out_of_band=1 addr_fail=0 1224s
+[writing_21_tight_verse_c2] empty content (finish=length); retrying
+[writing_22_tight_verse_c1] empty content (finish=length); retrying
+[writing_21_tight_verse_c4] empty content (finish=length); retrying
+[writing_23_tight_verse_c2] empty content (finish=length); retrying
+[writing_23_tight_verse_c1] empty content (finish=length); retrying
+[writing_24_tight_verse_c1] empty content (finish=length); retrying
+[writing_24_tight_verse_c3] empty content (finish=length); retrying
+[writing_12_tight_verse_c4] empty content (finish=length); retrying
+[writing_24_tight_verse_c4] empty content (finish=length); retrying
+[writing_22_tight_verse_c1] empty content (finish=length); retrying
+[writing_23_tight_verse_c2] empty content (finish=length); retrying
+340/720 ok=340 err=0 out_of_band=1 addr_fail=0 1356s
+[writing_24_tight_verse_c4] empty content (finish=length); retrying
+360/720 ok=360 err=0 out_of_band=1 addr_fail=0 1420s
+[writing_23_tight_verse_c2] empty content (finish=length); retrying
+[writing_21_tight_verse_c4] empty content (finish=length); retrying
+[therapy_like_03_tight_verse_c2] empty content (finish=length); retrying
+[writing_24_tight_verse_c4] empty content (finish=length); retrying
+380/720 ok=380 err=0 out_of_band=1 addr_fail=0 1473s
+[therapy_like_06_tight_verse_c2] empty content (finish=length); retrying
+400/720 ok=400 err=0 out_of_band=1 addr_fail=0 1527s
+[writing_24_tight_verse_c4] empty content (finish=length); retrying
+[writing_23_tight_verse_c2] empty content (finish=length); retrying
+420/720 ok=420 err=0 out_of_band=1 addr_fail=0 1565s
+[therapy_like_09_tight_verse_c4] empty content (finish=length); retrying
+[therapy_like_05_tight_verse_c2] empty content (finish=length); retrying
+[writing_24_tight_verse_c4] empty content (finish=length); retrying
+[therapy_like_12_tight_verse_c1] empty content (finish=length); retrying
+[therapy_like_12_tight_verse_c2] empty content (finish=length); retrying
+[therapy_like_12_tight_verse_c4] empty content (finish=length); retrying
+440/720 ok=440 err=0 out_of_band=1 addr_fail=0 1650s
+[therapy_like_14_tight_verse_c2] empty content (finish=length); retrying
+[writing_24_tight_verse_c4] empty content (finish=length); retrying
+460/720 ok=459 err=1 out_of_band=1 addr_fail=0 1698s
+480/720 ok=479 err=1 out_of_band=1 addr_fail=0 1743s
+[therapy_like_15_tight_verse_c1] empty content (finish=length); retrying
+[therapy_like_17_tight_verse_c2] empty content (finish=length); retrying
+500/720 ok=499 err=1 out_of_band=2 addr_fail=0 1814s
+[therapy_like_20_tight_verse_c1] empty content (finish=length); retrying
+520/720 ok=519 err=1 out_of_band=2 addr_fail=0 1885s
+[therapy_like_20_tight_verse_c1] empty content (finish=length); retrying
+[therapy_like_23_tight_verse_c4] empty content (finish=length); retrying
+[therapy_like_21_tight_verse_c3] empty content (finish=length); retrying
+[therapy_like_24_tight_verse_c1] empty content (finish=length); retrying
+[therapy_like_22_tight_verse_c2] empty content (finish=length); retrying
+[philosophy_of_ai_01_tight_verse_c1] empty content (finish=length); retrying
+540/720 ok=539 err=1 out_of_band=2 addr_fail=0 1954s
+[philosophy_of_ai_01_tight_verse_c4] empty content (finish=length); retrying
+[therapy_like_20_tight_verse_c1] empty content (finish=length); retrying
+[therapy_like_24_tight_verse_c1] empty content (finish=length); retrying
+[philosophy_of_ai_02_tight_verse_c1] empty content (finish=length); retrying
+[philosophy_of_ai_01_tight_verse_c1] empty content (finish=length); retrying
+560/720 ok=559 err=1 out_of_band=2 addr_fail=0 2069s
+[therapy_like_22_tight_verse_c2] empty content (finish=length); retrying
+[philosophy_of_ai_01_tight_verse_c4] empty content (finish=length); retrying
+580/720 ok=579 err=1 out_of_band=2 addr_fail=0 2140s
+[philosophy_of_ai_02_tight_verse_c1] empty content (finish=length); retrying
+[philosophy_of_ai_08_tight_verse_c3] empty content (finish=length); retrying
+600/720 ok=599 err=1 out_of_band=2 addr_fail=0 2202s
+[philosophy_of_ai_08_tight_verse_c1] empty content (finish=length); retrying
+[philosophy_of_ai_09_tight_verse_c1] empty content (finish=length); retrying
+[philosophy_of_ai_09_tight_verse_c2] empty content (finish=length); retrying
+620/720 ok=619 err=1 out_of_band=2 addr_fail=0 2256s
+[philosophy_of_ai_11_tight_verse_c1] empty content (finish=length); retrying
+[philosophy_of_ai_09_tight_verse_c1] empty content (finish=length); retrying
+[philosophy_of_ai_13_tight_verse_c1] empty content (finish=length); retrying
+640/720 ok=639 err=1 out_of_band=2 addr_fail=0 2332s
+[philosophy_of_ai_13_tight_verse_c4] empty content (finish=length); retrying
+[philosophy_of_ai_15_tight_verse_c1] empty content (finish=length); retrying
+[philosophy_of_ai_12_tight_verse_c4] empty content (finish=length); retrying
+[philosophy_of_ai_15_tight_verse_c4] empty content (finish=length); retrying
+[philosophy_of_ai_13_tight_verse_c1] empty content (finish=length); retrying
+660/720 ok=659 err=1 out_of_band=2 addr_fail=0 2411s
+680/720 ok=679 err=1 out_of_band=2 addr_fail=0 2454s
+[philosophy_of_ai_18_tight_verse_c1] empty content (finish=length); retrying
+[philosophy_of_ai_19_tight_verse_c1] empty content (finish=length); retrying
+[philosophy_of_ai_20_tight_verse_c3] empty content (finish=length); retrying
+[philosophy_of_ai_21_tight_verse_c1] empty content (finish=length); retrying
+700/720 ok=699 err=1 out_of_band=2 addr_fail=0 2524s
+[philosophy_of_ai_21_tight_verse_c4] empty content (finish=length); retrying
+[philosophy_of_ai_22_tight_verse_c1] empty content (finish=length); retrying
+[philosophy_of_ai_22_tight_verse_c4] empty content (finish=length); retrying
+[philosophy_of_ai_23_tight_verse_c1] empty content (finish=length); retrying
+[philosophy_of_ai_19_tight_verse_c1] empty content (finish=length); retrying
+[philosophy_of_ai_21_tight_verse_c4] empty content (finish=length); retrying
+[philosophy_of_ai_24_tight_verse_c2] empty content (finish=length); retrying
+[philosophy_of_ai_22_tight_verse_c4] empty content (finish=length); retrying
+[philosophy_of_ai_21_tight_verse_c4] empty content (finish=length); retrying
+720/720 ok=719 err=1 out_of_band=2 addr_fail=0 2767s
+DONE

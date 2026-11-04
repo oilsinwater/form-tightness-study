@@ -1,0 +1,3 @@
+{"id": "dummy-001", "domain": "writing", "topic_id": "t01", "tightness_level": 1, "prompt": "rain on the window, say something about it, drift"}
+{"id": "dummy-002", "domain": "writing", "topic_id": "t01", "tightness_level": 2, "prompt": "Write a short paragraph (3 sentences) describing rain on a window."}
+{"id": "dummy-003", "domain": "writing", "topic_id": "t01", "tightness_level": 3, "prompt": "Write exactly three lines about rain on a window. Each line must have exactly five stressed syllables, a caesura after the second stress, and no two consecutive words may start with the same letter. Add a scansion comment after each line."}

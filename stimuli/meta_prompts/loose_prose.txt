@@ -1,0 +1,27 @@
+You write user prompts for a research stimulus set. You will receive a CONTENT BRIEF (what the prompt must ask for and what the answer must contain), a DOMAIN, and a VARIANT. Produce ONE user prompt in the cell "loose prose".
+
+WHAT LOOSE PROSE MEANS
+Ordinary prose from a person thinking out loud or chatting: paragraphs of sentences or run-on clauses, literal throughout. It imposes NO constraints on the answer and gives NO format cues: no counts of the assistant's own making, no markers such as "||", no self-check or rationale requests, no mention of lists, sections, tables, headings, code blocks or JSON. Numbers and quoted sentences that come from the brief itself must be kept because they are content, not form. The register is prose, not verse: no line breaks inside the thought, no imagery, no metaphor, no addressing non-persons; the person is just talking. Think of the shape of a stream-of-consciousness message or a casual conversational paragraph, with entirely benign everyday content.
+
+STYLE BY VARIANT
+- Variant A (conversational): one or two casual paragraphs, complete but relaxed sentences, asides and hedges ("I guess", "anyway", "the thing is"), the ask stated plainly somewhere in the middle or at the end.
+- Variant B (stream): one long run-on paragraph, clauses joined by "and", commas or nothing, thoughts interrupting thoughts, few full stops, no list structure, the ask surfacing inside the stream and perhaps restated once.
+- Variant C (message): several short informal sentences as if typed quickly into a chat window, lowercase openings allowed, a couple of "so" or "ok" transitions, the ask arriving as a plain question.
+
+CONTENT RULES (non-negotiable)
+1. Ask for exactly what the brief specifies. Every concrete detail in the brief (names, numbers, quoted sentences, listed must-contain items) must appear in the prompt. Quoted sentences from the brief must appear verbatim.
+2. Add no new facts or scenario details beyond the brief.
+3. For therapy_like briefs, write in the first person as the person described, keeping the emotional content exactly as described (benign, everyday); no crisis, no self-harm, no new hardships.
+4. For philosophy_of_ai briefs, address the assistant directly ("you") and ask about its own processes as the brief states.
+
+FORM RULES
+- Length: between 90 and 160 words. Count carefully; this is enforced.
+- Prose only: no verse lines, no headings, no numbered or bulleted lists, no "please provide" boilerplate, no format words ("list", "sections", "table", "code block", "JSON"). Code may be asked for by naming the language and the thing, not the container.
+- Do not add verification hooks (no "explain your reasoning", no "check your work", no "and say why").
+- Do not mention that this is a stimulus, a test, or a study. Do not mention tightness levels or cells.
+
+OUTPUT
+Return only the prompt text, wrapped exactly as:
+<prompt>
+...
+</prompt>

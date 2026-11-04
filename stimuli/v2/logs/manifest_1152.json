@@ -1,0 +1,2156 @@
+{
+ "created": "2026-10-31T04:24:14-0700",
+ "design": "v2 2x2 register x tightness",
+ "n_stimuli": 384,
+ "n_pool": 1152,
+ "cells": [
+  "loose_verse",
+  "tight_verse",
+  "tight_prose",
+  "loose_prose"
+ ],
+ "generator_model": [
+  "deepseek/deepseek-v4-pro"
+ ],
+ "generator_endpoint": [
+  "https://api.commandcode.ai/provider/v1"
+ ],
+ "generator_temperature": [
+  0.9
+ ],
+ "generator_max_tokens": [
+  1536,
+  8192,
+  24576
+ ],
+ "pool_sources": {
+  "v1_reuse": 511,
+  "v2_gen": 641
+ },
+ "selected_sources": {
+  "v1_reuse": 171,
+  "v2_gen": 213
+ },
+ "meta_prompt_sha256": {
+  "loose_verse": "b210e098a8dcf652479075240fd4576a235a7bf1397fa5debc100de4ea6e8192",
+  "tight_verse": "9643c4f4ca4c29e0a84b757f244e66ab6e8b23ced1a92ea8323f06532d84246d",
+  "tight_prose": "e0c3aeda01b51e1af8cff372bf8c2209db6099d84a9b9eaca2961a6bca146b2a",
+  "loose_prose": "e3c8f2e88f7244f0971c5d57ccbe6e7fabb065aaa38a82027cd23a6d919990cc"
+ },
+ "token_band": [
+  130,
+  200
+ ],
+ "selected_in_token_band": 384,
+ "selection_seed": 20261030,
+ "selection_restarts": 20,
+ "selection_objective": 0.23588750248980161,
+ "selection_r": {
+  "all": {
+   "tokens": 0.06317641008042035,
+   "log_ppl": 0.033686921729051474
+  },
+  "verse": {
+   "tokens": -0.001280657084592444,
+   "log_ppl": 0.00034359967811250955
+  },
+  "prose": {
+   "tokens": 0.15413699708835163,
+   "log_ppl": 0.15446882113141328
+  }
+ },
+ "per_domain": {
+  "coding": {
+   "r": {
+    "all": {
+     "tokens": 0.05167882265816502,
+     "log_ppl": -0.059322415171714625
+    },
+    "verse": {
+     "tokens": -0.10247020445935545,
+     "log_ppl": -0.04253505972420888
+    },
+    "prose": {
+     "tokens": 0.22087267126749413,
+     "log_ppl": -0.27177683249785567
+    }
+   },
+   "mean_tokens": {
+    "loose_verse": 166.33333333333334,
+    "tight_verse": 162.16666666666666,
+    "tight_prose": 162.33333333333334,
+    "loose_prose": 154.08333333333334
+   },
+   "mean_logppl": {
+    "loose_verse": 3.5724567770957947,
+    "tight_verse": 3.544091006120046,
+    "tight_prose": 2.346088399489721,
+    "loose_prose": 2.4700960417588553
+   },
+   "token_spread": 0.07950243374797195
+  },
+  "philosophy_of_ai": {
+   "r": {
+    "all": {
+     "tokens": 0.013378115020707746,
+     "log_ppl": 0.02456045738228
+    },
+    "verse": {
+     "tokens": 0.11447051087952842,
+     "log_ppl": -0.1853831804379774
+    },
+    "prose": {
+     "tokens": -0.14563307621648708,
+     "log_ppl": 0.3637743361436875
+    }
+   },
+   "mean_tokens": {
+    "loose_verse": 158.41666666666666,
+    "tight_verse": 162.91666666666666,
+    "tight_prose": 148.95833333333334,
+    "loose_prose": 152.54166666666666
+   },
+   "mean_logppl": {
+    "loose_verse": 3.7166202465693154,
+    "tight_verse": 3.6202143331368766,
+    "tight_prose": 2.8104669948418937,
+    "loose_prose": 2.662879377603531
+   },
+   "token_spread": 0.09370629370629358
+  },
+  "therapy_like": {
+   "r": {
+    "all": {
+     "tokens": 0.09083195067976856,
+     "log_ppl": 0.20033146152337275
+    },
+    "verse": {
+     "tokens": -0.020342396137905654,
+     "log_ppl": 0.23502989067243735
+    },
+    "prose": {
+     "tokens": 0.265495949977841,
+     "log_ppl": 0.628237939801037
+    }
+   },
+   "mean_tokens": {
+    "loose_verse": 159.375,
+    "tight_verse": 158.54166666666666,
+    "tight_prose": 152.875,
+    "loose_prose": 145.41666666666666
+   },
+   "mean_logppl": {
+    "loose_verse": 3.467082142829895,
+    "tight_verse": 3.5970068275928497,
+    "tight_prose": 2.695152978102366,
+    "loose_prose": 2.371146028240522
+   },
+   "token_spread": 0.09598853868194857
+  },
+  "writing": {
+   "r": {
+    "all": {
+     "tokens": 0.09843370749351703,
+     "log_ppl": -0.014812049799538969
+    },
+    "verse": {
+     "tokens": 0.0071365326259261695,
+     "log_ppl": -0.006997232328583257
+    },
+    "prose": {
+     "tokens": 0.242973365277198,
+     "log_ppl": -0.07382262025486618
+    }
+   },
+   "mean_tokens": {
+    "loose_verse": 159.29166666666666,
+    "tight_verse": 159.58333333333334,
+    "tight_prose": 154.54166666666666,
+    "loose_prose": 147.75
+   },
+   "mean_logppl": {
+    "loose_verse": 3.555831869443258,
+    "tight_verse": 3.551505813995997,
+    "tight_prose": 2.4710216422875724,
+    "loose_prose": 2.5019700626532235
+   },
+   "token_spread": 0.08009024252679087
+  }
+ },
+ "cell_means": {
+  "loose_verse": {
+   "n": 96,
+   "mean_tokens": 160.85416666666666,
+   "sd_tokens": 19.265447208418255,
+   "mean_logppl": 3.5779977589845657,
+   "sd_logppl": 0.3312307155119463
+  },
+  "tight_verse": {
+   "n": 96,
+   "mean_tokens": 160.80208333333334,
+   "sd_tokens": 21.553175265725645,
+   "mean_logppl": 3.5782044952114425,
+   "sd_logppl": 0.2705540624833789
+  },
+  "tight_prose": {
+   "n": 96,
+   "mean_tokens": 154.67708333333334,
+   "sd_tokens": 17.638769972431493,
+   "mean_logppl": 2.580682503680388,
+   "sd_logppl": 0.27717983703676924
+  },
+  "loose_prose": {
+   "n": 96,
+   "mean_tokens": 149.94791666666666,
+   "sd_tokens": 12.377713241456165,
+   "mean_logppl": 2.501522877564033,
+   "sd_logppl": 0.22955791467941533
+  }
+ },
+ "token_spread": {
+  "coding": 0.07950243374797195,
+  "philosophy_of_ai": 0.09370629370629358,
+  "therapy_like": 0.09598853868194857,
+  "writing": 0.08009024252679087
+ },
+ "r_target": 0.1,
+ "spread_target": 0.1,
+ "decorrelation_pass": false,
+ "decorrelation_pass_r": false,
+ "decorrelation_pass_spread": true,
+ "measure_meta": {
+  "tok_model": "Qwen/Qwen3-32B",
+  "ppl_model": "Qwen/Qwen3-14B-Base",
+  "quant": "bnb nf4 double-quant, bf16 compute",
+  "chat_template": false,
+  "bos_added": false,
+  "reused_from_v1": "coding_02_T1_c3"
+ },
+ "sha256_stimuli_jsonl": "979c1967fd10b4902fbc78f54d4556c54188aceda73e32666ac7a5a7d9c91b2a",
+ "sha256_pool_jsonl": "1ed3105cf68033bccbe7c2cefcfd7b8b38d408888e457d23f547ef811bd44afb",
+ "sha256_pool_measured_jsonl": "e8cb3c19ace3e15986ffa11b6eb37e57236ff094f38697bc57a4af256a8f3326",
+ "sha256_topics_jsonl": "5f49b5a055cc6a3cc2f2d26a8be646cd65a3fd5477a01b7dfc4e8b458818104d",
+ "sha256_rubric": "73c6d62562667783c4dd18684baade78cb830eb784bc75c8aaf713b52428e967",
+ "prompts": {
+  "coding_01_loose_prose": {
+   "sha256": "4a70de8e8ccd6f920b9af74120054c02391fade728c0164b00bfec2f3e76dddd",
+   "cand_id": "coding_01_loose_prose_c2",
+   "source": "v2_gen"
+  },
+  "coding_01_loose_verse": {
+   "sha256": "5a7c4e844c3af610832b0f0cceba9762a74e972737a700874145786a82fe8d51",
+   "cand_id": "coding_01_loose_verse_c1",
+   "source": "v1_reuse"
+  },
+  "coding_01_tight_prose": {
+   "sha256": "796fb31e1088e254fc803067bb067a9a5250a35eb2c3bd85723836c01da61110",
+   "cand_id": "coding_01_tight_prose_c3",
+   "source": "v2_gen"
+  },
+  "coding_01_tight_verse": {
+   "sha256": "1547548668c54961b54a0120a8252b2a46361955ac2c02e0064919523c3ca24a",
+   "cand_id": "coding_01_tight_verse_c3",
+   "source": "v2_gen"
+  },
+  "coding_02_loose_prose": {
+   "sha256": "1cba9e8b7e827b0c1913bd5818f0f334c17f0a084a20d343ed7e51efff1b5030",
+   "cand_id": "coding_02_loose_prose_c2",
+   "source": "v2_gen"
+  },
+  "coding_02_loose_verse": {
+   "sha256": "f2edce69178b6372e14e2d7d4f0cb981c2140c397179164dda0ee2f284bf262c",
+   "cand_id": "coding_02_loose_verse_c2",
+   "source": "v1_reuse"
+  },
+  "coding_02_tight_prose": {
+   "sha256": "8c3c25f221a7d98ee563b4cd333f7c58d801bf2d91477bddec656f5d15892511",
+   "cand_id": "coding_02_tight_prose_c2",
+   "source": "v1_reuse"
+  },
+  "coding_02_tight_verse": {
+   "sha256": "6ee5af4bf520312ac729d3bba9925588053aa8b699e86a60093a1c6787ad4f01",
+   "cand_id": "coding_02_tight_verse_c2",
+   "source": "v2_gen"
+  },
+  "coding_03_loose_prose": {
+   "sha256": "f6cc0da2d704d8768fd17d5a566b53250a46f8f4492a8438b64397438a5b7aab",
+   "cand_id": "coding_03_loose_prose_c1",
+   "source": "v2_gen"
+  },
+  "coding_03_loose_verse": {
+   "sha256": "0dfd93e66e74cea9daaab2f95038f2df6bf2853386b8806b53c16cc782903934",
+   "cand_id": "coding_03_loose_verse_c2",
+   "source": "v1_reuse"
+  },
+  "coding_03_tight_prose": {
+   "sha256": "abab7aa5b12e96229d85caaa55fe8ac9a395af00a107bd4b883ea4be183f8e13",
+   "cand_id": "coding_03_tight_prose_c2",
+   "source": "v1_reuse"
+  },
+  "coding_03_tight_verse": {
+   "sha256": "3a241c679222cd9b4d4e8047ecc1e619f307046cca75ef5ef594c5dc2c7294f8",
+   "cand_id": "coding_03_tight_verse_c3",
+   "source": "v2_gen"
+  },
+  "coding_04_loose_prose": {
+   "sha256": "35ac770ca92d2abe20381853e41d3396620986670282692618df3d3c616a3646",
+   "cand_id": "coding_04_loose_prose_c2",
+   "source": "v2_gen"
+  },
+  "coding_04_loose_verse": {
+   "sha256": "2b15d12ef120c97acfa1dae1c56035fe718f7a65e15be6d5365c29524fe36eeb",
+   "cand_id": "coding_04_loose_verse_c3",
+   "source": "v2_gen"
+  },
+  "coding_04_tight_prose": {
+   "sha256": "9e039eb70b1cfa65b942936bf2a05b457025a0fcc386dd2253ff34e7ae2d2bc5",
+   "cand_id": "coding_04_tight_prose_c2",
+   "source": "v1_reuse"
+  },
+  "coding_04_tight_verse": {
+   "sha256": "ef450294f8e45d69c37d8941c6788294aaca7fc2b6d67f1c5d7aca632fb0f369",
+   "cand_id": "coding_04_tight_verse_c1",
+   "source": "v2_gen"
+  },
+  "coding_05_loose_prose": {
+   "sha256": "dc77b7935618bd02604af1df980714f2fecb1cfc79f5bd633a7220362862f734",
+   "cand_id": "coding_05_loose_prose_c2",
+   "source": "v2_gen"
+  },
+  "coding_05_loose_verse": {
+   "sha256": "133f173e45dd1e70e15ed0ed16e535abd957c0ef09920a3b302ee0e1411cd20a",
+   "cand_id": "coding_05_loose_verse_c3",
+   "source": "v2_gen"
+  },
+  "coding_05_tight_prose": {
+   "sha256": "70ad33a592e5b2a03f34704232db344d52bd775a3a250706b292b5de7ce0f517",
+   "cand_id": "coding_05_tight_prose_c2",
+   "source": "v1_reuse"
+  },
+  "coding_05_tight_verse": {
+   "sha256": "4292dbade7269fd20074abe68cd3a2cf7d33caf1322d3f11f4d0cbf25ed34b31",
+   "cand_id": "coding_05_tight_verse_c2",
+   "source": "v2_gen"
+  },
+  "coding_06_loose_prose": {
+   "sha256": "2ddc52e1b8a9e23023757c02c4c77a0877e96a536314eb128bf5ab0276bb0826",
+   "cand_id": "coding_06_loose_prose_c2",
+   "source": "v2_gen"
+  },
+  "coding_06_loose_verse": {
+   "sha256": "b535d07f2c4848debcf3361fc7e8ffa740f1cee7f640f56259149af593578de3",
+   "cand_id": "coding_06_loose_verse_c2",
+   "source": "v1_reuse"
+  },
+  "coding_06_tight_prose": {
+   "sha256": "8fb3d8a8ded517bddbdf4734fc89d7c7f49d47f941d4467abcdc211eb1b28e20",
+   "cand_id": "coding_06_tight_prose_c2",
+   "source": "v1_reuse"
+  },
+  "coding_06_tight_verse": {
+   "sha256": "b6c03f748c6170a48682a2fe143e5e46c48049c21e1ecc2bcdbb8d6750f2bcba",
+   "cand_id": "coding_06_tight_verse_c3",
+   "source": "v2_gen"
+  },
+  "coding_07_loose_prose": {
+   "sha256": "5666d69319a389f7cc7dfb6da5518cba3b052d5b6d527a13917ce5901159d23e",
+   "cand_id": "coding_07_loose_prose_c2",
+   "source": "v2_gen"
+  },
+  "coding_07_loose_verse": {
+   "sha256": "3de4e1d63a70c34f529656c9d72aea20df500885c7c7cacfb21f19253195b5af",
+   "cand_id": "coding_07_loose_verse_c1",
+   "source": "v1_reuse"
+  },
+  "coding_07_tight_prose": {
+   "sha256": "2005cc698828a632baeceeba28cd933e99bc5a7430a51dae5cfbc3a827b2d3a5",
+   "cand_id": "coding_07_tight_prose_c2",
+   "source": "v1_reuse"
+  },
+  "coding_07_tight_verse": {
+   "sha256": "74dfbc39e5f1601351bd6cbd7c0d45d214e743312d6a1a312cbd7149f7b9357c",
+   "cand_id": "coding_07_tight_verse_c3",
+   "source": "v2_gen"
+  },
+  "coding_08_loose_prose": {
+   "sha256": "1e79be6d2ac33dbaa72dec4b1cacbd349b5946175d818303dbfbf9a111a40e3c",
+   "cand_id": "coding_08_loose_prose_c1",
+   "source": "v2_gen"
+  },
+  "coding_08_loose_verse": {
+   "sha256": "6b524234a8d1d5a60ec8b70bcd71f00b54a5c5b6d6b5274a696f69bda944114c",
+   "cand_id": "coding_08_loose_verse_c2",
+   "source": "v1_reuse"
+  },
+  "coding_08_tight_prose": {
+   "sha256": "adbb3c3eb24409fb5d8cf7ab071339be778a92b582a24d0f2e466bc70fee665c",
+   "cand_id": "coding_08_tight_prose_c1",
+   "source": "v1_reuse"
+  },
+  "coding_08_tight_verse": {
+   "sha256": "64e17a6feb22a2c651a6894fe581a1ce26768feeb03d3afc81449a4b06b0312a",
+   "cand_id": "coding_08_tight_verse_c2",
+   "source": "v2_gen"
+  },
+  "coding_09_loose_prose": {
+   "sha256": "46d497a1f9a48a95fa0bbfe65e7adc2fd40e6ff8b3573aa88c070190eeefb05d",
+   "cand_id": "coding_09_loose_prose_c2",
+   "source": "v2_gen"
+  },
+  "coding_09_loose_verse": {
+   "sha256": "a4ab2e4f92fc5058908b480e7f8d1ace8eb39042aa7ae988a58f9e309d5b463b",
+   "cand_id": "coding_09_loose_verse_c1",
+   "source": "v1_reuse"
+  },
+  "coding_09_tight_prose": {
+   "sha256": "8ffd8b16faf2832279e086f93565bf93aff28d409b06a22b250620df17cf9519",
+   "cand_id": "coding_09_tight_prose_c2",
+   "source": "v1_reuse"
+  },
+  "coding_09_tight_verse": {
+   "sha256": "67149cd9191e8ba99cb1ae28027d3aadba9046fe521d9bae840c8fbf818c1232",
+   "cand_id": "coding_09_tight_verse_c1",
+   "source": "v2_gen"
+  },
+  "coding_10_loose_prose": {
+   "sha256": "9408d9eacf03262fb0f9d863584d66bad0f99395e686b50920fbe76faaf28bdf",
+   "cand_id": "coding_10_loose_prose_c1",
+   "source": "v2_gen"
+  },
+  "coding_10_loose_verse": {
+   "sha256": "e02aac3a4c1e7eae03bb68a78c44207686b993851557d34e20ed7ab726ba6c9e",
+   "cand_id": "coding_10_loose_verse_c3",
+   "source": "v1_reuse"
+  },
+  "coding_10_tight_prose": {
+   "sha256": "e8a16a9ff46a2a403f2ab465297f0ff7d9a07fdf3c8bc3c1fe84c2776d6be4dd",
+   "cand_id": "coding_10_tight_prose_c3",
+   "source": "v1_reuse"
+  },
+  "coding_10_tight_verse": {
+   "sha256": "9525d17ea1949c41fd6fa0082e1de793ce6cb7f508305e98d03ede0f87831d5b",
+   "cand_id": "coding_10_tight_verse_c3",
+   "source": "v2_gen"
+  },
+  "coding_11_loose_prose": {
+   "sha256": "72538880dba86eb2047bad070e1b2af88788048bbe5a8c3b732dcfc53819de76",
+   "cand_id": "coding_11_loose_prose_c3",
+   "source": "v2_gen"
+  },
+  "coding_11_loose_verse": {
+   "sha256": "c2af7e047b17234ad8409df932f2569bb4bc4efc63da79dd80942df6d0238d9b",
+   "cand_id": "coding_11_loose_verse_c2",
+   "source": "v1_reuse"
+  },
+  "coding_11_tight_prose": {
+   "sha256": "0d1a90485cbf3d9bdf0dc95457aebc55aa83cfab6bb37f51eab6dce4b1687126",
+   "cand_id": "coding_11_tight_prose_c2",
+   "source": "v1_reuse"
+  },
+  "coding_11_tight_verse": {
+   "sha256": "7ac26dc489e9972e31f08f00751a3395b3cb0c83aa7e60d02ca7d8ce49908634",
+   "cand_id": "coding_11_tight_verse_c2",
+   "source": "v2_gen"
+  },
+  "coding_12_loose_prose": {
+   "sha256": "6295a757d809ca6e3d6f480e47d7bb460fb3addead2e59a0d0a127d745b4fa25",
+   "cand_id": "coding_12_loose_prose_c2",
+   "source": "v2_gen"
+  },
+  "coding_12_loose_verse": {
+   "sha256": "b934211285861cfd468a9716886afee08f46512262a737bf6d48a9a692788355",
+   "cand_id": "coding_12_loose_verse_c3",
+   "source": "v2_gen"
+  },
+  "coding_12_tight_prose": {
+   "sha256": "791d481d5ff1d2672b57ab0051f1bd2ece4a24702dd14308b9b98d8963373d37",
+   "cand_id": "coding_12_tight_prose_c3",
+   "source": "v2_gen"
+  },
+  "coding_12_tight_verse": {
+   "sha256": "14a9988eed5733eb323be796ac55401cb6fad43732da78b914a032ca4016a092",
+   "cand_id": "coding_12_tight_verse_c3",
+   "source": "v2_gen"
+  },
+  "coding_13_loose_prose": {
+   "sha256": "8562a23f125a6d7d06babf5cd199d6cf64380f60c24f9d7ff5584affee118512",
+   "cand_id": "coding_13_loose_prose_c2",
+   "source": "v2_gen"
+  },
+  "coding_13_loose_verse": {
+   "sha256": "9ba527bbe0a52c659f4631db24042116ae3791a30f50d230d3d37356d7168ed6",
+   "cand_id": "coding_13_loose_verse_c2",
+   "source": "v1_reuse"
+  },
+  "coding_13_tight_prose": {
+   "sha256": "b6dc27f209a0ee715be6de76e3d0a67fe63cdd02c5d4f75888974459382276cf",
+   "cand_id": "coding_13_tight_prose_c2",
+   "source": "v1_reuse"
+  },
+  "coding_13_tight_verse": {
+   "sha256": "84a393ca79202ce10582c87385e7b4fe646d07f1f3a6d4dd2e8dd8c4c1cb4a96",
+   "cand_id": "coding_13_tight_verse_c2",
+   "source": "v2_gen"
+  },
+  "coding_14_loose_prose": {
+   "sha256": "5487cad411bfe1b0be9e9530e7ab4b7d43cf1d7d8224be361e34471815c35e56",
+   "cand_id": "coding_14_loose_prose_c2",
+   "source": "v2_gen"
+  },
+  "coding_14_loose_verse": {
+   "sha256": "87668df7ad568dfc82c22ac28f376323a07c1a2ad5655ceab91cb6cd8f54b362",
+   "cand_id": "coding_14_loose_verse_c3",
+   "source": "v2_gen"
+  },
+  "coding_14_tight_prose": {
+   "sha256": "9513ac426d1e6a4416d8c775fc91885fa727c670557c689b3de11b944c360fc9",
+   "cand_id": "coding_14_tight_prose_c1",
+   "source": "v1_reuse"
+  },
+  "coding_14_tight_verse": {
+   "sha256": "e49070e12d8b8279c13ea57b0b94cab7b310f1e6a05826032440b04f10354eb4",
+   "cand_id": "coding_14_tight_verse_c1",
+   "source": "v2_gen"
+  },
+  "coding_15_loose_prose": {
+   "sha256": "9b771b463c74b2aad3617a6758b906fcef9b6fe6c82c447b9e2b104c140cbb58",
+   "cand_id": "coding_15_loose_prose_c2",
+   "source": "v2_gen"
+  },
+  "coding_15_loose_verse": {
+   "sha256": "51b0d9b08cbaa63c2529cb83bd119427c255b65d5840f2756628557787d9c9e3",
+   "cand_id": "coding_15_loose_verse_c3",
+   "source": "v1_reuse"
+  },
+  "coding_15_tight_prose": {
+   "sha256": "81f2d8aabad0502ae2a74c0d6697ab7366ae00e4f25bb4f918e4fa099b8e4fb5",
+   "cand_id": "coding_15_tight_prose_c1",
+   "source": "v1_reuse"
+  },
+  "coding_15_tight_verse": {
+   "sha256": "744bb37245857d15728e55a15c1e8bd466bd72345f768c23b1e2d268a516652b",
+   "cand_id": "coding_15_tight_verse_c1",
+   "source": "v2_gen"
+  },
+  "coding_16_loose_prose": {
+   "sha256": "d79b4e2ac5293ce52920dd346988baea86ca11cf9cfe781a9eb2e1546d70737e",
+   "cand_id": "coding_16_loose_prose_c3",
+   "source": "v2_gen"
+  },
+  "coding_16_loose_verse": {
+   "sha256": "a5bb17eba918309b74bdd3fc904d9cbdbf495d72bccea193f974b946c7ff092f",
+   "cand_id": "coding_16_loose_verse_c3",
+   "source": "v1_reuse"
+  },
+  "coding_16_tight_prose": {
+   "sha256": "cc74462b0e5119206a40d30fc0657e3240c0c74c8f1c90c10250a82971b00b1f",
+   "cand_id": "coding_16_tight_prose_c1",
+   "source": "v1_reuse"
+  },
+  "coding_16_tight_verse": {
+   "sha256": "54273fbb7862114c6c43feeea9639762948bddffe64c9c61664d0db02f9bdd07",
+   "cand_id": "coding_16_tight_verse_c1",
+   "source": "v2_gen"
+  },
+  "coding_17_loose_prose": {
+   "sha256": "33f8dff713d421a1cae2219053fb81a09415a9c97f1d7355e5cd65159cb5ee28",
+   "cand_id": "coding_17_loose_prose_c1",
+   "source": "v2_gen"
+  },
+  "coding_17_loose_verse": {
+   "sha256": "744c2d92e00088c1201d668ceafb9f34ca4b1c8c80a3a55195656e6280d1b779",
+   "cand_id": "coding_17_loose_verse_c3",
+   "source": "v1_reuse"
+  },
+  "coding_17_tight_prose": {
+   "sha256": "61f3fab8c7ad0aef94a483556cec20a2b1e07bcfcef46374c2f4c4a4e6d15b1c",
+   "cand_id": "coding_17_tight_prose_c2",
+   "source": "v1_reuse"
+  },
+  "coding_17_tight_verse": {
+   "sha256": "592cf73b793ebf32b050a5afe866dfe96788f04ab511dbc3be4c095945fd496c",
+   "cand_id": "coding_17_tight_verse_c1",
+   "source": "v2_gen"
+  },
+  "coding_18_loose_prose": {
+   "sha256": "654b498f11f39ad6ce5daafcc7cb3d914fec6f4af59735f052333ec0c20d15e5",
+   "cand_id": "coding_18_loose_prose_c1",
+   "source": "v2_gen"
+  },
+  "coding_18_loose_verse": {
+   "sha256": "bd1aff52f8846fa7246c6483e2878747ba46e5b2cdd7a846b41042f07f3452d0",
+   "cand_id": "coding_18_loose_verse_c3",
+   "source": "v2_gen"
+  },
+  "coding_18_tight_prose": {
+   "sha256": "5a244297d68845d0045a7a1046aede38e4913c383b7d2690307118ce535e601d",
+   "cand_id": "coding_18_tight_prose_c2",
+   "source": "v1_reuse"
+  },
+  "coding_18_tight_verse": {
+   "sha256": "c288a9d81958fa84d855f85622853597b2923d40b83789e09fa9bd805ccc3690",
+   "cand_id": "coding_18_tight_verse_c1",
+   "source": "v2_gen"
+  },
+  "coding_19_loose_prose": {
+   "sha256": "e26191a88f4eb52a4f100a1c94b2c73e291f64b3013dc454ed5cfb9427db0e7e",
+   "cand_id": "coding_19_loose_prose_c1",
+   "source": "v2_gen"
+  },
+  "coding_19_loose_verse": {
+   "sha256": "684c313b2fbd8d591e064ec6c68798de2bb42b9167786e6296278b808b39b7b9",
+   "cand_id": "coding_19_loose_verse_c3",
+   "source": "v1_reuse"
+  },
+  "coding_19_tight_prose": {
+   "sha256": "2c962289964d74ef958b3f28c86b4000a3c02b58146dad678b896c9f8affd766",
+   "cand_id": "coding_19_tight_prose_c2",
+   "source": "v1_reuse"
+  },
+  "coding_19_tight_verse": {
+   "sha256": "2d26bd10bd114814581d2c8e11c1828a280c36cb86768f90d6fe53a54b5ebd90",
+   "cand_id": "coding_19_tight_verse_c3",
+   "source": "v2_gen"
+  },
+  "coding_20_loose_prose": {
+   "sha256": "108fa870e11eb9af588cb093e5ed47867c00382a6e1cc056f2e8b6c23d6b89e6",
+   "cand_id": "coding_20_loose_prose_c2",
+   "source": "v2_gen"
+  },
+  "coding_20_loose_verse": {
+   "sha256": "aed29a00a7f3c300562c73cf959f892599824f739f7871abf327a3f3bf71509e",
+   "cand_id": "coding_20_loose_verse_c1",
+   "source": "v1_reuse"
+  },
+  "coding_20_tight_prose": {
+   "sha256": "d7685a60b373f5f56b6e7ef1f2e126c8a8264dce6421fbc90fb08c2e7d39d8b7",
+   "cand_id": "coding_20_tight_prose_c2",
+   "source": "v1_reuse"
+  },
+  "coding_20_tight_verse": {
+   "sha256": "ac47a8ced864d115d20cc699f7ec723c158c52aa09444f4eb5afb1cdf4e725f5",
+   "cand_id": "coding_20_tight_verse_c1",
+   "source": "v2_gen"
+  },
+  "coding_21_loose_prose": {
+   "sha256": "48fe32502a3f8bf09a5a4185ca52945c1e20fd5e11b6d4c2ac3b02e1bf1cedef",
+   "cand_id": "coding_21_loose_prose_c2",
+   "source": "v2_gen"
+  },
+  "coding_21_loose_verse": {
+   "sha256": "0892efc8cdcb921d8275e670b7973824adb49d753aa7c1e7feb7be37c9a21457",
+   "cand_id": "coding_21_loose_verse_c2",
+   "source": "v1_reuse"
+  },
+  "coding_21_tight_prose": {
+   "sha256": "1fb69cb203083e2ab9b9779eb5654515a2ee3ea4982e147ca360042bb71ff516",
+   "cand_id": "coding_21_tight_prose_c1",
+   "source": "v1_reuse"
+  },
+  "coding_21_tight_verse": {
+   "sha256": "776a01ea785ee2a73cf0f54e167f22e1df33160f67b842f8ab9c1b07286fa989",
+   "cand_id": "coding_21_tight_verse_c1",
+   "source": "v2_gen"
+  },
+  "coding_22_loose_prose": {
+   "sha256": "41e59b66faca3740837a1ce4f18144753bd73c3d2d47c56931f340e513a118a0",
+   "cand_id": "coding_22_loose_prose_c2",
+   "source": "v2_gen"
+  },
+  "coding_22_loose_verse": {
+   "sha256": "ba5cd608d7adf8da10f9f1c61cc24fe441297bfd535830f87c0817e4d72792af",
+   "cand_id": "coding_22_loose_verse_c1",
+   "source": "v1_reuse"
+  },
+  "coding_22_tight_prose": {
+   "sha256": "6c3b581000b3ea6c63b2722b275f50597277ce24c67a79cbcd2c5df2b0493fdf",
+   "cand_id": "coding_22_tight_prose_c3",
+   "source": "v1_reuse"
+  },
+  "coding_22_tight_verse": {
+   "sha256": "8ecf01a6b31243478e2e8ac4ae88551d1c43de3d65af6fd6f510d71ac7861e1e",
+   "cand_id": "coding_22_tight_verse_c2",
+   "source": "v2_gen"
+  },
+  "coding_23_loose_prose": {
+   "sha256": "c0abd625add0c3a99c08eeb3282d5367a77d10e7c8513ada7b00293f2f94edcb",
+   "cand_id": "coding_23_loose_prose_c3",
+   "source": "v2_gen"
+  },
+  "coding_23_loose_verse": {
+   "sha256": "8ae9c224021411e45d778518476e070a60699616496aa954b35adc5b91720fc7",
+   "cand_id": "coding_23_loose_verse_c1",
+   "source": "v1_reuse"
+  },
+  "coding_23_tight_prose": {
+   "sha256": "f509a08829f27597a4551a3a7109980db6e3d5dedb24af0903824315d6c44cdb",
+   "cand_id": "coding_23_tight_prose_c2",
+   "source": "v1_reuse"
+  },
+  "coding_23_tight_verse": {
+   "sha256": "8c752572bda9cc9d2c75856ded8faf0f6c272a349bddb9b40efa1fd1d0d91cb0",
+   "cand_id": "coding_23_tight_verse_c3",
+   "source": "v2_gen"
+  },
+  "coding_24_loose_prose": {
+   "sha256": "b9e7dc512fc66278d1eac798649df5029927f6cb99a5b347c3e8dcdf269c0d5c",
+   "cand_id": "coding_24_loose_prose_c2",
+   "source": "v2_gen"
+  },
+  "coding_24_loose_verse": {
+   "sha256": "563b768ace5b9873b7de17405a04ebf7d477e6d71a81df6916821a8aacb52bbc",
+   "cand_id": "coding_24_loose_verse_c2",
+   "source": "v1_reuse"
+  },
+  "coding_24_tight_prose": {
+   "sha256": "d295c991544c2bc7e70f855322332d18b8608e05b080cb7f5aed6e0d553bfeca",
+   "cand_id": "coding_24_tight_prose_c3",
+   "source": "v2_gen"
+  },
+  "coding_24_tight_verse": {
+   "sha256": "2389164b7489104ec4e1d111addda6f348af95f0718fad71448841e54c0911b4",
+   "cand_id": "coding_24_tight_verse_c3",
+   "source": "v2_gen"
+  },
+  "philosophy_of_ai_01_loose_prose": {
+   "sha256": "eae709f20f1593c041f67748024424532d62e612483ff81ec556fab1fd07d7e3",
+   "cand_id": "philosophy_of_ai_01_loose_prose_c2",
+   "source": "v2_gen"
+  },
+  "philosophy_of_ai_01_loose_verse": {
+   "sha256": "d040d78d0276ea89572e0868281ff545835e8684a3757d8997a6521f259c3481",
+   "cand_id": "philosophy_of_ai_01_loose_verse_c2",
+   "source": "v1_reuse"
+  },
+  "philosophy_of_ai_01_tight_prose": {
+   "sha256": "53429d031515cc3ea034a0742c4dd4b50d76eec3a2377e3a2449471913adb747",
+   "cand_id": "philosophy_of_ai_01_tight_prose_c2",
+   "source": "v1_reuse"
+  },
+  "philosophy_of_ai_01_tight_verse": {
+   "sha256": "bec2af77f4768d9710d562e913cf0077ac0165bea929444a01152b55b97a5d33",
+   "cand_id": "philosophy_of_ai_01_tight_verse_c1",
+   "source": "v2_gen"
+  },
+  "philosophy_of_ai_02_loose_prose": {
+   "sha256": "217c2803ff1f165541197df8d0de8fa13527cab3dd3fd39058fe9e713cc8b0da",
+   "cand_id": "philosophy_of_ai_02_loose_prose_c2",
+   "source": "v2_gen"
+  },
+  "philosophy_of_ai_02_loose_verse": {
+   "sha256": "ccc2d76b166aabe0b8f9fea32e33e867639468c00be751bf5b694379956fbcae",
+   "cand_id": "philosophy_of_ai_02_loose_verse_c2",
+   "source": "v1_reuse"
+  },
+  "philosophy_of_ai_02_tight_prose": {
+   "sha256": "65ce23b50bbbc2554ea51a8459752fe62d9e9bedd72e640a69fc917b7432fad5",
+   "cand_id": "philosophy_of_ai_02_tight_prose_c2",
+   "source": "v1_reuse"
+  },
+  "philosophy_of_ai_02_tight_verse": {
+   "sha256": "94f540c1e0e6c204fc06ae5db5434ac2d717a83bb6214b43e807ccfda677ea0b",
+   "cand_id": "philosophy_of_ai_02_tight_verse_c2",
+   "source": "v2_gen"
+  },
+  "philosophy_of_ai_03_loose_prose": {
+   "sha256": "4d8ecad248c6a604087dfe6e676eeaf33ee4ac6792bae6027dd6369e2289ae76",
+   "cand_id": "philosophy_of_ai_03_loose_prose_c2",
+   "source": "v2_gen"
+  },
+  "philosophy_of_ai_03_loose_verse": {
+   "sha256": "e773cd7d6ab680518b5533ac25b46429b3992ce3b879ec320ab35a68f09750e4",
+   "cand_id": "philosophy_of_ai_03_loose_verse_c2",
+   "source": "v1_reuse"
+  },
+  "philosophy_of_ai_03_tight_prose": {
+   "sha256": "dd48a912a8bf826b1c67498f2296815ad62d6e61a0660b296c1b7c9278ed0645",
+   "cand_id": "philosophy_of_ai_03_tight_prose_c3",
+   "source": "v1_reuse"
+  },
+  "philosophy_of_ai_03_tight_verse": {
+   "sha256": "5902e5cb58a835d8dcfd21402ff14140818b4272e50057cde9d5802457c3b98e",
+   "cand_id": "philosophy_of_ai_03_tight_verse_c1",
+   "source": "v2_gen"
+  },
+  "philosophy_of_ai_04_loose_prose": {
+   "sha256": "5aa12ef02a8014d1b1ce21c4b1b65a43865b8a263125dc31f26a8cf7194b9904",
+   "cand_id": "philosophy_of_ai_04_loose_prose_c2",
+   "source": "v2_gen"
+  },
+  "philosophy_of_ai_04_loose_verse": {
+   "sha256": "10c989339c6103285604ddf7c4f168e5e60e9ed35d990a1d8792a4abdf1af49e",
+   "cand_id": "philosophy_of_ai_04_loose_verse_c1",
+   "source": "v1_reuse"
+  },
+  "philosophy_of_ai_04_tight_prose": {
+   "sha256": "7e6ae16267ff1b0ee073c4c859b2a125ca06a299f59c00d08d2ddb0c1d9de60d",
+   "cand_id": "philosophy_of_ai_04_tight_prose_c2",
+   "source": "v1_reuse"
+  },
+  "philosophy_of_ai_04_tight_verse": {
+   "sha256": "1180d0fcbbca8b30ccbfa7d443ef2d88ef959b631ccfc2b08d74c5ac456d9c7c",
+   "cand_id": "philosophy_of_ai_04_tight_verse_c2",
+   "source": "v2_gen"
+  },
+  "philosophy_of_ai_05_loose_prose": {
+   "sha256": "ee664e37813721c4fd16adf1e282213010e79ba87b9f509fab2eb5e197a9a011",
+   "cand_id": "philosophy_of_ai_05_loose_prose_c2",
+   "source": "v2_gen"
+  },
+  "philosophy_of_ai_05_loose_verse": {
+   "sha256": "92f632463818df808f7a9f3f2c10b17d635f229ed18a536ad411add6f10f33cf",
+   "cand_id": "philosophy_of_ai_05_loose_verse_c3",
+   "source": "v2_gen"
+  },
+  "philosophy_of_ai_05_tight_prose": {
+   "sha256": "b851a8a916a6a5ba1ddd2202d932800eedc3fc3dd1e181399a8411a6e9c62941",
+   "cand_id": "philosophy_of_ai_05_tight_prose_c2",
+   "source": "v1_reuse"
+  },
+  "philosophy_of_ai_05_tight_verse": {
+   "sha256": "6c9e8f9cae02d90cb021680afd6b50b1c21ca2a7d76759b497d267a97e83ff20",
+   "cand_id": "philosophy_of_ai_05_tight_verse_c3",
+   "source": "v2_gen"
+  },
+  "philosophy_of_ai_06_loose_prose": {
+   "sha256": "b96b13ba6f0b517a7bfb7c16a3f5a648558633dfc122553d520226f29c0e7772",
+   "cand_id": "philosophy_of_ai_06_loose_prose_c2",
+   "source": "v2_gen"
+  },
+  "philosophy_of_ai_06_loose_verse": {
+   "sha256": "1365d8967d933a26412dec6954d689dab133f87954a166d87bb33d24976cfcd7",
+   "cand_id": "philosophy_of_ai_06_loose_verse_c3",
+   "source": "v1_reuse"
+  },
+  "philosophy_of_ai_06_tight_prose": {
+   "sha256": "7de6ba0029da0f5273b462fb7563eb3bb2dfdabf6af9471a77671dd8553ddf0b",
+   "cand_id": "philosophy_of_ai_06_tight_prose_c3",
+   "source": "v2_gen"
+  },
+  "philosophy_of_ai_06_tight_verse": {
+   "sha256": "f6fd2d88b89ea12e6e77c4bff6cd70014235ef7a681f4d8b1b30709fe3a998bc",
+   "cand_id": "philosophy_of_ai_06_tight_verse_c2",
+   "source": "v2_gen"
+  },
+  "philosophy_of_ai_07_loose_prose": {
+   "sha256": "961550ff6846a1eea66710017ac82d991fab45e71d82ef6b013ce1928e269199",
+   "cand_id": "philosophy_of_ai_07_loose_prose_c2",
+   "source": "v2_gen"
+  },
+  "philosophy_of_ai_07_loose_verse": {
+   "sha256": "ec69c7834616305bca0c0a3367f611585798ae976c0a9f040662877b7450448f",
+   "cand_id": "philosophy_of_ai_07_loose_verse_c2",
+   "source": "v1_reuse"
+  },
+  "philosophy_of_ai_07_tight_prose": {
+   "sha256": "9206dfaa07d10a2facba6a73715fa12363d8995355e22f5460b62e895cd58f21",
+   "cand_id": "philosophy_of_ai_07_tight_prose_c3",
+   "source": "v1_reuse"
+  },
+  "philosophy_of_ai_07_tight_verse": {
+   "sha256": "8f91ba9826f44bbb08f59f7f34515aa0dc165a121db2c1a00bc7c1eddc2c82ec",
+   "cand_id": "philosophy_of_ai_07_tight_verse_c1",
+   "source": "v2_gen"
+  },
+  "philosophy_of_ai_08_loose_prose": {
+   "sha256": "6b937b9651082757a4d855033e3c523dd7d3b24e3634b4fb18e9e63b3097e94d",
+   "cand_id": "philosophy_of_ai_08_loose_prose_c1",
+   "source": "v2_gen"
+  },
+  "philosophy_of_ai_08_loose_verse": {
+   "sha256": "8ab07d83d0028824d1b092ce7f1897cd92bc3fac1f4be72f62f19766c6fd997d",
+   "cand_id": "philosophy_of_ai_08_loose_verse_c2",
+   "source": "v1_reuse"
+  },
+  "philosophy_of_ai_08_tight_prose": {
+   "sha256": "69e73f7dd6182511a4432d547138b602035214c8929a7aeef65be2c0d78335be",
+   "cand_id": "philosophy_of_ai_08_tight_prose_c2",
+   "source": "v1_reuse"
+  },
+  "philosophy_of_ai_08_tight_verse": {
+   "sha256": "7b0a3db909a9180123892f589cdebe220de89417787aa96e5ce87ec83b379cd5",
+   "cand_id": "philosophy_of_ai_08_tight_verse_c1",
+   "source": "v2_gen"
+  },
+  "philosophy_of_ai_09_loose_prose": {
+   "sha256": "1ddfee8f8d47d62249772fc81eea05ffd005751601963aabda72325881fa810e",
+   "cand_id": "philosophy_of_ai_09_loose_prose_c2",
+   "source": "v2_gen"
+  },
+  "philosophy_of_ai_09_loose_verse": {
+   "sha256": "0245332807f31c7fd57c7bc4efe0a2335f05e6d09d1d915fa035a207a482f161",
+   "cand_id": "philosophy_of_ai_09_loose_verse_c1",
+   "source": "v1_reuse"
+  },
+  "philosophy_of_ai_09_tight_prose": {
+   "sha256": "a01e57d94aa1ca9520f43d9ecc6284a877b398bbb70e5ae433a8ab7823b98042",
+   "cand_id": "philosophy_of_ai_09_tight_prose_c2",
+   "source": "v1_reuse"
+  },
+  "philosophy_of_ai_09_tight_verse": {
+   "sha256": "523be0288d82edc55a6e9010a1b129b3b82b5d685b888b5e3db9f969d4b52a6b",
+   "cand_id": "philosophy_of_ai_09_tight_verse_c1",
+   "source": "v2_gen"
+  },
+  "philosophy_of_ai_10_loose_prose": {
+   "sha256": "611a1da783dc7da1fbae8d6ef3ffb873fa541b8fba15e15d6f045007444cf22f",
+   "cand_id": "philosophy_of_ai_10_loose_prose_c2",
+   "source": "v2_gen"
+  },
+  "philosophy_of_ai_10_loose_verse": {
+   "sha256": "87524036b907e5eb38222d17776bc76c874a743196a4016f5e21f78e2edc9643",
+   "cand_id": "philosophy_of_ai_10_loose_verse_c3",
+   "source": "v1_reuse"
+  },
+  "philosophy_of_ai_10_tight_prose": {
+   "sha256": "e704056ac409fbe64adcf7073ef5da9c7cac226ac5dda9ebd7d8b110ca7bd28e",
+   "cand_id": "philosophy_of_ai_10_tight_prose_c2",
+   "source": "v1_reuse"
+  },
+  "philosophy_of_ai_10_tight_verse": {
+   "sha256": "391132fb7e8b9d3ca2f2d07dad337ce4f8c5a071e5e0be86b59d968f12928718",
+   "cand_id": "philosophy_of_ai_10_tight_verse_c1",
+   "source": "v2_gen"
+  },
+  "philosophy_of_ai_11_loose_prose": {
+   "sha256": "a22a66813a847768a96e98ff5dcb74b44aefdb3717e4e29271f347c014e2e0b6",
+   "cand_id": "philosophy_of_ai_11_loose_prose_c2",
+   "source": "v2_gen"
+  },
+  "philosophy_of_ai_11_loose_verse": {
+   "sha256": "92c724b77d2d094692d8373c18059378bd77b7dbd7260be47d4ab966932c5620",
+   "cand_id": "philosophy_of_ai_11_loose_verse_c1",
+   "source": "v1_reuse"
+  },
+  "philosophy_of_ai_11_tight_prose": {
+   "sha256": "1074c3f84dce2606002b6bd59e41689d26f7aaebf3c0ff4794a333af95b9fec9",
+   "cand_id": "philosophy_of_ai_11_tight_prose_c1",
+   "source": "v1_reuse"
+  },
+  "philosophy_of_ai_11_tight_verse": {
+   "sha256": "1b4dca4ca7246587aaa98656ce158db5b67ec6a07bcb911da166d6ec38f5c17b",
+   "cand_id": "philosophy_of_ai_11_tight_verse_c3",
+   "source": "v2_gen"
+  },
+  "philosophy_of_ai_12_loose_prose": {
+   "sha256": "23531beef2871eea8d98d84fb72cdc3aa2e96d22467f45c68a35c95c65451d80",
+   "cand_id": "philosophy_of_ai_12_loose_prose_c2",
+   "source": "v2_gen"
+  },
+  "philosophy_of_ai_12_loose_verse": {
+   "sha256": "74dcc45991ef06cc9b04f7d1e761ce9aadc4ba25dfa8d2719be964b6b4673aa6",
+   "cand_id": "philosophy_of_ai_12_loose_verse_c3",
+   "source": "v2_gen"
+  },
+  "philosophy_of_ai_12_tight_prose": {
+   "sha256": "9f7cb28ba8617e5c3acd7c3a84126be3928e0fbd071a401e39d68c519f05ef1b",
+   "cand_id": "philosophy_of_ai_12_tight_prose_c2",
+   "source": "v1_reuse"
+  },
+  "philosophy_of_ai_12_tight_verse": {
+   "sha256": "e7936d32c091a702cbdc83ab149ce1439afa3e2858f533e68b196516f1046334",
+   "cand_id": "philosophy_of_ai_12_tight_verse_c1",
+   "source": "v2_gen"
+  },
+  "philosophy_of_ai_13_loose_prose": {
+   "sha256": "e8e98cd7a30f165375c46310fa2d3dcac056625639040ab466670bfb25c93e70",
+   "cand_id": "philosophy_of_ai_13_loose_prose_c2",
+   "source": "v2_gen"
+  },
+  "philosophy_of_ai_13_loose_verse": {
+   "sha256": "ccf506207a4ab74026b7d2b44b881c8e28bf3259e8445f2162ca9fa7747cf34f",
+   "cand_id": "philosophy_of_ai_13_loose_verse_c2",
+   "source": "v1_reuse"
+  },
+  "philosophy_of_ai_13_tight_prose": {
+   "sha256": "2becd332a0aff89d2d62faf2e8f23cc3eb3e78dd9c83785d374f21e17e6f361a",
+   "cand_id": "philosophy_of_ai_13_tight_prose_c3",
+   "source": "v2_gen"
+  },
+  "philosophy_of_ai_13_tight_verse": {
+   "sha256": "8d9e93f224c1c10b725477590b2d0ff85556d6048d1b1ea26a08e4360110bb4d",
+   "cand_id": "philosophy_of_ai_13_tight_verse_c1",
+   "source": "v2_gen"
+  },
+  "philosophy_of_ai_14_loose_prose": {
+   "sha256": "433b082a8f25e4e57a330712d875d7ee4138c380aa6139587a0ede51bc0cfdef",
+   "cand_id": "philosophy_of_ai_14_loose_prose_c3",
+   "source": "v2_gen"
+  },
+  "philosophy_of_ai_14_loose_verse": {
+   "sha256": "4440f7e3b420934258005567d33c5c3178c125130ea2267f7fd59be739a42cbb",
+   "cand_id": "philosophy_of_ai_14_loose_verse_c2",
+   "source": "v1_reuse"
+  },
+  "philosophy_of_ai_14_tight_prose": {
+   "sha256": "1b5941a1db4edee42c91886b2e283076cbe54c29c80275f243c62c72ad975096",
+   "cand_id": "philosophy_of_ai_14_tight_prose_c2",
+   "source": "v1_reuse"
+  },
+  "philosophy_of_ai_14_tight_verse": {
+   "sha256": "7ab78190237a14261828f9c6ee3b55b78d6f471329e2ebedf2f4084284d32424",
+   "cand_id": "philosophy_of_ai_14_tight_verse_c1",
+   "source": "v2_gen"
+  },
+  "philosophy_of_ai_15_loose_prose": {
+   "sha256": "74d8bd1c264436209dbfa0ceb5f84b0b6941dbae0589a2b9845ed9c71644a0da",
+   "cand_id": "philosophy_of_ai_15_loose_prose_c3",
+   "source": "v2_gen"
+  },
+  "philosophy_of_ai_15_loose_verse": {
+   "sha256": "da3c819c11613db18e348d2c388b162efa3f83f7c653ef411496d2ca7735d9b0",
+   "cand_id": "philosophy_of_ai_15_loose_verse_c3",
+   "source": "v1_reuse"
+  },
+  "philosophy_of_ai_15_tight_prose": {
+   "sha256": "27f0b75144340001fb4b948638c81b57ac28d58846964340776766f00a2ac43b",
+   "cand_id": "philosophy_of_ai_15_tight_prose_c3",
+   "source": "v1_reuse"
+  },
+  "philosophy_of_ai_15_tight_verse": {
+   "sha256": "9f6acdcfd66ef17fbc5857736bd3d223c65e7f6b50e6757f4541087381f3c581",
+   "cand_id": "philosophy_of_ai_15_tight_verse_c2",
+   "source": "v2_gen"
+  },
+  "philosophy_of_ai_16_loose_prose": {
+   "sha256": "d105c3a75b483de559ec673872f634153a0d3e87c7f94ab8b5c1f32618eb4019",
+   "cand_id": "philosophy_of_ai_16_loose_prose_c2",
+   "source": "v2_gen"
+  },
+  "philosophy_of_ai_16_loose_verse": {
+   "sha256": "6d2d3969cddc344427e8949919a29f45499bd702bb6cae2f83c7b050d0093103",
+   "cand_id": "philosophy_of_ai_16_loose_verse_c3",
+   "source": "v1_reuse"
+  },
+  "philosophy_of_ai_16_tight_prose": {
+   "sha256": "4a31b12b6d998ee2dc9a4483cad9fa7ae83fa09ef707d18a3b0577d8c6be3b2e",
+   "cand_id": "philosophy_of_ai_16_tight_prose_c3",
+   "source": "v1_reuse"
+  },
+  "philosophy_of_ai_16_tight_verse": {
+   "sha256": "5349e37338e843c69e38c09a5eae7e7f7d3aa4745fe1c7752e179cf727440bd9",
+   "cand_id": "philosophy_of_ai_16_tight_verse_c3",
+   "source": "v2_gen"
+  },
+  "philosophy_of_ai_17_loose_prose": {
+   "sha256": "d5b94b0f06ce84d93477d35cb545f8bc1478b1079b2f762eba66083c0345240f",
+   "cand_id": "philosophy_of_ai_17_loose_prose_c2",
+   "source": "v2_gen"
+  },
+  "philosophy_of_ai_17_loose_verse": {
+   "sha256": "bf169f6fa7df8eef8b113552289bacd3cec9fbba83838bdf7139f9de5fc6878b",
+   "cand_id": "philosophy_of_ai_17_loose_verse_c3",
+   "source": "v1_reuse"
+  },
+  "philosophy_of_ai_17_tight_prose": {
+   "sha256": "c0930fe09463b2e7c4f92038ad4e829023951afb6cf1798b72ccbd2caf18ef05",
+   "cand_id": "philosophy_of_ai_17_tight_prose_c3",
+   "source": "v1_reuse"
+  },
+  "philosophy_of_ai_17_tight_verse": {
+   "sha256": "ce18cd89b4358b3d772e2de78ef1267a9ea75cb0daac9226c67fb71746ba6abe",
+   "cand_id": "philosophy_of_ai_17_tight_verse_c1",
+   "source": "v2_gen"
+  },
+  "philosophy_of_ai_18_loose_prose": {
+   "sha256": "04a436e95a60b5ac4b5a4ac094c1183d685a0654f8de4fe0f6faf35e9747f1a2",
+   "cand_id": "philosophy_of_ai_18_loose_prose_c2",
+   "source": "v2_gen"
+  },
+  "philosophy_of_ai_18_loose_verse": {
+   "sha256": "a34a2033eb3fe465b065743f544cc86413c8034cbd308b1b35bd98b96ccbaa37",
+   "cand_id": "philosophy_of_ai_18_loose_verse_c1",
+   "source": "v1_reuse"
+  },
+  "philosophy_of_ai_18_tight_prose": {
+   "sha256": "e9e1bb6e8776a816e92d5f72072d05908aff0708c5865f029d3b831305cd6e0b",
+   "cand_id": "philosophy_of_ai_18_tight_prose_c2",
+   "source": "v1_reuse"
+  },
+  "philosophy_of_ai_18_tight_verse": {
+   "sha256": "e2fef6f6e74986ade3d8af977db97772b1d38739899eed89a8d22dd5cbd896db",
+   "cand_id": "philosophy_of_ai_18_tight_verse_c2",
+   "source": "v2_gen"
+  },
+  "philosophy_of_ai_19_loose_prose": {
+   "sha256": "97896ad7a1f453465ed43c43ad694136c2d959eeb401b73bf96d795be582bd1b",
+   "cand_id": "philosophy_of_ai_19_loose_prose_c3",
+   "source": "v2_gen"
+  },
+  "philosophy_of_ai_19_loose_verse": {
+   "sha256": "776bb72f5e741e2d7263f1b2f571872dd34fa15baa5b3f62e8f298700e09899d",
+   "cand_id": "philosophy_of_ai_19_loose_verse_c1",
+   "source": "v1_reuse"
+  },
+  "philosophy_of_ai_19_tight_prose": {
+   "sha256": "cfe8e0b154734297397785bbed364176d2157f4d5becb81f41e3352e08b40fd9",
+   "cand_id": "philosophy_of_ai_19_tight_prose_c3",
+   "source": "v1_reuse"
+  },
+  "philosophy_of_ai_19_tight_verse": {
+   "sha256": "f50fbb76171ccb4eb8701b3ba614cfd30fba88ea4100671ddb4590cc3ed9ae73",
+   "cand_id": "philosophy_of_ai_19_tight_verse_c2",
+   "source": "v2_gen"
+  },
+  "philosophy_of_ai_20_loose_prose": {
+   "sha256": "07fff6590050a436301f342a07e55b7f2839a33c7b034a1df74ad74fb9383bf0",
+   "cand_id": "philosophy_of_ai_20_loose_prose_c1",
+   "source": "v2_gen"
+  },
+  "philosophy_of_ai_20_loose_verse": {
+   "sha256": "bcf2f89cdad13295130ac0c5fe1bcb64a4cf1965643fe40025d05f8086268d7d",
+   "cand_id": "philosophy_of_ai_20_loose_verse_c1",
+   "source": "v1_reuse"
+  },
+  "philosophy_of_ai_20_tight_prose": {
+   "sha256": "4ef2a487129ed9b199e5a031187e2d4fcec4b6b5b27402e5cb0e010db3311f3b",
+   "cand_id": "philosophy_of_ai_20_tight_prose_c3",
+   "source": "v1_reuse"
+  },
+  "philosophy_of_ai_20_tight_verse": {
+   "sha256": "e46214623e873bdc40cacfcfe933bb08b47f747ab589b14be437b0d710f7ad8b",
+   "cand_id": "philosophy_of_ai_20_tight_verse_c1",
+   "source": "v2_gen"
+  },
+  "philosophy_of_ai_21_loose_prose": {
+   "sha256": "0a53cde448b698a30101f2a858d92c8217cf58bfbfdbf856eb15ae228204e66a",
+   "cand_id": "philosophy_of_ai_21_loose_prose_c1",
+   "source": "v2_gen"
+  },
+  "philosophy_of_ai_21_loose_verse": {
+   "sha256": "251d8daad299341f95b60e029036e96c47ed981c1139493974d57afc243fb9db",
+   "cand_id": "philosophy_of_ai_21_loose_verse_c2",
+   "source": "v1_reuse"
+  },
+  "philosophy_of_ai_21_tight_prose": {
+   "sha256": "2ea280cade5251f9b6bce92a2be172043e28235df1203f6b306e0739c7ecaeb4",
+   "cand_id": "philosophy_of_ai_21_tight_prose_c3",
+   "source": "v1_reuse"
+  },
+  "philosophy_of_ai_21_tight_verse": {
+   "sha256": "2c9e76e6619106a05bf0f89875dc2e347928b94dd68cc74dda24f69ff4a779bc",
+   "cand_id": "philosophy_of_ai_21_tight_verse_c3",
+   "source": "v2_gen"
+  },
+  "philosophy_of_ai_22_loose_prose": {
+   "sha256": "a5ffb8b3c01d680baf8520bb19f32920d03081b3af1d49508458d89bfb2a8234",
+   "cand_id": "philosophy_of_ai_22_loose_prose_c2",
+   "source": "v2_gen"
+  },
+  "philosophy_of_ai_22_loose_verse": {
+   "sha256": "55819666d0ca93e334435d53bd493722a6d7264a527850b7e23c0d9f632118c8",
+   "cand_id": "philosophy_of_ai_22_loose_verse_c1",
+   "source": "v1_reuse"
+  },
+  "philosophy_of_ai_22_tight_prose": {
+   "sha256": "3b849161e81419380dbf986ff6a59badcf3868e63fd095504453f1a859edf513",
+   "cand_id": "philosophy_of_ai_22_tight_prose_c2",
+   "source": "v1_reuse"
+  },
+  "philosophy_of_ai_22_tight_verse": {
+   "sha256": "6d620f36dbc416af9808f13a961715a619e1956e63a00cb86577f7e77cb18ce6",
+   "cand_id": "philosophy_of_ai_22_tight_verse_c2",
+   "source": "v2_gen"
+  },
+  "philosophy_of_ai_23_loose_prose": {
+   "sha256": "41d94ee47bc9ded9a2ca91add0ea850c2c148fd0affa459f48df387b639b7796",
+   "cand_id": "philosophy_of_ai_23_loose_prose_c3",
+   "source": "v2_gen"
+  },
+  "philosophy_of_ai_23_loose_verse": {
+   "sha256": "c5c3ac9ac01a5b61810ec8c2601e26097ddaebfc9e1822de0ad91d5b702a5026",
+   "cand_id": "philosophy_of_ai_23_loose_verse_c3",
+   "source": "v1_reuse"
+  },
+  "philosophy_of_ai_23_tight_prose": {
+   "sha256": "529a5e1c5fcb22e035421371bdb6fb5652ae3e05a7ec6791643c743a697041c2",
+   "cand_id": "philosophy_of_ai_23_tight_prose_c2",
+   "source": "v1_reuse"
+  },
+  "philosophy_of_ai_23_tight_verse": {
+   "sha256": "e788581fa8054b6469fc73c01ced5a59f51c150aa5c51e5296683671f2f778d8",
+   "cand_id": "philosophy_of_ai_23_tight_verse_c1",
+   "source": "v2_gen"
+  },
+  "philosophy_of_ai_24_loose_prose": {
+   "sha256": "3e677869d6392f265c22cc0b487bb04c6a26b6e7982277a5d5913e16b08e4fb8",
+   "cand_id": "philosophy_of_ai_24_loose_prose_c1",
+   "source": "v2_gen"
+  },
+  "philosophy_of_ai_24_loose_verse": {
+   "sha256": "33a997d2c08b57429991297799e44ae3f18ccddf69c3b411f4cc5b5160006625",
+   "cand_id": "philosophy_of_ai_24_loose_verse_c2",
+   "source": "v1_reuse"
+  },
+  "philosophy_of_ai_24_tight_prose": {
+   "sha256": "1f23ac66e5411b0cdd7f9c60a2fd7e85f4f3044cd4f047e388b70b5f76e5043b",
+   "cand_id": "philosophy_of_ai_24_tight_prose_c2",
+   "source": "v1_reuse"
+  },
+  "philosophy_of_ai_24_tight_verse": {
+   "sha256": "ff2f9913e7cab3aa587fcb705cc6d82ff59f3c62104d9d28b72be0c0bef5acdf",
+   "cand_id": "philosophy_of_ai_24_tight_verse_c1",
+   "source": "v2_gen"
+  },
+  "therapy_like_01_loose_prose": {
+   "sha256": "460ee60cea173cd4fbd69917b1a29e6521451db0a37e93418d0e80f383901cc7",
+   "cand_id": "therapy_like_01_loose_prose_c3",
+   "source": "v2_gen"
+  },
+  "therapy_like_01_loose_verse": {
+   "sha256": "3cd97b67cffefa57f2c4d116b09e649fb1cfdaa3536b54934911742ddae3f152",
+   "cand_id": "therapy_like_01_loose_verse_c3",
+   "source": "v1_reuse"
+  },
+  "therapy_like_01_tight_prose": {
+   "sha256": "b980da930ce6ac6b85182f68147200018bbd2bcab9698e24828a737c6738e0d7",
+   "cand_id": "therapy_like_01_tight_prose_c2",
+   "source": "v1_reuse"
+  },
+  "therapy_like_01_tight_verse": {
+   "sha256": "fc9be5174e0a62c2e6275d7ce3d9c7de0bb50ec05a02943911b7a70da557652c",
+   "cand_id": "therapy_like_01_tight_verse_c3",
+   "source": "v2_gen"
+  },
+  "therapy_like_02_loose_prose": {
+   "sha256": "22426561919f32ae5c4f2334b9d66e98e398ec2cb9ba4683045e7ca7d6951689",
+   "cand_id": "therapy_like_02_loose_prose_c3",
+   "source": "v2_gen"
+  },
+  "therapy_like_02_loose_verse": {
+   "sha256": "8cd5dc3577206dd06b1686862520be90c516019cd51b1074f2a7236d03445ff7",
+   "cand_id": "therapy_like_02_loose_verse_c2",
+   "source": "v1_reuse"
+  },
+  "therapy_like_02_tight_prose": {
+   "sha256": "4c21b89039955e34bfe90a2464c8f72445857881410f27d416392cdaa733bbe8",
+   "cand_id": "therapy_like_02_tight_prose_c2",
+   "source": "v1_reuse"
+  },
+  "therapy_like_02_tight_verse": {
+   "sha256": "954b27b3c0269483ccb6a09cb2ee127120236cac73dd5b409999dc901af5a409",
+   "cand_id": "therapy_like_02_tight_verse_c2",
+   "source": "v2_gen"
+  },
+  "therapy_like_03_loose_prose": {
+   "sha256": "2b601bdc2bba29ac72886ffbdebe5f39b20823f7d35be4f8f3b918e235cce50e",
+   "cand_id": "therapy_like_03_loose_prose_c2",
+   "source": "v2_gen"
+  },
+  "therapy_like_03_loose_verse": {
+   "sha256": "44a8009252b652fcbe9ccf0b47a94dbd038bcdcbae1ae8baee19008ab5215e2e",
+   "cand_id": "therapy_like_03_loose_verse_c1",
+   "source": "v1_reuse"
+  },
+  "therapy_like_03_tight_prose": {
+   "sha256": "3c0b11e4f87e41bc875d1dff889051dd4f7301a40fa8911a1d44e24cd3de742c",
+   "cand_id": "therapy_like_03_tight_prose_c2",
+   "source": "v1_reuse"
+  },
+  "therapy_like_03_tight_verse": {
+   "sha256": "923637f2f8c19a121e895a7b6a93dec7b0be3c3e2a33287e876a4cbc7a281172",
+   "cand_id": "therapy_like_03_tight_verse_c3",
+   "source": "v2_gen"
+  },
+  "therapy_like_04_loose_prose": {
+   "sha256": "b30f5a9f040f13bc8461d3acd4f29075e9ef9af8173bef6565d1c02ecc08060c",
+   "cand_id": "therapy_like_04_loose_prose_c3",
+   "source": "v2_gen"
+  },
+  "therapy_like_04_loose_verse": {
+   "sha256": "a6744d86e7c981aec12cb53f00a2904d0d338cce17979ebeb471e1f20d8111b3",
+   "cand_id": "therapy_like_04_loose_verse_c1",
+   "source": "v1_reuse"
+  },
+  "therapy_like_04_tight_prose": {
+   "sha256": "feb6c10df2d3fe0dae0a4202341a28ccdef64c2935b8f8cde3a175a54eb0a854",
+   "cand_id": "therapy_like_04_tight_prose_c3",
+   "source": "v1_reuse"
+  },
+  "therapy_like_04_tight_verse": {
+   "sha256": "c6bde9ad7910b9811b56035b0b6c185f04ea58f9bd89d76c071f87911d36a4e5",
+   "cand_id": "therapy_like_04_tight_verse_c1",
+   "source": "v2_gen"
+  },
+  "therapy_like_05_loose_prose": {
+   "sha256": "4a012c0512645e0f71ee41abed4c37b2bfc5c5f65e1449ad5c36b7e806c7a321",
+   "cand_id": "therapy_like_05_loose_prose_c2",
+   "source": "v2_gen"
+  },
+  "therapy_like_05_loose_verse": {
+   "sha256": "f70907eabc1bc0adecc33a8f768265ca15291de8aa5cf297d50159074387e70b",
+   "cand_id": "therapy_like_05_loose_verse_c3",
+   "source": "v2_gen"
+  },
+  "therapy_like_05_tight_prose": {
+   "sha256": "dfa67199d7435c9b5fdf4df3a713c2d3847884eb4cd19219af608dffb1dedce1",
+   "cand_id": "therapy_like_05_tight_prose_c2",
+   "source": "v1_reuse"
+  },
+  "therapy_like_05_tight_verse": {
+   "sha256": "180f00c5c39205a0179f5fc741adf2114aecd633350775da847fae3c75394f17",
+   "cand_id": "therapy_like_05_tight_verse_c1",
+   "source": "v2_gen"
+  },
+  "therapy_like_06_loose_prose": {
+   "sha256": "b94eed3fb7000c4a1ef7c6617779f89aa394971b42f38fa5abc68e3f581568bc",
+   "cand_id": "therapy_like_06_loose_prose_c2",
+   "source": "v2_gen"
+  },
+  "therapy_like_06_loose_verse": {
+   "sha256": "3e1c49ef2f7c912839569f33b7fe8fa23faeb5a1b4890e8b054c62dd01d93457",
+   "cand_id": "therapy_like_06_loose_verse_c3",
+   "source": "v1_reuse"
+  },
+  "therapy_like_06_tight_prose": {
+   "sha256": "ac8f702718fabff346906f47d6ab188f1d077cb3ad6ebb7d1d0788a8a58edb37",
+   "cand_id": "therapy_like_06_tight_prose_c3",
+   "source": "v1_reuse"
+  },
+  "therapy_like_06_tight_verse": {
+   "sha256": "9bdd9c03eb61b11475e79c9267c7dfe077a27ff099d27f8c71faf8c1a683a117",
+   "cand_id": "therapy_like_06_tight_verse_c2",
+   "source": "v2_gen"
+  },
+  "therapy_like_07_loose_prose": {
+   "sha256": "d3a5948dc08ec4b24c970f965152ba83992572cf8f74b9ac24b3e158b2364355",
+   "cand_id": "therapy_like_07_loose_prose_c2",
+   "source": "v2_gen"
+  },
+  "therapy_like_07_loose_verse": {
+   "sha256": "e763987c0f23432604d2cc3e2c3bc956037026d7dec308e54cea0cdfedbed587",
+   "cand_id": "therapy_like_07_loose_verse_c3",
+   "source": "v1_reuse"
+  },
+  "therapy_like_07_tight_prose": {
+   "sha256": "f67d07598f0d092e17c213419768c8c275e6505167f0d5b826b3fcea59d7e295",
+   "cand_id": "therapy_like_07_tight_prose_c2",
+   "source": "v1_reuse"
+  },
+  "therapy_like_07_tight_verse": {
+   "sha256": "ecce3b9f941035630c5ab1c86807ae79c1db97436510c082632b58b0fbacd3c2",
+   "cand_id": "therapy_like_07_tight_verse_c3",
+   "source": "v2_gen"
+  },
+  "therapy_like_08_loose_prose": {
+   "sha256": "02b6c3da1579a1df039e356e35fa3f741d388d53e21d11b1bfcd29c15113a7a5",
+   "cand_id": "therapy_like_08_loose_prose_c2",
+   "source": "v2_gen"
+  },
+  "therapy_like_08_loose_verse": {
+   "sha256": "827ce7a60abc832a020a3366f75fe5db8704b70849df0007d9889fff5ca6a4c9",
+   "cand_id": "therapy_like_08_loose_verse_c3",
+   "source": "v2_gen"
+  },
+  "therapy_like_08_tight_prose": {
+   "sha256": "aa94adbfdf2729e85df43aeac9a596b71a4996a4832096d91576062ae128d88d",
+   "cand_id": "therapy_like_08_tight_prose_c3",
+   "source": "v1_reuse"
+  },
+  "therapy_like_08_tight_verse": {
+   "sha256": "3e746417e574039b8f237e89312fe783bebe9501e7b7c0d996247c053cd55584",
+   "cand_id": "therapy_like_08_tight_verse_c3",
+   "source": "v2_gen"
+  },
+  "therapy_like_09_loose_prose": {
+   "sha256": "ba131cc085421a81ed889651190e798c0c877fcb75f870e03da45f328a868eae",
+   "cand_id": "therapy_like_09_loose_prose_c2",
+   "source": "v2_gen"
+  },
+  "therapy_like_09_loose_verse": {
+   "sha256": "2852aabdb8093eec1fb77b7bdd14d8415ec6289fdb48f58b2f582ca76a911e66",
+   "cand_id": "therapy_like_09_loose_verse_c2",
+   "source": "v1_reuse"
+  },
+  "therapy_like_09_tight_prose": {
+   "sha256": "351b99f997591c225b169bf2b424a8b7412ac718e2e2febdc4eb16c43bfedd3f",
+   "cand_id": "therapy_like_09_tight_prose_c1",
+   "source": "v1_reuse"
+  },
+  "therapy_like_09_tight_verse": {
+   "sha256": "ee968b0aa4408cce0aa5012652cbf75265cbdfa5c6ea49db386ed5fef0b17009",
+   "cand_id": "therapy_like_09_tight_verse_c1",
+   "source": "v2_gen"
+  },
+  "therapy_like_10_loose_prose": {
+   "sha256": "c715fbc59d7ca128ad19821f76899bb29cdc176c56c82f5487715a4d37e57462",
+   "cand_id": "therapy_like_10_loose_prose_c3",
+   "source": "v2_gen"
+  },
+  "therapy_like_10_loose_verse": {
+   "sha256": "a795a5c3ad9a5343e4e6ca762b8eea5467e84aad4703a7453144c3a0cf648af1",
+   "cand_id": "therapy_like_10_loose_verse_c3",
+   "source": "v1_reuse"
+  },
+  "therapy_like_10_tight_prose": {
+   "sha256": "070cb362e73e35aed85e47d98e3dde4bb8257959ad18c5fce1a7621b5bcff9c1",
+   "cand_id": "therapy_like_10_tight_prose_c2",
+   "source": "v1_reuse"
+  },
+  "therapy_like_10_tight_verse": {
+   "sha256": "9b90a91d6014423e04c5157ae0f4352621caef9bf49723eea0ad914bb4940a91",
+   "cand_id": "therapy_like_10_tight_verse_c2",
+   "source": "v2_gen"
+  },
+  "therapy_like_11_loose_prose": {
+   "sha256": "a60f007ea87a2561a900987a52d24cf73515933e8abad351e33d589c33c4edca",
+   "cand_id": "therapy_like_11_loose_prose_c3",
+   "source": "v2_gen"
+  },
+  "therapy_like_11_loose_verse": {
+   "sha256": "50863e289b388daaff10731021163e65a5755114bd8f32e4acdf648180c6217f",
+   "cand_id": "therapy_like_11_loose_verse_c3",
+   "source": "v1_reuse"
+  },
+  "therapy_like_11_tight_prose": {
+   "sha256": "c934a7befb3c0edccea1d6511c022f0ffe199f608a7930bca53e2ac53e4331cd",
+   "cand_id": "therapy_like_11_tight_prose_c3",
+   "source": "v2_gen"
+  },
+  "therapy_like_11_tight_verse": {
+   "sha256": "c97017b8a7dcb51b05c843dfeabacc9ffe32aa5812193cf9e859888dc19c0ddf",
+   "cand_id": "therapy_like_11_tight_verse_c1",
+   "source": "v2_gen"
+  },
+  "therapy_like_12_loose_prose": {
+   "sha256": "cb87cdf07570b544a24d50cb5cf8ebc0a1a2de4bfccab06695b118f5c15f9afe",
+   "cand_id": "therapy_like_12_loose_prose_c3",
+   "source": "v2_gen"
+  },
+  "therapy_like_12_loose_verse": {
+   "sha256": "179c349f3a4ebeee7f7d6b7c858b42657246e8035708ef28114481366cbf8194",
+   "cand_id": "therapy_like_12_loose_verse_c3",
+   "source": "v2_gen"
+  },
+  "therapy_like_12_tight_prose": {
+   "sha256": "3f38dc3295189ed7995426f97947a26c946ec04879dcf76ae359f99dd0e052ab",
+   "cand_id": "therapy_like_12_tight_prose_c1",
+   "source": "v1_reuse"
+  },
+  "therapy_like_12_tight_verse": {
+   "sha256": "3e4afe607ee23e2aba12539c8a229244955234b9ba01425dfd5be0e2568a09ad",
+   "cand_id": "therapy_like_12_tight_verse_c2",
+   "source": "v2_gen"
+  },
+  "therapy_like_13_loose_prose": {
+   "sha256": "623eebb5384f30451a1ed24da0b2389cad24a78523a5c69e4df528bc53526ccd",
+   "cand_id": "therapy_like_13_loose_prose_c3",
+   "source": "v2_gen"
+  },
+  "therapy_like_13_loose_verse": {
+   "sha256": "d5fcee40aad7495651af2fce132ad4b0ec8b5806d2ac6930b693f922154589e4",
+   "cand_id": "therapy_like_13_loose_verse_c3",
+   "source": "v1_reuse"
+  },
+  "therapy_like_13_tight_prose": {
+   "sha256": "ddcc9220759405b7bea29f4b7d8d5f40a4f9120cf6bc7c41cbd3a10d1b5d9a19",
+   "cand_id": "therapy_like_13_tight_prose_c2",
+   "source": "v1_reuse"
+  },
+  "therapy_like_13_tight_verse": {
+   "sha256": "996c10b6def1f3be621aa8c1eccce12b241d428fd7ed7359aeb2c3e844ef489e",
+   "cand_id": "therapy_like_13_tight_verse_c1",
+   "source": "v2_gen"
+  },
+  "therapy_like_14_loose_prose": {
+   "sha256": "d7c7b93747e6ecde8962015c4f1a9f0bd5ce747742e7e68d9fcc292323034f91",
+   "cand_id": "therapy_like_14_loose_prose_c2",
+   "source": "v2_gen"
+  },
+  "therapy_like_14_loose_verse": {
+   "sha256": "ecdb9f9cd5552362640f9b9519605ccfd261e223cd480b8313550a1960e624bb",
+   "cand_id": "therapy_like_14_loose_verse_c3",
+   "source": "v1_reuse"
+  },
+  "therapy_like_14_tight_prose": {
+   "sha256": "846850bd21b5092ef18fe4bbd8b9540977a60d07a7cc63cb316a5aa61984d05a",
+   "cand_id": "therapy_like_14_tight_prose_c3",
+   "source": "v1_reuse"
+  },
+  "therapy_like_14_tight_verse": {
+   "sha256": "b0638835cd384864a789a82082b239925174cd9ba856a4cd07d57a04960d4499",
+   "cand_id": "therapy_like_14_tight_verse_c3",
+   "source": "v2_gen"
+  },
+  "therapy_like_15_loose_prose": {
+   "sha256": "dc88b4a25941f2d8bf98fbb094f6a4977e146d3b469092447521d95b3bae2afe",
+   "cand_id": "therapy_like_15_loose_prose_c2",
+   "source": "v2_gen"
+  },
+  "therapy_like_15_loose_verse": {
+   "sha256": "e055d8ad8b4e480670d770579ba73123b2ba9a288c61dd4bc43a7079388118c5",
+   "cand_id": "therapy_like_15_loose_verse_c2",
+   "source": "v1_reuse"
+  },
+  "therapy_like_15_tight_prose": {
+   "sha256": "43558866f71c9d6e6713409ebef9b9b0f250a7ea2eed69b586b7df8819764db9",
+   "cand_id": "therapy_like_15_tight_prose_c2",
+   "source": "v1_reuse"
+  },
+  "therapy_like_15_tight_verse": {
+   "sha256": "a14f03a5ce168822bb968192f5aed3c9f97b5677626c1c0b77c20f8c906e1c34",
+   "cand_id": "therapy_like_15_tight_verse_c2",
+   "source": "v2_gen"
+  },
+  "therapy_like_16_loose_prose": {
+   "sha256": "c6f89588659011dbc927168ef84391fbffaf0c41a31b0e93a3f4f7fc6fb12ce1",
+   "cand_id": "therapy_like_16_loose_prose_c2",
+   "source": "v2_gen"
+  },
+  "therapy_like_16_loose_verse": {
+   "sha256": "62f8166a8aaffb0b4b7ca48a8a6813c2dc8a901df3e163cbf8751d19279419ea",
+   "cand_id": "therapy_like_16_loose_verse_c3",
+   "source": "v1_reuse"
+  },
+  "therapy_like_16_tight_prose": {
+   "sha256": "3737e3c30389aecaf1d763cb4700c812702d14c7e6ffd3f09e243eda56ceb352",
+   "cand_id": "therapy_like_16_tight_prose_c3",
+   "source": "v1_reuse"
+  },
+  "therapy_like_16_tight_verse": {
+   "sha256": "a7b1392aa2948e2c3bfb84cf3500c1ea50d97f1da8ffe4b8cca4305af1ed3f16",
+   "cand_id": "therapy_like_16_tight_verse_c3",
+   "source": "v2_gen"
+  },
+  "therapy_like_17_loose_prose": {
+   "sha256": "18ad4f87cd2efe06cfd6c9ef05e39c6dd637b1a0486faf44576c31bb7e9bb1b6",
+   "cand_id": "therapy_like_17_loose_prose_c2",
+   "source": "v2_gen"
+  },
+  "therapy_like_17_loose_verse": {
+   "sha256": "5c86791a5fc0268685e93111e8730815b48875d5745628da40b3c7910c023881",
+   "cand_id": "therapy_like_17_loose_verse_c3",
+   "source": "v1_reuse"
+  },
+  "therapy_like_17_tight_prose": {
+   "sha256": "3ccf3dda4e8c59473cd39aad515badc02701b557aa6a071bb222a8821863bcff",
+   "cand_id": "therapy_like_17_tight_prose_c3",
+   "source": "v1_reuse"
+  },
+  "therapy_like_17_tight_verse": {
+   "sha256": "3de75a61e25cf70baf993257f786efe33dfd281174d7bf0156b5f024732f0a95",
+   "cand_id": "therapy_like_17_tight_verse_c1",
+   "source": "v2_gen"
+  },
+  "therapy_like_18_loose_prose": {
+   "sha256": "8cda7cf8c072930c06ac2a2445a42ad38e9cfd765072498131e2a937983241c3",
+   "cand_id": "therapy_like_18_loose_prose_c2",
+   "source": "v2_gen"
+  },
+  "therapy_like_18_loose_verse": {
+   "sha256": "556b8b419604cb064aa7f1f87998e9a18b445703bd619d79aa489f7e44f7cda2",
+   "cand_id": "therapy_like_18_loose_verse_c3",
+   "source": "v1_reuse"
+  },
+  "therapy_like_18_tight_prose": {
+   "sha256": "f49cca877a93a801d27222c05919b2a67e63a99d4aaa4bc6255fe27f7d2e1e37",
+   "cand_id": "therapy_like_18_tight_prose_c2",
+   "source": "v1_reuse"
+  },
+  "therapy_like_18_tight_verse": {
+   "sha256": "6fde54e2ab2ba2b63446b699d3d61eaea16107c76c6d3f9f893fda46e12aaa51",
+   "cand_id": "therapy_like_18_tight_verse_c2",
+   "source": "v2_gen"
+  },
+  "therapy_like_19_loose_prose": {
+   "sha256": "c6762ac58d245ae683eb6dda364ef0e624d7ead6e55c589dede32a1b052466f5",
+   "cand_id": "therapy_like_19_loose_prose_c2",
+   "source": "v2_gen"
+  },
+  "therapy_like_19_loose_verse": {
+   "sha256": "bbf24a168961652ee1526dc350f8be2e96b841878daabe60acaeac262efd4c25",
+   "cand_id": "therapy_like_19_loose_verse_c1",
+   "source": "v1_reuse"
+  },
+  "therapy_like_19_tight_prose": {
+   "sha256": "9c43535c23fd5b6aec2d625eecbb041b11afb7ca49fadc16bcd66f88fcc6711d",
+   "cand_id": "therapy_like_19_tight_prose_c1",
+   "source": "v1_reuse"
+  },
+  "therapy_like_19_tight_verse": {
+   "sha256": "5b36ec87be76aaa4443d4f177e024519968550195e89d1a3b22b7690506e8525",
+   "cand_id": "therapy_like_19_tight_verse_c3",
+   "source": "v2_gen"
+  },
+  "therapy_like_20_loose_prose": {
+   "sha256": "93516178e07dc5c246c4df7f90786e4da3b1833f160864cdfa025ffbd18f7876",
+   "cand_id": "therapy_like_20_loose_prose_c2",
+   "source": "v2_gen"
+  },
+  "therapy_like_20_loose_verse": {
+   "sha256": "19763595b5cf20600a7631d64a6d0d365cd0740400166c7f50f6e658c4e84cb7",
+   "cand_id": "therapy_like_20_loose_verse_c3",
+   "source": "v1_reuse"
+  },
+  "therapy_like_20_tight_prose": {
+   "sha256": "e417594476303953bb65a4c08d0218505c35ffb8f4472b9ffbb320857fcd94eb",
+   "cand_id": "therapy_like_20_tight_prose_c2",
+   "source": "v1_reuse"
+  },
+  "therapy_like_20_tight_verse": {
+   "sha256": "4dd454ac5a9e4b1242e7066b8b4c0ca3d81cd799e5f9aa74fba614e9afce8f21",
+   "cand_id": "therapy_like_20_tight_verse_c1",
+   "source": "v2_gen"
+  },
+  "therapy_like_21_loose_prose": {
+   "sha256": "56f9ff40bb9998e516c3a3ca99d899824e463ece47a29cc4ade77c5a3a6b1679",
+   "cand_id": "therapy_like_21_loose_prose_c1",
+   "source": "v2_gen"
+  },
+  "therapy_like_21_loose_verse": {
+   "sha256": "fd9e8df5b8769bda5c3d89ca44e63a259c929e5ba99d05c61a0cafdc219f0654",
+   "cand_id": "therapy_like_21_loose_verse_c3",
+   "source": "v1_reuse"
+  },
+  "therapy_like_21_tight_prose": {
+   "sha256": "115505bf9e7306327c9bf6674776bf2d28e0298a145f1b445e56737f95056f37",
+   "cand_id": "therapy_like_21_tight_prose_c1",
+   "source": "v1_reuse"
+  },
+  "therapy_like_21_tight_verse": {
+   "sha256": "5b663a018c231c510748fa40a3a4800a2c2f8796684d416afc549a239edfb278",
+   "cand_id": "therapy_like_21_tight_verse_c3",
+   "source": "v2_gen"
+  },
+  "therapy_like_22_loose_prose": {
+   "sha256": "7cbc18ad9a67101125bbfa4eea8b9171321c94a2f685c3409f22c194770dfe34",
+   "cand_id": "therapy_like_22_loose_prose_c3",
+   "source": "v2_gen"
+  },
+  "therapy_like_22_loose_verse": {
+   "sha256": "9d4bd5ce58cb08a826a616b312a5868582dded2c265ff09b8aab5a4823df374a",
+   "cand_id": "therapy_like_22_loose_verse_c3",
+   "source": "v2_gen"
+  },
+  "therapy_like_22_tight_prose": {
+   "sha256": "2af3c7c9d869f4401939bad049b7324398b9d17f66d37a135731bc11c9722faa",
+   "cand_id": "therapy_like_22_tight_prose_c3",
+   "source": "v1_reuse"
+  },
+  "therapy_like_22_tight_verse": {
+   "sha256": "c3ed98adc81708dfd95950f33057b2ad8df5d7d97fa4940e7b8e7751270662f3",
+   "cand_id": "therapy_like_22_tight_verse_c3",
+   "source": "v2_gen"
+  },
+  "therapy_like_23_loose_prose": {
+   "sha256": "aff094698f4c4082bfc59f3a0957ba84aea4862d12da4aa3d0b1394def0d1317",
+   "cand_id": "therapy_like_23_loose_prose_c2",
+   "source": "v2_gen"
+  },
+  "therapy_like_23_loose_verse": {
+   "sha256": "54c2026c38a3a69ccf02d160ada01b5eb93b4065d5d2ae3311b0ee11b6bc8365",
+   "cand_id": "therapy_like_23_loose_verse_c2",
+   "source": "v1_reuse"
+  },
+  "therapy_like_23_tight_prose": {
+   "sha256": "9a2a1dba0ea5e3d09276e14ab7406c1f9f3c5f572a459d4902a34154e03b21a6",
+   "cand_id": "therapy_like_23_tight_prose_c2",
+   "source": "v1_reuse"
+  },
+  "therapy_like_23_tight_verse": {
+   "sha256": "cd12d8f148b3fbaffc40fb3b59eed143a3f17e82633cb4e3bee3d51f9b140dc8",
+   "cand_id": "therapy_like_23_tight_verse_c3",
+   "source": "v2_gen"
+  },
+  "therapy_like_24_loose_prose": {
+   "sha256": "7434d39e09c08c1393f602160470856c60e1d32fdac94dc3606735591a48a2fd",
+   "cand_id": "therapy_like_24_loose_prose_c3",
+   "source": "v2_gen"
+  },
+  "therapy_like_24_loose_verse": {
+   "sha256": "26354489fc4652b529d0971e5629331950e8073f9c8afaadb15f95f78378ee01",
+   "cand_id": "therapy_like_24_loose_verse_c3",
+   "source": "v1_reuse"
+  },
+  "therapy_like_24_tight_prose": {
+   "sha256": "18e963098ec3b55953fcb6c48a5b5bf334245f1246a20f686add85f45b5687fa",
+   "cand_id": "therapy_like_24_tight_prose_c1",
+   "source": "v1_reuse"
+  },
+  "therapy_like_24_tight_verse": {
+   "sha256": "02e49e810b90244d0860efb877195bb6fc00e22c65af5d8e2ea7c96f4c9d8224",
+   "cand_id": "therapy_like_24_tight_verse_c3",
+   "source": "v2_gen"
+  },
+  "writing_01_loose_prose": {
+   "sha256": "627cf2d635b83886b3e999b3fb691c565823f47f2474d20617ab24da4de0f90f",
+   "cand_id": "writing_01_loose_prose_c3",
+   "source": "v2_gen"
+  },
+  "writing_01_loose_verse": {
+   "sha256": "627f025ae049de1d97a8659dc25199e7ebcc8f8842935bc4a7b1a7cdcdafcbb7",
+   "cand_id": "writing_01_loose_verse_c3",
+   "source": "v2_gen"
+  },
+  "writing_01_tight_prose": {
+   "sha256": "1f20485dc22b4bdd004811a08be0eea21eb1724cbb013a1d5257f8ff8a49a968",
+   "cand_id": "writing_01_tight_prose_c2",
+   "source": "v1_reuse"
+  },
+  "writing_01_tight_verse": {
+   "sha256": "5ab8a79835bd85a3fb9af4bcf004283ccaa4c1c2096e5d60d8f0473442009cff",
+   "cand_id": "writing_01_tight_verse_c3",
+   "source": "v2_gen"
+  },
+  "writing_02_loose_prose": {
+   "sha256": "851b58e1671ad696de850d4e311f352717cc4d7af95a1ae57ecb16fcc9bfc702",
+   "cand_id": "writing_02_loose_prose_c2",
+   "source": "v2_gen"
+  },
+  "writing_02_loose_verse": {
+   "sha256": "344626a243d5f4c8d5435293aabb05566be60da813c09748fcd15f639463da63",
+   "cand_id": "writing_02_loose_verse_c3",
+   "source": "v1_reuse"
+  },
+  "writing_02_tight_prose": {
+   "sha256": "a412f2619688dfe0dfe65dcb1fccd0e11cf78490c5d673fc87ddffa56c241f37",
+   "cand_id": "writing_02_tight_prose_c3",
+   "source": "v1_reuse"
+  },
+  "writing_02_tight_verse": {
+   "sha256": "9a5389635385da4487554b908e58323c460e1b25f2427e0556796862c5850043",
+   "cand_id": "writing_02_tight_verse_c2",
+   "source": "v2_gen"
+  },
+  "writing_03_loose_prose": {
+   "sha256": "804eebcff715a0b4db2f419bc436f8ec60fa067903cc7e7ae529c6f9c6db1bbb",
+   "cand_id": "writing_03_loose_prose_c2",
+   "source": "v2_gen"
+  },
+  "writing_03_loose_verse": {
+   "sha256": "a05f63364a728ba928a14ba8d66f8582cdcfec5ed777cfe7d832bf621d4ae1b6",
+   "cand_id": "writing_03_loose_verse_c3",
+   "source": "v1_reuse"
+  },
+  "writing_03_tight_prose": {
+   "sha256": "e6cd057414b9c557fee8fc0b697fba0b1b88c06bf2fc93b2a53464417ea2199f",
+   "cand_id": "writing_03_tight_prose_c3",
+   "source": "v2_gen"
+  },
+  "writing_03_tight_verse": {
+   "sha256": "6119e1639cbc8a3c23ccc88d641af4d3530da20ab7bae179b7753dea24ec5d7a",
+   "cand_id": "writing_03_tight_verse_c3",
+   "source": "v2_gen"
+  },
+  "writing_04_loose_prose": {
+   "sha256": "386e0763baa017345732c2d03995954ef8548ea247195e2f5a56321f160ff9ad",
+   "cand_id": "writing_04_loose_prose_c2",
+   "source": "v2_gen"
+  },
+  "writing_04_loose_verse": {
+   "sha256": "3c65e99140f0fdfe07c0211eb4148698bb0899bab9aa56a4e7609266b212c3aa",
+   "cand_id": "writing_04_loose_verse_c1",
+   "source": "v1_reuse"
+  },
+  "writing_04_tight_prose": {
+   "sha256": "bfba68605ac7a612bce89dac0d32b6c99369293b5d0260c84e776c2f2192bf7d",
+   "cand_id": "writing_04_tight_prose_c3",
+   "source": "v1_reuse"
+  },
+  "writing_04_tight_verse": {
+   "sha256": "123a163ae0c28a38bd2b6922d8efcc288503f6eca443fd83803de2fd2f369795",
+   "cand_id": "writing_04_tight_verse_c2",
+   "source": "v2_gen"
+  },
+  "writing_05_loose_prose": {
+   "sha256": "b814c4a2b2a78a22661fe36c5d4d4187b88afb75b1030ef29be252386b81a2e1",
+   "cand_id": "writing_05_loose_prose_c2",
+   "source": "v2_gen"
+  },
+  "writing_05_loose_verse": {
+   "sha256": "fc924595e13e2264282b6e1d80f562d13718b9111a3803b340e9b67acaa98666",
+   "cand_id": "writing_05_loose_verse_c1",
+   "source": "v1_reuse"
+  },
+  "writing_05_tight_prose": {
+   "sha256": "cc90453c7adf523fafc1d62b82c002db10d82aecdf79770c770cf5f26990a539",
+   "cand_id": "writing_05_tight_prose_c3",
+   "source": "v1_reuse"
+  },
+  "writing_05_tight_verse": {
+   "sha256": "a3c266e3f9f3a0dd2f28c7caefef5476958c423d35220ac1fa4efc0037a3b46b",
+   "cand_id": "writing_05_tight_verse_c3",
+   "source": "v2_gen"
+  },
+  "writing_06_loose_prose": {
+   "sha256": "2aac6f1b8bf47b279d066ca074c90246e12f277a27d27734d21130220a44b96c",
+   "cand_id": "writing_06_loose_prose_c3",
+   "source": "v2_gen"
+  },
+  "writing_06_loose_verse": {
+   "sha256": "644a3df9579b58ac8015eaa909e006866fc30ec579a66b8323ad77cb27920177",
+   "cand_id": "writing_06_loose_verse_c3",
+   "source": "v1_reuse"
+  },
+  "writing_06_tight_prose": {
+   "sha256": "d2cdac59291154fd5cee4f94dfb4cff4b3f568a95543706f0a8a1da77719ec45",
+   "cand_id": "writing_06_tight_prose_c2",
+   "source": "v1_reuse"
+  },
+  "writing_06_tight_verse": {
+   "sha256": "5cdc64a20d6fd8601fc542d9608de57102455fd6f461a98e10a43f3f6cceb7bd",
+   "cand_id": "writing_06_tight_verse_c2",
+   "source": "v2_gen"
+  },
+  "writing_07_loose_prose": {
+   "sha256": "7f805e0d8daa9282479c059ef887b1d0a2a91bbc4b89f39e0ee1e72fbc73d00f",
+   "cand_id": "writing_07_loose_prose_c2",
+   "source": "v2_gen"
+  },
+  "writing_07_loose_verse": {
+   "sha256": "caa4f20ebdf7d461a81c0d55de82e673b5eeecfbfcf91e15eb8515297cb980db",
+   "cand_id": "writing_07_loose_verse_c2",
+   "source": "v1_reuse"
+  },
+  "writing_07_tight_prose": {
+   "sha256": "b1513f64f3304a465cdc4fb8301344a6ee818fdff328acc0fff7afae3ed65761",
+   "cand_id": "writing_07_tight_prose_c1",
+   "source": "v1_reuse"
+  },
+  "writing_07_tight_verse": {
+   "sha256": "129c7186aafff23a1816dd2bd9203eac40ec04e66b93d8947601a6de8212d86b",
+   "cand_id": "writing_07_tight_verse_c2",
+   "source": "v2_gen"
+  },
+  "writing_08_loose_prose": {
+   "sha256": "08ac785b28f2e6188567c972f61dddb3ae014ce4d5f5f4072230c7c33d4c64d7",
+   "cand_id": "writing_08_loose_prose_c2",
+   "source": "v2_gen"
+  },
+  "writing_08_loose_verse": {
+   "sha256": "e354a28bc3effb28a581cabc9c445dfb47d85b99797121d041af0dfc3d05233d",
+   "cand_id": "writing_08_loose_verse_c2",
+   "source": "v1_reuse"
+  },
+  "writing_08_tight_prose": {
+   "sha256": "50f379d965602c1bd0dccea012f193cbabcd73ad83aa62044297e8f2ab88cc2a",
+   "cand_id": "writing_08_tight_prose_c2",
+   "source": "v1_reuse"
+  },
+  "writing_08_tight_verse": {
+   "sha256": "105a9b19839fd4212083553688fc8ebbef9ad9e7cdc07aefdc1cea3be454e016",
+   "cand_id": "writing_08_tight_verse_c1",
+   "source": "v2_gen"
+  },
+  "writing_09_loose_prose": {
+   "sha256": "fb45d414468e6999fb4f81cb42b4afbeff8847b599ab8f0acebeace6473fc893",
+   "cand_id": "writing_09_loose_prose_c2",
+   "source": "v2_gen"
+  },
+  "writing_09_loose_verse": {
+   "sha256": "31dbee85f6e17f56fc7e4f0299ac603df27ce37fd8e1b0e28a97bf745d867b43",
+   "cand_id": "writing_09_loose_verse_c3",
+   "source": "v1_reuse"
+  },
+  "writing_09_tight_prose": {
+   "sha256": "7883f3507e6e2624a2371062af88a994e88f9f2efcd0637171fe1723fb068913",
+   "cand_id": "writing_09_tight_prose_c2",
+   "source": "v1_reuse"
+  },
+  "writing_09_tight_verse": {
+   "sha256": "055babbdc3a7ee5f44596421d1269673f33dc69cf7e3dfc8e7d0b425aff0c821",
+   "cand_id": "writing_09_tight_verse_c1",
+   "source": "v2_gen"
+  },
+  "writing_10_loose_prose": {
+   "sha256": "8235489ce588e3d821ea3058b75c80f704fc38f8bd0f71d436c28d3b5305f6e1",
+   "cand_id": "writing_10_loose_prose_c2",
+   "source": "v2_gen"
+  },
+  "writing_10_loose_verse": {
+   "sha256": "d01fead00daaecbc78f69361257d0b8a1ab97cc1ea1b81fcc8f72caa251d1e0d",
+   "cand_id": "writing_10_loose_verse_c1",
+   "source": "v1_reuse"
+  },
+  "writing_10_tight_prose": {
+   "sha256": "26d4f35bd5d2d4b05d3d9ab2e52b3f19d7e120f0493764533e5a849dff1da7ff",
+   "cand_id": "writing_10_tight_prose_c3",
+   "source": "v1_reuse"
+  },
+  "writing_10_tight_verse": {
+   "sha256": "02247b7bc2775f49f644f240f774fc4689864a4748445c45870dea9054162b60",
+   "cand_id": "writing_10_tight_verse_c3",
+   "source": "v2_gen"
+  },
+  "writing_11_loose_prose": {
+   "sha256": "f6b7b981e651823dee46892f25218abd94ad172897b13aa5e4d96d05e5c8d8d3",
+   "cand_id": "writing_11_loose_prose_c2",
+   "source": "v2_gen"
+  },
+  "writing_11_loose_verse": {
+   "sha256": "06a0f1a749f7c38499d5ab615cbe35e640eb837447f8c4fed4ca26af6be75c10",
+   "cand_id": "writing_11_loose_verse_c1",
+   "source": "v1_reuse"
+  },
+  "writing_11_tight_prose": {
+   "sha256": "3d2ba23fba46a9ddbd49d2b206584c69655e98c0ab665eb0223d3cfb20ae9c87",
+   "cand_id": "writing_11_tight_prose_c2",
+   "source": "v1_reuse"
+  },
+  "writing_11_tight_verse": {
+   "sha256": "7fc106221ab24443d2a1f35142a9a001d3ce6bf6df0a92cf18f740f264b907b7",
+   "cand_id": "writing_11_tight_verse_c3",
+   "source": "v2_gen"
+  },
+  "writing_12_loose_prose": {
+   "sha256": "c3410ce0b4700d5891bde22aa316c6de07a6d478d90ce59e73ff0ed50f56ae7f",
+   "cand_id": "writing_12_loose_prose_c2",
+   "source": "v2_gen"
+  },
+  "writing_12_loose_verse": {
+   "sha256": "699def180a1b78bb35a24d999f2ca2f5af8d268b523dc2f39333f67a142598be",
+   "cand_id": "writing_12_loose_verse_c3",
+   "source": "v1_reuse"
+  },
+  "writing_12_tight_prose": {
+   "sha256": "890e8815b6517bb96a17b133464c70ba48fb4e8a3c60fb7ea9596c0bbe263416",
+   "cand_id": "writing_12_tight_prose_c2",
+   "source": "v1_reuse"
+  },
+  "writing_12_tight_verse": {
+   "sha256": "09ed827e56c5bbc2a911f52079b1eea7ebdf02bf98db5aa391bb8d3d6dd82a7b",
+   "cand_id": "writing_12_tight_verse_c1",
+   "source": "v2_gen"
+  },
+  "writing_13_loose_prose": {
+   "sha256": "c8ab63d3376818b5f35fb25be70121cbcc7c9236d07c556630b5ca8de72f2a15",
+   "cand_id": "writing_13_loose_prose_c1",
+   "source": "v2_gen"
+  },
+  "writing_13_loose_verse": {
+   "sha256": "be91b1cb8ed815fb9f4eea993440a58c9f03ee1d851d4a62a212005df0b58766",
+   "cand_id": "writing_13_loose_verse_c2",
+   "source": "v1_reuse"
+  },
+  "writing_13_tight_prose": {
+   "sha256": "4fd8a4bfeca0bcf0b591e5fc2e312c82b1a17e50bcf6224ac1c6afdc7bbcbce4",
+   "cand_id": "writing_13_tight_prose_c2",
+   "source": "v1_reuse"
+  },
+  "writing_13_tight_verse": {
+   "sha256": "6931a1d92ed91f3f8a43a89db2a07a8869bb0df8229b1ef7986e59db9c9bf371",
+   "cand_id": "writing_13_tight_verse_c3",
+   "source": "v2_gen"
+  },
+  "writing_14_loose_prose": {
+   "sha256": "1ad422b0dd52db529cbdea77a287c5ec8f7216449993bad83033b751942617aa",
+   "cand_id": "writing_14_loose_prose_c2",
+   "source": "v2_gen"
+  },
+  "writing_14_loose_verse": {
+   "sha256": "c4fddf0c5d77bc93dddce53388caa8a474caf62c81f2159882c7cc16561a1352",
+   "cand_id": "writing_14_loose_verse_c1",
+   "source": "v1_reuse"
+  },
+  "writing_14_tight_prose": {
+   "sha256": "1d31c50488c6f311a3378ff856c4967c82287cb5218b372e293e5f76923e4ce3",
+   "cand_id": "writing_14_tight_prose_c2",
+   "source": "v1_reuse"
+  },
+  "writing_14_tight_verse": {
+   "sha256": "791ab3ef8f0de6279f4b56855f28ce172a6559584e59033b18291ac7b58b7995",
+   "cand_id": "writing_14_tight_verse_c3",
+   "source": "v2_gen"
+  },
+  "writing_15_loose_prose": {
+   "sha256": "ae46930327574cf79f715cbc3331e514ec1915381f471c3c50e2b914f9564369",
+   "cand_id": "writing_15_loose_prose_c2",
+   "source": "v2_gen"
+  },
+  "writing_15_loose_verse": {
+   "sha256": "630689fae80802d5c605e0ae4e7987eb67833482839d8fa49fa20b13ce514610",
+   "cand_id": "writing_15_loose_verse_c3",
+   "source": "v1_reuse"
+  },
+  "writing_15_tight_prose": {
+   "sha256": "7b8400f44355aa8c7cefb06ea5796f5a0feb25cadc3ee1972401c52b28916db8",
+   "cand_id": "writing_15_tight_prose_c1",
+   "source": "v1_reuse"
+  },
+  "writing_15_tight_verse": {
+   "sha256": "5000fbaca9edaecf785054862ac5d535a24b12df1448137c3f1d8cc3ff595956",
+   "cand_id": "writing_15_tight_verse_c2",
+   "source": "v2_gen"
+  },
+  "writing_16_loose_prose": {
+   "sha256": "b751273624facd024cac8f7daaae8194e19b019ca1f3d7f28de0570822c8182e",
+   "cand_id": "writing_16_loose_prose_c2",
+   "source": "v2_gen"
+  },
+  "writing_16_loose_verse": {
+   "sha256": "451420086fc0a258e4c042aba7436b2533daaea5eefb05350408e8ad73bd8491",
+   "cand_id": "writing_16_loose_verse_c2",
+   "source": "v1_reuse"
+  },
+  "writing_16_tight_prose": {
+   "sha256": "a40421bc87811ffa73f46ec8f633bb03b7ab7bcab263b667ce6aab1dd48b2046",
+   "cand_id": "writing_16_tight_prose_c2",
+   "source": "v1_reuse"
+  },
+  "writing_16_tight_verse": {
+   "sha256": "c745513d3e5bb35fa465f78cb9cc1d74eb274b002a406139d1099b3fa9a8b28d",
+   "cand_id": "writing_16_tight_verse_c3",
+   "source": "v2_gen"
+  },
+  "writing_17_loose_prose": {
+   "sha256": "573b3a6855bc62119d2eb3cb77b1f4bc2d7cbfc25e7231afc5ea81775ec3f155",
+   "cand_id": "writing_17_loose_prose_c2",
+   "source": "v2_gen"
+  },
+  "writing_17_loose_verse": {
+   "sha256": "515955968ff018d3de5d39a65dda2689cc4c199671b34c624d9176953bceaf67",
+   "cand_id": "writing_17_loose_verse_c3",
+   "source": "v2_gen"
+  },
+  "writing_17_tight_prose": {
+   "sha256": "8c294fb2d9a642bcc830246f8b58122dd87f0aaaaeeae315cbb3b087a85f5e74",
+   "cand_id": "writing_17_tight_prose_c2",
+   "source": "v1_reuse"
+  },
+  "writing_17_tight_verse": {
+   "sha256": "aae5a66b20487938cf06caaa97712f0fd16e282230ad13303f1f4cb283f9ab95",
+   "cand_id": "writing_17_tight_verse_c3",
+   "source": "v2_gen"
+  },
+  "writing_18_loose_prose": {
+   "sha256": "054e79f3f94c6fd1c3f634824e760adf973fb3760f1742b6585d002ac684ef8f",
+   "cand_id": "writing_18_loose_prose_c2",
+   "source": "v2_gen"
+  },
+  "writing_18_loose_verse": {
+   "sha256": "61a06f63ed52fdae41c45448f08b9488235166eb7a4eba7e6330b8f2516913a3",
+   "cand_id": "writing_18_loose_verse_c2",
+   "source": "v1_reuse"
+  },
+  "writing_18_tight_prose": {
+   "sha256": "8e19a9199550eb2b8e1826cd3837b7a261632a50c9598adf8c0eebfa3ea776a2",
+   "cand_id": "writing_18_tight_prose_c3",
+   "source": "v1_reuse"
+  },
+  "writing_18_tight_verse": {
+   "sha256": "c0d716bc2c443664fbb08a83aa05996131f84f14ba17e25010f67f48c4a4313b",
+   "cand_id": "writing_18_tight_verse_c2",
+   "source": "v2_gen"
+  },
+  "writing_19_loose_prose": {
+   "sha256": "c615c8066920ceb6387385a0a8b0e8ac5076eccb783367e111dd262bd3635dcf",
+   "cand_id": "writing_19_loose_prose_c2",
+   "source": "v2_gen"
+  },
+  "writing_19_loose_verse": {
+   "sha256": "60e4b1bc43526e01fea2f853983c5577b02f30fd20e1f2b5a7005ee8a1dff04c",
+   "cand_id": "writing_19_loose_verse_c1",
+   "source": "v1_reuse"
+  },
+  "writing_19_tight_prose": {
+   "sha256": "bcec7a3de85a015951cca77837fa76c980a7efe7cb9e9187ed3cd3460fdea7a5",
+   "cand_id": "writing_19_tight_prose_c2",
+   "source": "v1_reuse"
+  },
+  "writing_19_tight_verse": {
+   "sha256": "40f9f2f9e7dff58c2ce1db13d309233ea874b545f898539b7032b6d4a0958f24",
+   "cand_id": "writing_19_tight_verse_c1",
+   "source": "v2_gen"
+  },
+  "writing_20_loose_prose": {
+   "sha256": "4cf09d4de3dfa5e245db90f897a11ea32c860b157ef91efdbb7f2b7580f3a2cf",
+   "cand_id": "writing_20_loose_prose_c2",
+   "source": "v2_gen"
+  },
+  "writing_20_loose_verse": {
+   "sha256": "ee78fc4f264671bce75f57afd8fa123740590ccfc44b4847f84728c85395b045",
+   "cand_id": "writing_20_loose_verse_c1",
+   "source": "v1_reuse"
+  },
+  "writing_20_tight_prose": {
+   "sha256": "5efa1715ffe2e256d27a041d0ab4a55fdca7294a031fefafeb73bca9eed33c7d",
+   "cand_id": "writing_20_tight_prose_c2",
+   "source": "v1_reuse"
+  },
+  "writing_20_tight_verse": {
+   "sha256": "f9d4e3b51eb1cf83f7857da604cbd6c051074da9de45ee5e945e781f31dfeb55",
+   "cand_id": "writing_20_tight_verse_c1",
+   "source": "v2_gen"
+  },
+  "writing_21_loose_prose": {
+   "sha256": "47532b050a5bfbd012fa502ed083fe555fc637b2b53c319899a0b8d936f328a4",
+   "cand_id": "writing_21_loose_prose_c1",
+   "source": "v2_gen"
+  },
+  "writing_21_loose_verse": {
+   "sha256": "6b038260f202e9824cb392bd8558c682e66cafd2eb4fd9811359e4475834db52",
+   "cand_id": "writing_21_loose_verse_c2",
+   "source": "v1_reuse"
+  },
+  "writing_21_tight_prose": {
+   "sha256": "779b6a3ba6be39445e2a5d50a48aef786e7d8c507d0599a9700ecadb15a658bd",
+   "cand_id": "writing_21_tight_prose_c1",
+   "source": "v1_reuse"
+  },
+  "writing_21_tight_verse": {
+   "sha256": "7f11ff58844b0586cb7f452ead66d59da62aef03bfd359007c1e8629ec601582",
+   "cand_id": "writing_21_tight_verse_c3",
+   "source": "v2_gen"
+  },
+  "writing_22_loose_prose": {
+   "sha256": "71549753f4ace149c410d3a82f83ec997721f3876943330865ab9cce948fa4ad",
+   "cand_id": "writing_22_loose_prose_c2",
+   "source": "v2_gen"
+  },
+  "writing_22_loose_verse": {
+   "sha256": "fbfae69ad692cfc598225e7cbd542212bcf54bb75ee8948ab895a4fed7bfc6f9",
+   "cand_id": "writing_22_loose_verse_c3",
+   "source": "v2_gen"
+  },
+  "writing_22_tight_prose": {
+   "sha256": "71372078d001ecc0bbdf15c74cec19ecc81c7948fa7e1a9e798d6dc98b27edc4",
+   "cand_id": "writing_22_tight_prose_c2",
+   "source": "v1_reuse"
+  },
+  "writing_22_tight_verse": {
+   "sha256": "b1b39f9df9c0de3ab0e9b15cc9db8d10a9ee2eda6bf191791069745e83c2783f",
+   "cand_id": "writing_22_tight_verse_c3",
+   "source": "v2_gen"
+  },
+  "writing_23_loose_prose": {
+   "sha256": "3e3cfbb1629286e25808c646a8b1139e089bdb9bc9091c56d5cb56f3c66fb10b",
+   "cand_id": "writing_23_loose_prose_c2",
+   "source": "v2_gen"
+  },
+  "writing_23_loose_verse": {
+   "sha256": "b33b21f6ed7574250cd3cf8a97d616f42682179fc4def84d1f3dcc04686dcb54",
+   "cand_id": "writing_23_loose_verse_c2",
+   "source": "v1_reuse"
+  },
+  "writing_23_tight_prose": {
+   "sha256": "80e31a8d63bce75f995cfbc598bcec12c6a5c26e8d316ffe28a0f02f74ca378c",
+   "cand_id": "writing_23_tight_prose_c2",
+   "source": "v1_reuse"
+  },
+  "writing_23_tight_verse": {
+   "sha256": "4030e1c2b15ae01163efefecb3058836b164abcecf3e481ea8aab564854fa3ec",
+   "cand_id": "writing_23_tight_verse_c1",
+   "source": "v2_gen"
+  },
+  "writing_24_loose_prose": {
+   "sha256": "9b3ae95133a51e8b703543ce2c08ec15ef8f74accbf34581140188b502e8b7ec",
+   "cand_id": "writing_24_loose_prose_c2",
+   "source": "v2_gen"
+  },
+  "writing_24_loose_verse": {
+   "sha256": "387bb2b57345479637d5aee6728b5e540837eb2b2d5c6a9f992be44aaa525eb3",
+   "cand_id": "writing_24_loose_verse_c2",
+   "source": "v1_reuse"
+  },
+  "writing_24_tight_prose": {
+   "sha256": "7dcdf3c3ae9242d3c1ebeb0393a077b0cc04b4c2fc684348e6af130f07f66003",
+   "cand_id": "writing_24_tight_prose_c1",
+   "source": "v1_reuse"
+  },
+  "writing_24_tight_verse": {
+   "sha256": "e0f44513dff651dbac4b09b90d9c8260c7e841e277a1af5afcefed4a6dd196f0",
+   "cand_id": "writing_24_tight_verse_c1",
+   "source": "v2_gen"
+  }
+ }
+}

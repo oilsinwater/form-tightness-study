@@ -1,0 +1,80 @@
+0 rated (text unchanged), 384 to rate with deepseek/deepseek-v4.1-flash T=0.0
+[philosophy_of_ai_09_loose_prose] empty content (finish=length); retry
+24/384 30s
+[coding_09_loose_verse] empty content (finish=length); retry
+[writing_10_loose_verse] empty content (finish=length); retry
+48/384 62s
+[writing_24_loose_prose] empty content (finish=length); retry
+[coding_08_loose_verse] empty content (finish=length); retry
+72/384 91s
+96/384 110s
+120/384 136s
+144/384 159s
+[writing_02_loose_verse] empty content (finish=length); retry
+168/384 187s
+[writing_02_loose_verse] empty content (finish=length); retry
+192/384 215s
+[writing_15_loose_verse] empty content (finish=length); retry
+216/384 237s
+[writing_05_loose_prose] empty content (finish=length); retry
+240/384 265s
+[coding_07_loose_verse] empty content (finish=length); retry
+[writing_20_loose_verse] empty content (finish=length); retry
+264/384 294s
+[coding_24_loose_verse] empty content (finish=length); retry
+[coding_24_loose_verse] empty content (finish=length); retry
+288/384 321s
+312/384 354s
+[coding_13_loose_verse] empty content (finish=length); retry
+336/384 378s
+360/384 406s
+384/384 432s
+{
+ "within_register": {
+  "verse": {
+   "mean_loose": 2.1145833333333335,
+   "mean_tight": 7.09375,
+   "d_tight_minus_loose": 3.8135617542626967
+  },
+  "prose": {
+   "mean_loose": 3.6041666666666665,
+   "mean_tight": 9.71875,
+   "d_tight_minus_loose": 4.464742338822683
+  }
+ },
+ "d_tight_vs_loose_all": 3.243047117394427,
+ "register_leakage_at_equal_tightness": {
+  "loose": {
+   "mean_verse": 2.1145833333333335,
+   "mean_prose": 3.6041666666666665,
+   "diff_prose_minus_verse": 1.489583333333333,
+   "d_prose_minus_verse": 0.8099126063374492,
+   "item_diff_prose_minus_verse": {
+    "item1": -0.10416666666666674,
+    "item2": -0.05208333333333337,
+    "item3": 0.625,
+    "item4": 1.0104166666666665,
+    "item5": 0.010416666666666685
+   }
+  },
+  "tight": {
+   "mean_verse": 7.09375,
+   "mean_prose": 9.71875,
+   "diff_prose_minus_verse": 2.625,
+   "d_prose_minus_verse": 5.903762301939642,
+   "item_diff_prose_minus_verse": {
+    "item1": 0.0,
+    "item2": 0.0,
+    "item3": 1.8958333333333333,
+    "item4": 0.8333333333333333,
+    "item5": -0.10416666666666652
+   }
+  }
+ },
+ "pass_within_register_d_gt_1": true,
+ "n_rated": 384,
+ "n_failed_parse": 0,
+ "parse_modes": {
+  "json_schema": 384
+ }
+}

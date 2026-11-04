@@ -1,0 +1,18 @@
+# Freeze record — form-tightness study
+
+Frozen: 2026-10-31T16:30:22-07:00
+Rule: Arm 1 generation starts after this file is written. Final v3 ratings (219/384 at freeze) are governed by the late manipulation-check rule in the preregistration.
+
+d5f533106c2098d21311fda2204b2fc13b2dc9ca6688e13051e4298331df6a81  prereg/preregistration.md
+820140f4538bb3fa6e7fb5165d9577197b802513f6ba7326b1e9f29b2aa46ad5  stimuli/stimuli.jsonl
+ce7e003b0e1db67bef6775693bbe0141ac3861db2465441c2d2c3330711df005  stimuli/manifest.json
+73c6d62562667783c4dd18684baade78cb830eb784bc75c8aaf713b52428e967  stimuli/tightness-rubric.md
+e5456420880eeddb653af70a1cd617d6f95a5f01c7b0451ff8129b4df25a5ace  stimuli/design.md
+3993aa82c6253abd04a52c87d2af5b98ddef3a53506c0ee07e24311aea2a991e  pipeline/arm_run.py
+4bd6c6927aea5866456031b0e1a438129c5076a669c7e974ecb5bedc9ef9bd09  pipeline/common.py
+ae283525270fbad5708bfe0e118a5dbe5e65de572d55177108421d94b1bbb8b5  pipeline/power2x2.py
+960dd82179393ba502abb33b888ceaaddc3a1b26c2cdf78c04eca46405acee9d  PLAN.md
+bc10d03e27251905e85d489dd2253d454917b7b08fc87041fbbef20f99d99a63  prereg/followup-motif-swap/design.md
+08ae669bb318ba41153805464d9da5840da265f547d6a2c96b290d585c9c48a3  results/check_a_cosine.json
+10e9a14b23f4d97088524e9e747863936a501bd5b59068e1ce7ddea2c4607d2f  results/check_b_refusal_cosine.json
+73f238ce4da31dd12f622478d7dc993fb185d6996bbdc0799e5edc0c58af9ade  results/check_c_report.md

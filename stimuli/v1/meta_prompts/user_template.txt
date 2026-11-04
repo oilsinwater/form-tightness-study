@@ -1,0 +1,22 @@
+User message template used by generate_pool.py (system message = T<level>.txt). Verbatim:
+
+DOMAIN: {domain}
+VARIANT: {variant}
+CONTENT BRIEF: {brief}
+
+Write the {level} prompt now. Hard limits: 90-160 words. Aim for {lo}-{hi} words. Every brief detail present; output wrapped in <prompt></prompt>.
+
+Level-specific target sub-bands (lo-hi), all inside the 90-160 hard band:
+  rows 85-~260 (first recalibration):  T1 105-145, T2 125-155, T3 95-130  -> observed means T2 117, T3 136
+  remaining rows (second recalibration): T1 110-150, T2 135-160, T3 90-115
+Each row's gen_meta.target_words records which band it was generated under.
+
+Calibration note: the first 228 candidates were generated without the "Aim for" sentence
+(user message ended "Remember: 90-160 words, every brief detail present, output wrapped in
+<prompt></prompt>."). Their word means were T1 109.8, T2 96.9, T3 140.9 — a level-length skew
+that the selection step could not remove under the <10 % per-domain token-spread constraint.
+T2 and T3 rows from that batch were discarded and regenerated; the 78 T1 rows were kept
+(gen_meta has no "target_words" field for them).
+
+Word-band retry message (appended as a follow-up turn when a candidate falls outside 90-160):
+That was {words} words; it must be between 90 and 160 words. Rewrite at the same level, same variant, all brief details kept, inside the band. Output wrapped in <prompt></prompt> only.

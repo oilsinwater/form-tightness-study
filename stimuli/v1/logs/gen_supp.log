@@ -1,0 +1,22 @@
+864 done, 288 to generate with deepseek/deepseek-v4-pro
+20/288 ok=20 err=0 67s
+40/288 ok=40 err=0 140s
+[coding_12_T3_c5] empty content (finish=length); retrying
+[coding_13_T3_c5] empty content (finish=length); retrying
+60/288 ok=60 err=0 216s
+80/288 ok=80 err=0 286s
+[coding_24_T3_c5] empty content (finish=length); retrying
+100/288 ok=100 err=0 347s
+120/288 ok=120 err=0 407s
+[writing_18_T3_c5] empty content (finish=length); retrying
+140/288 ok=140 err=0 476s
+160/288 ok=160 err=0 541s
+[therapy_like_05_T3_c5] empty content (finish=length); retrying
+180/288 ok=180 err=0 607s
+200/288 ok=200 err=0 665s
+220/288 ok=220 err=0 720s
+240/288 ok=240 err=0 765s
+260/288 ok=260 err=0 820s
+280/288 ok=280 err=0 872s
+288/288 ok=288 err=0 885s
+DONE

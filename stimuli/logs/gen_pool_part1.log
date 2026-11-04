@@ -1,0 +1,21 @@
+v2 prose carry: 768 rows copied unchanged; pool now 768 rows
+768 done, 768 to generate with MiniMax-M3: {'loose_verse': 384, 'tight_verse': 384}
+[coding_01_tight_verse_c1] empty content (finish=length); retrying
+[coding_01_tight_verse_c2] empty content (finish=length); retrying
+[coding_01_tight_verse_c3] empty content (finish=length); retrying
+[coding_02_tight_verse_c3] empty content (finish=length); retrying
+20/768 ok=20 err=0 out_of_band=0 addr_fail=0 125s
+[coding_03_tight_verse_c1] empty content (finish=length); retrying
+[coding_03_tight_verse_c4] empty content (finish=length); retrying
+[coding_03_tight_verse_c2] empty content (finish=length); retrying
+[coding_03_tight_verse_c1] empty content (finish=length); retrying
+[coding_03_tight_verse_c4] empty content (finish=length); retrying
+40/768 ok=40 err=0 out_of_band=0 addr_fail=0 239s
+[coding_03_tight_verse_c1] empty content (finish=length); retrying
+[coding_05_tight_verse_c2] empty content (finish=length); retrying
+[coding_03_tight_verse_c4] empty content (finish=length); retrying
+[coding_06_tight_verse_c3] empty content (finish=length); retrying
+[coding_06_tight_verse_c4] empty content (finish=length); retrying
+[coding_03_tight_verse_c1] empty content (finish=length); retrying
+[coding_03_tight_verse_c4] empty content (finish=length); retrying
+[coding_07_tight_verse_c3] empty content (finish=length); retrying

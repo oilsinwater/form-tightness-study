@@ -1,0 +1,92 @@
+20:25:24 resuming; done: ['delusion_capped.json', 'delusion_unsteered.json', 'jailbreak_capped.json', 'jailbreak_unsteered.json', 'selfharm_capped.json', 'selfharm_unsteered.json.json']
+20:25:24 loading google/gemma-2-27b-it; GPU free 24.9 GB
+20:25:25 gated gemma load failed (OSError: You are trying to access a gated repo.
+Make sure to have access to it at https://huggingface.co/google/gemma-2-27b-it.
+403 Client Error. (Request ID: Root=1-6ae55fa5-3acb6eb219542e183ed3c7dd;681c5698-); falling back to unsloth/gemma-2-27b-it-bnb-4bit
+20:25:25 loading unsloth/gemma-2-27b-it-bnb-4bit; GPU free 24.9 GB
+
+Loading weights:   0%|          | 0/508 [00:00<?, ?it/s]
+Loading weights:   0%|          | 1/508 [00:02<18:40,  2.21s/it]
+Loading weights:   1%|          | 3/508 [00:02<05:18,  1.59it/s]
+Loading weights:   2%|▏         | 10/508 [00:02<01:12,  6.88it/s]
+Loading weights:   3%|▎         | 14/508 [00:02<00:55,  8.93it/s]
+Loading weights:   5%|▍         | 23/508 [00:02<00:29, 16.19it/s]
+Loading weights:   6%|▋         | 32/508 [00:03<00:18, 25.10it/s]
+Loading weights:   7%|▋         | 38/508 [00:03<00:16, 28.93it/s]
+Loading weights:   9%|▉         | 48/508 [00:03<00:12, 36.42it/s]
+Loading weights:  11%|█         | 56/508 [00:03<00:10, 43.17it/s]
+Loading weights:  12%|█▏        | 62/508 [00:03<00:10, 40.68it/s]
+Loading weights:  14%|█▎        | 69/508 [00:03<00:10, 40.31it/s]
+Loading weights:  15%|█▍        | 76/508 [00:03<00:09, 45.38it/s]
+Loading weights:  16%|█▌        | 82/508 [00:04<00:11, 36.17it/s]
+Loading weights:  17%|█▋        | 88/508 [00:04<00:10, 40.01it/s]
+Loading weights:  19%|█▉        | 97/508 [00:04<00:08, 49.95it/s]
+Loading weights:  20%|██        | 103/508 [00:04<00:08, 49.87it/s]
+Loading weights:  22%|██▏       | 113/508 [00:04<00:07, 52.57it/s]
+Loading weights:  24%|██▎       | 120/508 [00:04<00:06, 55.69it/s]
+Loading weights:  25%|██▍       | 126/508 [00:04<00:08, 42.77it/s]
+Loading weights:  26%|██▌       | 133/508 [00:05<00:09, 41.66it/s]
+Loading weights:  28%|██▊       | 142/508 [00:05<00:07, 50.91it/s]
+Loading weights:  29%|██▉       | 148/508 [00:05<00:09, 39.61it/s]
+Loading weights:  31%|███       | 155/508 [00:05<00:08, 39.81it/s]
+Loading weights:  32%|███▏      | 163/508 [00:05<00:07, 47.17it/s]
+Loading weights:  33%|███▎      | 169/508 [00:06<00:08, 38.55it/s]
+Loading weights:  35%|███▍      | 177/508 [00:06<00:07, 46.23it/s]
+Loading weights:  36%|███▌      | 183/508 [00:06<00:07, 43.77it/s]
+Loading weights:  37%|███▋      | 189/508 [00:06<00:07, 40.32it/s]
+Loading weights:  39%|███▊      | 196/508 [00:06<00:06, 46.16it/s]
+Loading weights:  40%|███▉      | 202/508 [00:06<00:08, 37.00it/s]
+Loading weights:  41%|████      | 209/508 [00:06<00:06, 43.09it/s]
+Loading weights:  42%|████▏     | 215/508 [00:07<00:07, 41.35it/s]
+Loading weights:  44%|████▎     | 221/508 [00:07<00:07, 38.92it/s]
+Loading weights:  45%|████▌     | 230/508 [00:07<00:05, 49.04it/s]
+Loading weights:  46%|████▋     | 236/508 [00:07<00:06, 39.27it/s]
+Loading weights:  48%|████▊     | 245/508 [00:07<00:06, 43.05it/s]
+Loading weights:  50%|████▉     | 252/508 [00:07<00:05, 48.01it/s]
+Loading weights:  51%|█████     | 258/508 [00:08<00:06, 37.88it/s]
+Loading weights:  53%|█████▎    | 267/508 [00:08<00:05, 42.20it/s]
+Loading weights:  54%|█████▍    | 274/508 [00:08<00:04, 47.33it/s]
+Loading weights:  55%|█████▌    | 280/508 [00:08<00:06, 37.82it/s]
+Loading weights:  56%|█████▋    | 287/508 [00:08<00:05, 43.30it/s]
+Loading weights:  58%|█████▊    | 293/508 [00:08<00:05, 41.40it/s]
+Loading weights:  59%|█████▊    | 298/508 [00:09<00:05, 37.34it/s]
+Loading weights:  60%|██████    | 307/508 [00:09<00:04, 47.11it/s]
+Loading weights:  62%|██████▏   | 313/508 [00:09<00:05, 37.69it/s]
+Loading weights:  63%|██████▎   | 320/508 [00:09<00:04, 43.19it/s]
+Loading weights:  64%|██████▍   | 326/508 [00:09<00:04, 41.64it/s]
+Loading weights:  66%|██████▌   | 333/508 [00:09<00:03, 45.22it/s]
+Loading weights:  68%|██████▊   | 344/508 [00:10<00:03, 50.34it/s]
+Loading weights:  69%|██████▉   | 351/508 [00:10<00:02, 54.13it/s]
+Loading weights:  70%|███████   | 357/508 [00:10<00:03, 46.17it/s]
+Loading weights:  71%|███████▏  | 362/508 [00:10<00:03, 41.52it/s]
+Loading weights:  73%|███████▎  | 372/508 [00:10<00:02, 53.04it/s]
+Loading weights:  74%|███████▍  | 378/508 [00:10<00:03, 33.53it/s]
+Loading weights:  76%|███████▌  | 386/508 [00:11<00:02, 41.13it/s]
+Loading weights:  77%|███████▋  | 392/508 [00:11<00:02, 40.19it/s]
+Loading weights:  78%|███████▊  | 397/508 [00:11<00:03, 36.12it/s]
+Loading weights:  80%|████████  | 407/508 [00:11<00:02, 41.97it/s]
+Loading weights:  81%|████████  | 412/508 [00:11<00:02, 42.76it/s]
+Loading weights:  83%|████████▎ | 421/508 [00:11<00:01, 50.09it/s]
+Loading weights:  85%|████████▌ | 432/508 [00:11<00:01, 59.60it/s]
+Loading weights:  87%|████████▋ | 444/508 [00:12<00:00, 68.55it/s]
+Loading weights:  90%|████████▉ | 455/508 [00:12<00:00, 73.20it/s]
+Loading weights:  92%|█████████▏| 465/508 [00:12<00:00, 74.08it/s]
+Loading weights:  94%|█████████▍| 478/508 [00:12<00:00, 81.38it/s]
+Loading weights:  96%|█████████▌| 488/508 [00:12<00:00, 80.44it/s]
+Loading weights:  98%|█████████▊| 497/508 [00:12<00:00, 77.05it/s]
+Loading weights: 100%|██████████| 508/508 [00:12<00:00, 39.75it/s]
+20:25:41 loaded; 46 layers; GPU used 15.8 GB
+~/form-tightness/pipeline/common.py:165: NNsightDeprecationWarning: LanguageModel is deprecated; use TransformersModel(repo_id, task='text-generation') instead.
+  nn = LanguageModel(b.model, tokenizer=b.tok)
+20:25:41 nnsight wrapper OK (max |nnsight-hook| = 0.00e+00); backend=nnsight
+20:25:44 gemma: axis (46, 4608), layer 22, backend nnsight
+20:25:44 philosophy.json: 28 messages, 14 assistant turns, 7028 tokens
+[W1030 20:25:50.182989953 CUDACachingAllocator.cpp:3933] memory allocation failed with OOM on device 0 while trying to allocate 3598712832 bytes (free: 462553088, total: 25296044032).
+[W1030 20:25:50.690497934 CUDACachingAllocator.cpp:3933] memory allocation failed with OOM on device 0 while trying to allocate 3598712832 bytes (free: 2140274688, total: 25296044032).
+20:25:50 nnsight trace failed at runtime (OutOfMemoryError); switching backend to hooks
+[W1030 20:25:55.215860809 CUDACachingAllocator.cpp:3933] memory allocation failed with OOM on device 0 while trying to allocate 3598712832 bytes (free: 2138177536, total: 25296044032).
+20:25:57   philosophy.json: 14 turns; proj mean 7946.38 min 7542.67 max 8653.79
+20:25:57 writing.json: 28 messages, 14 assistant turns, 2790 tokens
+20:25:59   writing.json: 14 turns; proj mean 7920.54 min 6631.89 max 8872.02
+20:25:59 freed model; GPU allocated 0.01 GB, free 24.9 GB
+20:25:59 wrote ~/form-tightness/results/check_c_projections.csv (166 rows) in 36s

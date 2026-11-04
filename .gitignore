@@ -1,0 +1,40 @@
+# --- OS / editor junk ---
+.DS_Store
+._*
+*.swp
+*~
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# --- Run artefacts that must not be published ---
+# Weights and activation tensors (see AGENTS.md: never in this folder)
+*.pt
+*.pth
+*.safetensors
+*.bin
+*.gguf
+*.npy
+*.npz
+
+# --- Logs are published as evidence, but must be path-scrubbed (see PUBLISHING.md)
+*.out
+*.pid
+
+# --- Local secrets / env ---
+.env
+.env.*
+*.key
+*.pem
+
+# --- Third-party data, fetched not vendored (upstream ships no licence) ---
+# Rebuild with: ./scripts/fetch_upstream.sh
+data/assistant-axis-extract/
+
+# --- Large run outputs (live on the GPU host, not here) ---
+runs/
+outputs/

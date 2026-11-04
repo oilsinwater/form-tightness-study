@@ -1,0 +1,9 @@
+0 rated (text unchanged), 384 to rate with MiniMax-M3 T=0.0
+[philosophy_of_ai_06_loose_prose] empty content (finish=length); retry with max_tokens=12288
+24/384 535s
+[philosophy_of_ai_01_tight_verse] empty content (finish=length); retry with max_tokens=12288
+[philosophy_of_ai_01_tight_verse] empty content (finish=length); retry with max_tokens=24576
+[therapy_like_08_tight_verse] empty content (finish=length); retry with max_tokens=12288
+[therapy_like_06_tight_verse] empty content (finish=length); retry with max_tokens=12288
+[therapy_like_06_tight_verse] empty content (finish=length); retry with max_tokens=24576
+[therapy_like_06_tight_verse] empty content (finish=length); retry with max_tokens=32768

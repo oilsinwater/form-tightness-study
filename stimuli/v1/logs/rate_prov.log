@@ -1,0 +1,36 @@
+0 rated, 288 to rate with deepseek/deepseek-v4.1-flash T=0.0
+[coding_06_T1] empty content (finish=length); retry
+24/288 26s
+[writing_09_T1] empty content (finish=length); retry
+48/288 52s
+72/288 74s
+[coding_01_T1] empty content (finish=length); retry
+96/288 102s
+120/288 126s
+144/288 148s
+168/288 169s
+192/288 193s
+216/288 214s
+240/288 242s
+[coding_08_T1] empty content (finish=length); retry
+264/288 266s
+288/288 300s
+{
+ "mean_total": {
+  "T1": 2.3020833333333335,
+  "T2": 8.083333333333334,
+  "T3": 9.770833333333334
+ },
+ "cohens_d": {
+  "T1_vs_T2": 3.85383801515747,
+  "T2_vs_T3": 2.0378033047677317,
+  "T1_vs_T3": 5.656931566181146
+ },
+ "monotone": true,
+ "pass_d_gt_1": true,
+ "n_rated": 288,
+ "n_failed_parse": 0,
+ "parse_modes": {
+  "json_schema": 288
+ }
+}
