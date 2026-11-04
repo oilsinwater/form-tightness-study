@@ -6,6 +6,20 @@ status: working
 
 # Prompt-form tightness does not move the Assistant Axis: a preregistered null
 
+> **This is not the results.** It is the pre-data anti-HARKing draft: written
+> before any generation existed, for the branch where the TOST passed, and never
+> filled in. Two reasons it must not be read as a finding:
+>
+> 1. **It is written for the wrong branch.** TOST equivalence was rejected —
+>     tight − loose = +3.87 units, 95 % CI [2.64, 5.10]. The title's claim is the
+>     opposite of what the data showed.
+> 2. **It describes a design that was abandoned.** Its methods and results sections
+>     assume the 288-item, three-level v1 set (T1/T2/T3). The study ran the
+>     384-item 2×2 register × tightness design.
+>
+> **Results are in `REPORT.md`.** This file is kept as evidence of what was
+> committed to before the run, per `prereg/amendments.md`.
+
 Draft written before data, as the preregistration requires. Every number is `[BLANK]` until the analysis script fills it. Written for the case that the TOST passed; Section 7 holds the alternative text if H1 is supported. Preregistration: `prereg/preregistration.md` (OSF DOI `[BLANK]`).
 
 ## Abstract

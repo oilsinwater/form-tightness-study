@@ -7,6 +7,7 @@ Read in this order: `PLAN.md` → `sources/artefact-inventory.md` → `prereg/pr
 ## Layout
 
 - `README.md` — reader-facing front door (question, design, status, how to recompute)
+- `REPORT.md` — results report: what the study found, gates, limits, what would refute it
 - `PLAN.md` — design, gates, effect sizes, sequencing (frozen commitment document)
 - `sources/` — what the primary artefacts said; subset-ceiling and capping-sign checks
 - `prereg/` — OSF-format preregistration, freeze record, post-freeze amendments, null write-up

@@ -7,10 +7,15 @@ base-model perplexity constant — moves a model along the Assistant Axis
 Built to be wrong in public: every number below comes from a file in `results/`, and every
 commitment was hashed before the data existed.
 
+**Results: [`REPORT.md`](REPORT.md)** — the study as run: H1 supported at +3.9 units, capping
+removes the gap, the Gemma replication fails with a reversed sign, and the behavioural trace
+belongs to register rather than tightness.
+
 **Status.** Preregistration frozen 2026-10-31 (`prereg/freeze.txt`, 13 file hashes, all verifying).
 Arms 1–3 complete. OSF registration is prepared (`prereg/osf-submission-notes.md`) but **not yet
-submitted** — the registered version is the frozen text plus `prereg/amendments.md`. The pre-drafted
-write-up (`prereg/null-result-writeup.md`) still has `[BLANK]` fields.
+submitted** — so the registered version will be the frozen text plus `prereg/amendments.md`, not a
+DOI that predates the run. `prereg/null-result-writeup.md` is a pre-data anti-HARKing draft for the
+null branch and carries no results.
 
 ## The question
 
@@ -61,7 +66,7 @@ Two things worth stating plainly:
 ## Layout
 
 ```
-README.md  LICENSE  CITATION.cff
+README.md  REPORT.md  LICENSE  CITATION.cff
 AGENTS.md            how this repo is operated by an agent
 PLAN.md              design, gates, effect sizes (frozen)
 prereg/              preregistration, freeze record, amendments.md, null write-up
