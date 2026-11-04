@@ -28,8 +28,8 @@ Done in-session on 2026-10-30. Full record: `external-checks/artefact-inventory.
 | Chat template | HF `apply_chat_template`, Qwen with `enable_thinking=False`; `<think>` spans excluded from response-token mean; code blocks excluded (`SpanMapper`). Response-token mean, post-MLP residual stream. |
 | Drift transcripts | **4 example conversations only** (1/domain), **no `projections` field** despite README, and none are Qwen (2× Llama-70B, 2× Gemma). 6 Qwen case-study transcripts (jailbreak/delusion/selfharm × unsteered/capped) exist, also without projections. |
 | Published vectors | HF `lu-christina/assistant-axis-vectors`: per-layer axis, default vector, 275 role vectors, capping config, for all 3 models. |
-| Gwern pressure-cooker v4.2 verbatim | **Not public.** gwern.net has the scansion key (verbatim) and the "STRICT TRIADIC v2" spec (verbatim); the v4.2 six-rule summary is Hollis Robbins' paraphrase. Cited as unpublished; no request made. |
-| Gerbrandt transcripts | Prompt redacted in talk; transcripts not released. Cited as unpublished; no request made. |
+| Gwern pressure-cooker v4.2 verbatim | **Not public.** gwern.net has the scansion key (verbatim) and the "STRICT TRIADIC v2" spec (verbatim); the v4.2 six-rule summary is Hollis Robbins' paraphrase. Request drafted. |
+| Gerbrandt transcripts | Prompt redacted in talk; transcripts not released. Request drafted. |
 | Icaro Lab prompt sets | 20 hand-crafted poems **not released**; AHB dataset (3,600 transformed prompts, 6 methods × 600) is on HF `icaro-lab/ahb` — harmful content, used only as a form reference, not as stimuli. |
 
 Two things the artefacts told us that the wiki did not:

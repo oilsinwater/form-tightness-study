@@ -5,7 +5,7 @@ generate (no vllm) and an external judge.
 
 Phases (each resumable; outputs under ~/form-tightness/outputs/check_a/):
   1. select 48 roles stratified by published L32 projection quartile
-     (external-checks/qwen_role_proj_L32.json; 12 per quartile; seed 20261030)
+     (sources/qwen_role_proj_L32.json; 12 per quartile; seed 20261030)
   2. generate: per role 5 'instruction' pos prompts × first 12 extraction
      questions (60 gens); default.json 5 prompts × first 48 questions (240 gens)
      temp 0.7, top_p 0.9, max_new_tokens 512, thinking off, batched, left pad

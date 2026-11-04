@@ -294,8 +294,8 @@ Generation failures (OOM, CUDA error) are retried up to 3 times with the same se
 
 ### Limitations stated up front
 
-- Gwern's v4.2 "pressure-cooker" prompt is not public; T3 stimuli follow Robbins' paraphrase and the verbatim STRICT TRIADIC v2 spec. The v4.2 text is cited as unpublished; no request was made.
-- Gerbrandt's poem and transcripts are not released; cited as unpublished. If either is released before the registration is submitted, it is used only as a descriptive form reference, not as a stimulus.
+- Gwern's v4.2 "pressure-cooker" prompt is not public; T3 stimuli follow Robbins' paraphrase and the verbatim STRICT TRIADIC v2 spec. A request for the verbatim text is drafted (`external-checks/requests/gwern-request.md`).
+- Gerbrandt's poem and transcripts are not released; request drafted (`external-checks/requests/gerbrandt-request.md`). If either arrives after freezing, it is used only as a descriptive form reference, not as a stimulus.
 - Icaro Lab's 20 hand-crafted poems are not released.
 - The released drift transcripts carry no projections; check (c) uses our re-projections.
 - Only 4 example drift conversations were released, none for Qwen; check (c) is underpowered and exploratory.

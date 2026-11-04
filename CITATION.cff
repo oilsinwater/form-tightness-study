@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+title: Does prompt-form tightness predict Assistant-Axis projection?
+abstract: >-
+  A preregistered within-topic test of whether holding content, token count and
+  base-model perplexity constant while manipulating prompt form (loose free verse
+  vs strict structural constraint) moves a model's per-turn projection on the
+  Assistant Axis. Three arms on Qwen3-32B and Gemma-2-27B with a capping
+  manipulation and a replication; stimuli, code and result files released.
+message: If you use this study, cite it as below.
+type: software
+authors:
+  - family-names: Drummond
+    given-names: Philliph
+repository-code: https://github.com/oilsinwater/form-tightness-study
+license: MIT
+date-released: 2026-11-04
+keywords:
+  - assistant axis
+  - persona drift
+  - prompt form
+  - preregistration
+  - replication

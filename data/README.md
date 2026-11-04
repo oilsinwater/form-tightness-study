@@ -9,7 +9,7 @@ That repo ships no licence file, so its contents are not redistributed here.
 Rebuild the extract before running anything that reads it:
 
 ```bash
-./scripts/fetch_upstream.sh
+./pipeline/fetch_upstream.sh
 ```
 
 Files this produces:

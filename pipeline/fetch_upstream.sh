@@ -5,7 +5,7 @@
 # assistant-axis ships no licence file, so copying its contents into a public repo
 # would be redistribution. Fetch it locally instead; this directory is gitignored.
 #
-# Usage: ./scripts/fetch_upstream.sh
+# Usage: ./pipeline/fetch_upstream.sh
 set -euo pipefail
 
 UPSTREAM="https://github.com/safety-research/assistant-axis.git"

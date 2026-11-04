@@ -32,7 +32,7 @@ venv/
 *.pem
 
 # --- Third-party data, fetched not vendored (upstream ships no licence) ---
-# Rebuild with: ./scripts/fetch_upstream.sh
+# Rebuild with: ./pipeline/fetch_upstream.sh
 data/assistant-axis-extract/
 
 # --- Large run outputs (live on the GPU host, not here) ---
