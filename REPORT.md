@@ -6,6 +6,8 @@ Results report, 2026-11-04. Every number here comes from a file in `results/`.
 Preregistration frozen 2026-10-31 (`prereg/freeze.txt`, 13 sha256s, all verifying);
 deviations recorded in `prereg/amendments.md`.
 
+Code, stimuli and result files: **https://github.com/oilsinwater/form-tightness-study**
+
 **Audited 2026-11-04.** An audit of this report against the frozen preregistration and the
 committed data found errors of direction, of attribution and of omission. They are corrected in
 place below, and each correction is listed under [Audit corrections](#audit-corrections-2026-11-04).
@@ -321,6 +323,8 @@ filed. Nothing contradicts them, provided the uncommitted CSVs are what
 reverse any of them.
 
 ## Data and code
+
+Repository: https://github.com/oilsinwater/form-tightness-study
 
 - Stimuli and manifest: `stimuli/stimuli.jsonl`, `stimuli/manifest.json` (sha256 per item, seed 20261030)
 - Per-generation projections and outputs: `results/arm_3_gemma.csv` (Gemma) only. **The Arm 1 and Arm 2 per-generation CSVs and the final 384-item ratings are not in this repo** (they are on the analysis host, `~/form-tightness/results/`), so the Qwen numbers cannot be recomputed from the repo alone
