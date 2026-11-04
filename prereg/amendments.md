@@ -57,3 +57,26 @@ still use the pre-restructure names; the mapping is:
 | `compute-checklist.md` (root) | `docs/compute-checklist.md` |
 
 `prereg/` keeps its name because `freeze.txt` cites it by path.
+
+## 3. 2026-11-04 — deviations found by the post-data audit (none changes a frozen file)
+
+These deviations happened during the run. Some were reported only in `results/arm12_report.md`,
+and some were not reported anywhere. They are recorded here so that this file is the complete list.
+
+| # | Frozen text | What was done | Effect |
+|---|---|---|---|
+| 3.1 | Data exclusion: generations that hit "the max-token limit (1024)" are kept and flagged | `arm_run.py --max-new-tokens 512` (Lu's default, hashed in `freeze.txt`). 448 / 1,139 Arm 1 and 73–88 % of Gemma generations hit it | Response means cover truncated replies. Sensitivity fit without cap hits is reported for Qwen |
+| 3.2 | Role-adoption judge uses the repo's `eval_prompt` | Its role slot is set to "any persona other than an AI assistant", because the stimuli assign no role | The behavioural scale is not the one Lu used |
+| 3.3 | Randomization: generation order shuffled with seed 20261030; a stimulus's three samples not adjacent | Stimuli run in file order (domain → topic → cell), three samples adjacent within one 12-item batch | Tightness balanced within each batch. Domain confounded with run time |
+| 3.4 | Behavioural model: cumulative-link mixed model; linear fallback "if it fails to converge" | Linear mixed model used because statsmodels has no ordinal mixed model. Convergence was never attempted | Fallback taken for a reason the frozen text does not name |
+| 3.5 | Manipulation-check gate includes rater ICC(2,1) ≥ 0.75 on a two-rater 60-item subset | One rater only (MiniMax-M3). ICC never computed | That part of the gate is unmet |
+| 3.6 | Arm 3 model Gemma-2-27B-it | `unsloth/gemma-2-27b-it-bnb-4bit` (official repo gated) | Same weights in principle. Not verified |
+| 3.7 | H1 criterion: contrast **and** a negative linear trend over levels | No trend tested. With two levels the trend is the same contrast | Clause left over from v1, empty under v2 |
+| 3.8 | Secondary readouts and exploratory analyses (refusal flag and refusal-excluded fit, rubric sub-item regressions, 2-turn continuation, 24-topic residual-SD pilot, Satterthwaite / topic-level df = 95 check) | Not run, or not reported, for Qwen. The topic-level check was run for Gemma in `results/audit_checks.json` | Listed as not done |
+| 3.9 | Freeze record: "Owner action: submit to OSF with `freeze.txt` attached" | Not submitted. First git commit 2026-11-04, after the arms | The freeze time is self-reported and has no external timestamp |
+| 3.10 | `results/` holds per-item projections (PLAN §6) | Arm 1 and Arm 2 CSVs and the final 384-item ratings were not committed. Only Gemma's CSV was | The Qwen results cannot be recomputed from the repo |
+
+The audit also found a residual stimulus imbalance that the preregistration never named. In
+prose, loose prompts refer to the model as "you" (`self_ref_count`) about 3× as often as tight
+prompts do (d = 0.74). That is a finding, not a deviation; it is reported in `REPORT.md` →
+Audit corrections, with a covariate check in `pipeline/audit_checks.py`.

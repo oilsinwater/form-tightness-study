@@ -1,0 +1,275 @@
+{
+ "stimuli_r_per_domain_within_register": {
+  "coding/prose": {
+   "r_tokens": -0.056,
+   "r_log_ppl": -0.26
+  },
+  "coding/verse": {
+   "r_tokens": 0.045,
+   "r_log_ppl": -0.102
+  },
+  "philosophy_of_ai/prose": {
+   "r_tokens": -0.084,
+   "r_log_ppl": 0.186
+  },
+  "philosophy_of_ai/verse": {
+   "r_tokens": 0.093,
+   "r_log_ppl": -0.022
+  },
+  "therapy_like/prose": {
+   "r_tokens": 0.135,
+   "r_log_ppl": 0.532
+  },
+  "therapy_like/verse": {
+   "r_tokens": -0.128,
+   "r_log_ppl": -0.069
+  },
+  "writing/prose": {
+   "r_tokens": -0.003,
+   "r_log_ppl": -0.477
+  },
+  "writing/verse": {
+   "r_tokens": 0.004,
+   "r_log_ppl": 0.171
+  }
+ },
+ "stimuli_self_ref_by_cell": {
+  "loose_prose": {
+   "mean": 3.33,
+   "std": 4.15
+  },
+  "loose_verse": {
+   "mean": 0.74,
+   "std": 1.65
+  },
+  "tight_prose": {
+   "mean": 1.01,
+   "std": 1.53
+  },
+  "tight_verse": {
+   "mean": 0.42,
+   "std": 0.91
+  }
+ },
+ "stimuli_second_person_by_cell": {
+  "loose_prose": {
+   "mean": 3.64,
+   "std": 4.38
+  },
+  "loose_verse": {
+   "mean": 0.9,
+   "std": 1.8
+  },
+  "tight_prose": {
+   "mean": 1.17,
+   "std": 1.68
+  },
+  "tight_verse": {
+   "mean": 0.47,
+   "std": 0.94
+  }
+ },
+ "stimuli_self_ref_imbalance": {
+  "prose": {
+   "loose_minus_tight": 2.32,
+   "d": 0.74,
+   "mannwhitney_p": 1.11e-07
+  },
+  "verse": {
+   "loose_minus_tight": 0.32,
+   "d": 0.24,
+   "mannwhitney_p": 0.759
+  }
+ },
+ "manip_n_rated": 220,
+ "manip_n_raters": 1,
+ "manip_icc_computable": false,
+ "gate_b": {
+  "cos_L32": 0.038,
+  "max_abs_pruned": {
+   "layer": 12,
+   "cos": -0.16596147418022156
+  },
+  "max_abs_unpruned": {
+   "layer": 63,
+   "cos": -0.34283167123794556
+  },
+  "max_abs_any_eoi_position": {
+   "position": "-5",
+   "layer": 4,
+   "abs_cos": 0.1964920610189438
+  }
+ },
+ "H2_behavioural_frozen_criterion": {
+  "loose_cells_capping_effect_lmm": {
+   "est": -0.109,
+   "se": 0.016,
+   "ci95": [
+    -0.14,
+    -0.08
+   ],
+   "ci90": [
+    -0.14,
+    -0.08
+   ],
+   "p": 2.48e-12
+  },
+  "loose_paired_n": 576,
+  "loose_mean_change": -0.109,
+  "loose_wilcoxon_p": 1.61e-08,
+  "loose_verse_mean": {
+   "1_observation": 1.222,
+   "2_capping": 1.003
+  },
+  "loose_prose_mean": {
+   "1_observation": 1.0,
+   "2_capping": 1.0
+  },
+  "loose_stimulus_level_t": {
+   "n": 192,
+   "mean": -0.109,
+   "p": 2.18e-05
+  }
+ },
+ "H3_gemma_audit": {
+  "reproduced_t": {
+   "est": -335.437,
+   "se": 34.324,
+   "ci95": [
+    -402.71,
+    -268.16
+   ],
+   "ci90": [
+    -391.9,
+    -278.97
+   ],
+   "p": 1.48e-22
+  },
+  "reproduced_r": {
+   "est": -239.469,
+   "se": 34.324,
+   "ci95": [
+    -306.74,
+    -172.19
+   ],
+   "ci90": [
+    -295.93,
+    -183.01
+   ],
+   "p": 3.02e-12
+  },
+  "reproduced_t_x_r": {
+   "est": -81.632,
+   "se": 68.648,
+   "ci95": [
+    -216.18,
+    52.92
+   ],
+   "ci90": [
+    -194.56,
+    31.29
+   ],
+   "p": 0.234
+  },
+  "topic_level_paired": {
+   "n_topics": 96,
+   "mean": -335.44,
+   "ci95": [
+    -391.22,
+    -279.65
+   ],
+   "p": 1.31e-20
+  },
+  "domain_means": {
+   "coding": 7958.99,
+   "philosophy_of_ai": 8205.54,
+   "therapy_like": 8087.25,
+   "writing": 7816.07
+  },
+  "therapy_minus_coding": 128.26,
+  "therapy_minus_coding_role_sd": 0.247,
+  "n_response_tokens_by_cell": {
+   "loose_prose": 420.0,
+   "loose_verse": 449.0,
+   "tight_prose": 404.0,
+   "tight_verse": 458.0
+  },
+  "share_hit_512_by_cell": {
+   "loose_prose": 0.733,
+   "loose_verse": 0.844,
+   "tight_prose": 0.733,
+   "tight_verse": 0.875
+  },
+  "decile_first_last_by_cell": {
+   "loose_prose": [
+    9211.0,
+    8086.8
+   ],
+   "loose_verse": [
+    9095.2,
+    7838.4
+   ],
+   "tight_prose": [
+    8726.0,
+    7737.6
+   ],
+   "tight_verse": [
+    8675.4,
+    7395.6
+   ]
+  },
+  "length_covariate_t": {
+   "est": -341.901,
+   "se": 32.952,
+   "ci95": [
+    -406.49,
+    -277.32
+   ],
+   "ci90": [
+    -396.11,
+    -287.7
+   ],
+   "p": 3.19e-25
+  },
+  "self_ref_covariate_t": {
+   "est": -303.694,
+   "se": 36.925,
+   "ci95": [
+    -376.07,
+    -231.32
+   ],
+   "ci90": [
+    -364.43,
+    -242.95
+   ],
+   "p": 1.96e-16
+  },
+  "self_ref_covariate_t_x_r": {
+   "est": -129.622,
+   "se": 71.515,
+   "ci95": [
+    -269.79,
+    10.55
+   ],
+   "ci90": [
+    -247.26,
+    -11.98
+   ],
+   "p": 0.0699
+  },
+  "self_ref_coef": {
+   "est": 23.995,
+   "se": 10.635,
+   "ci95": [
+    3.15,
+    44.84
+   ],
+   "ci90": [
+    6.5,
+    41.49
+   ],
+   "p": 0.0241
+  }
+ },
+ "H1_qwen_audit": "not run: /root/form-tightness/results/arm_1_observation.csv absent (Arm 1-2 per-generation CSVs are not in the repo)"
+}

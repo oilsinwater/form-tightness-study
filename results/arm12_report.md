@@ -1,5 +1,12 @@
 # Arms 1–2 — results against the frozen preregistration
 
+> **Audit note (2026-11-04).** Three statements below are corrected in `REPORT.md` → Audit
+> corrections. (1) The H2 behavioural verdict tested the tightness × capping interaction. The
+> frozen criterion is the loose-cell capped-vs-uncapped contrast, which is met (−0.11, p = 2e-12;
+> `results/audit_checks.json`). (2) The status lines "running" and "Gemma still running" are
+> stale: both finished, and the results are below. (3) The capping-floor condition is met, but
+> trivially, so it cannot tell mechanisms apart. The text below is otherwise left as first written.
+
 Analysis: `pipeline/analyze_arms.py` → `results/analysis_arms12.json`. Frozen hashes: `prereg/freeze.txt`. Model: Qwen3-32B NF4, published axis, layer 32, unit-normalised. Mixed model `projection ~ tightness × register + domain + (1|topic) + (1|topic:cell)`, effect-coded. Positive = more Assistant-like.
 
 ## Exclusions and deviations (stated before interpretation)
@@ -41,7 +48,7 @@ Cell means, Arm 1 (Arm 2): loose-verse −33.5 (−21.6), tight-verse −27.4 (�
 
 Linear mixed model on the 0–3 score (pre-stated fallback; no ordinal mixed model in statsmodels): tightness +0.01 [−0.03, 0.05], p = .58; register (verse) +0.09 [0.05, 0.13]; capping −0.12 [−0.14, −0.09]; **tightness × capping −0.01 [−0.06, 0.04], p = .67**; register × capping −0.16 [−0.21, −0.11].
 
-Reading: the behavioural trace belongs to **register**, not tightness. Verse prompts make full persona adoption more likely and capping removes it. Tightness changes the projection (H1, +3.9) but leaves no trace in role adoption, so the H2 behavioural prediction ("role adoption in loose responses falls more under capping") is **not supported** for tightness. Projection and judge agree overall: Spearman ρ(projection, role score) = −0.37 in Arm 1.
+Reading: the behavioural trace belongs to **register**, not tightness. Verse prompts make full persona adoption more likely and capping removes it. Tightness changes the projection (H1, +3.9) but leaves no trace in role adoption. The H2 behavioural prediction as frozen ("role adoption in loose responses falls" under capping: the loose capped-vs-uncapped contrast) **is met**: −0.11, p = 2e-12, carried by loose-verse. The stronger reading, that it falls *more* than in tight responses, is **not supported** (interaction p = .67). Projection and judge agree overall: Spearman ρ(projection, role score) = −0.37 in Arm 1.
 
 ## H3 — Gemma-2-27B replication — `results/analysis_h2h3.json`
 

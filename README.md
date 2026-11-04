@@ -9,7 +9,8 @@ commitment was hashed before the data existed.
 
 **Results: [`REPORT.md`](REPORT.md)** — the study as run: H1 supported at +3.9 units, capping
 removes the gap, the Gemma replication fails with a reversed sign, and the behavioural trace
-belongs to register rather than tightness.
+belongs to register rather than tightness. An audit on 2026-11-04 corrected several statements
+and lists the open validity gaps: [`REPORT.md` → Audit corrections](REPORT.md#audit-corrections-2026-11-04).
 
 **Status.** Preregistration frozen 2026-10-31 (`prereg/freeze.txt`, 13 file hashes, all verifying).
 Arms 1–3 complete. OSF registration is prepared (`prereg/osf-submission-notes.md`) but **not yet
@@ -45,14 +46,16 @@ are 0.000 within each register.
 
 ## Results
 
-Arm 1, Qwen3-32B, mixed model `projection ~ tightness × register + domain + (1|topic)`.
+Arm 1, Qwen3-32B, mixed model `projection ~ tightness × register + domain + (1|topic) + (1|topic:cell)`.
+Positive projection = more Assistant-like.
 Full account, exclusions and sensitivity fits: `results/arm12_report.md`.
 
 | Test | Estimate | 95 % CI | Reading |
 |---|---|---|---|
-| H1 tight − loose | **+3.87 units** | [2.64, 5.10] | Supported (p = 7e-10); TOST equivalence rejected. The 90 % CI still includes values under the 3-unit SESOI, so "larger than the SESOI" is not established |
+| H1 tight − loose | **+3.87 units** | [2.64, 5.10] | Supported (p = 7e-10): loose form sits further from the Assistant. Equivalence not declared, but the 90 % CI [2.84, 4.90] reaches inside the ±3 band, so "larger than the SESOI" is not established |
+| H4 tightness × register | +4.68 units | [2.21, 7.14] | Not refuted; larger in verse (+6.17) than prose (+1.46). May be inflated by an unbalanced stimulus feature (see the audit) |
 | Register verse − prose | −7.73 units | [−8.96, −6.50] | About twice the tightness effect |
-| H2 tightness × capping | −5.34 units | [−5.83, −4.84] | Gap +3.82 uncapped → −1.54 capped: over 100 % removed, against a pre-stated 50 % threshold |
+| H2 tightness × capping | −5.34 units | [−5.83, −4.84] | Gap +3.82 uncapped → −1.54 capped: over 100 % removed, against a pre-stated 50 % threshold. Behavioural clause as frozen also met (loose cells, capped vs uncapped, p = 2e-12), but capping lowers role adoption in tight cells equally |
 | H3 Gemma replication | −335.4 Gemma units | [−402.7, −268.2] | **Fails, sign reversed** (−0.65 role-SD vs Qwen's +0.26), and unstable across layers — treat as "does not replicate", not a clean opposite |
 
 Two things worth stating plainly:
@@ -60,6 +63,9 @@ Two things worth stating plainly:
 - **The behavioural trace belongs to register, not tightness.** Judge-rated role adoption (0–3,
   2,304 responses) shows tightness +0.01, p = .58, while verse is +0.09 and capping −0.12. Tightness
   moves the projection but leaves no behaviour trace.
+- **The Qwen numbers are not yet reproducible from this repo.** The Arm 1–2 per-generation CSVs
+  and the final 384-item ratings live on the analysis host; only Gemma's CSV is committed (and its
+  numbers reproduce exactly).
 - **Gemma's result is fragile.** The tightness effect runs L6 +10.7, L11 −6.1 (n.s.), L22 −335.4,
   L34 +355.3. A sign flip between the target layer and layer 34 is not a replication.
 
@@ -95,10 +101,13 @@ them.
 
 `prereg/freeze.txt` records the sha256 of every commitment file as of 2026-10-31T16:30:22-07:00,
 before Arms 1–3 ran. Those files are unedited; deviations are recorded in
-`prereg/amendments.md` rather than patched into the frozen text. Two known deviations from the
-preregistration are reported in `results/arm12_report.md`: the generation cap was 512 tokens rather
-than the 1,024 named in the exclusion text, and the behavioural-judge template's role slot was set
-to "any persona other than an AI assistant" because the stimuli assign no role.
+`prereg/amendments.md` rather than patched into the frozen text. The freeze time is
+self-reported: this repository's first commit is dated 2026-11-04, after the arms, and no OSF
+registration exists, so nothing external timestamps it. All known deviations from the
+preregistration are listed in `prereg/amendments.md` (§3). Among them: the generation cap was 512
+tokens, not the 1,024 the exclusion text names. The behavioural judge's role slot was set to "any
+persona other than an AI assistant", because the stimuli assign no role. Generation order was not
+shuffled. The rater ICC was never run.
 
 ## Cite
 
